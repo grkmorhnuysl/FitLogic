@@ -2,28 +2,40 @@
 
 package com.fitlogic.ai.feature.workout
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -34,7 +46,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -106,10 +123,10 @@ private fun WorkoutContent(
     }
 
     Column(
-        modifier = modifier.fillMaxSize().imePadding().padding(16.dp),
+        modifier = modifier.fillMaxSize().verticalScroll(rememberScrollState()).imePadding().padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Antrenman", style = MaterialTheme.typography.headlineMedium)
+        Text("Antrenman", style = MaterialTheme.typography.headlineMedium, modifier = Modifier.testTag("workout_title"))
         SnackbarHost(hostState = snackbarHostState)
 
         if (state.isLoading) {
@@ -206,7 +223,7 @@ private fun ActiveWorkoutSection(
                 Text("Aktif antrenman yok", style = MaterialTheme.typography.titleMedium)
                 Text("Bos, sablon veya gecmisten tekrar ile baslayabilirsin.")
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                    Button(onClick = onStartEmpty) { Text("Bos Baslat") }
+                    Button(onClick = onStartEmpty, modifier = Modifier.testTag("workout_start_empty")) { Text("Bos Baslat") }
                     Button(onClick = onStartTemplate) { Text("Sablon") }
                     Button(
                         onClick = { state.history.firstOrNull()?.workoutId?.let(onStartFromHistory) },
@@ -220,8 +237,8 @@ private fun ActiveWorkoutSection(
 
             Text(active.workout.title, style = MaterialTheme.typography.titleMedium)
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(onClick = onOpenTimer) { Text("Dinlenme Timer") }
-                Button(onClick = onFinishWorkout) { Text("Antrenmani Bitir") }
+                Button(onClick = onOpenTimer, modifier = Modifier.testTag("workout_rest_timer")) { Text("Dinlenme Timer") }
+                Button(onClick = onFinishWorkout, modifier = Modifier.testTag("workout_finish")) { Text("Antrenmani Bitir") }
             }
 
             OutlinedTextField(
@@ -230,8 +247,8 @@ private fun ActiveWorkoutSection(
                 label = { Text("Egzersiz ara") },
                 modifier = Modifier.fillMaxWidth(),
             )
-            LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                items(state.exerciseResults.take(6), key = { it.id }) { exercise ->
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                state.exerciseResults.take(6).forEach { exercise ->
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,
@@ -274,31 +291,180 @@ private fun ExerciseBlock(
     onCopyLastSet: () -> Unit,
 ) {
     FlCard {
-        Column(modifier = Modifier.fillMaxWidth().padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(exerciseWithSets.exercise.exerciseName, style = MaterialTheme.typography.titleSmall)
-            exerciseWithSets.previousReference?.let {
-                Text("Son referans: ${it.weightKg}kg x ${it.reps}")
+        Column(
+            modifier = Modifier.fillMaxWidth().padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Text(
+                text = exerciseWithSets.exercise.exerciseName,
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold,
+            )
+
+            exerciseWithSets.previousReference?.let { ref ->
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(MaterialTheme.shapes.small)
+                        .background(MaterialTheme.colorScheme.surfaceVariant)
+                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        text = "Son",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    Text(
+                        text = "${ref.weightKg} kg  ×  ${ref.reps} rep",
+                        style = MaterialTheme.typography.bodyMedium,
+                        fontWeight = FontWeight.Medium,
+                    )
+                    Text(
+                        text = "✓",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.tertiary,
+                    )
+                }
             }
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    text = "Ağırlık (kg)",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                QuickAdjustRow(
+                    deltas = listOf(-5f, -2.5f, 2.5f, 5f),
+                    current = weight,
+                    onAdjust = onWeightChange,
+                )
                 OutlinedTextField(
                     value = weight,
                     onValueChange = onWeightChange,
-                    label = { Text("Kg") },
-                    modifier = Modifier.weight(1f),
+                    label = { Text("kg") },
+                    modifier = Modifier.fillMaxWidth(),
+                    singleLine = true,
+                )
+            }
+
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    text = "Tekrar",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                QuickAdjustRow(
+                    deltas = listOf(-2f, -1f, 1f, 2f),
+                    current = reps,
+                    onAdjust = onRepsChange,
+                    isInteger = true,
                 )
                 OutlinedTextField(
                     value = reps,
                     onValueChange = onRepsChange,
-                    label = { Text("Rep") },
-                    modifier = Modifier.weight(1f),
+                    label = { Text("rep") },
+                    modifier = Modifier.fillMaxWidth(),
+                    singleLine = true,
                 )
             }
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(onClick = onSaveSet) { Text("Set Kaydet") }
-                TextButton(onClick = onCopyLastSet) { Text("Son Seti Kopyala") }
+
+            Button(
+                onClick = onSaveSet,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(52.dp)
+                    .testTag("workout_save_set"),
+            ) {
+                Text(
+                    text = "✓  Set Kaydet",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.SemiBold,
+                )
             }
-            exerciseWithSets.sets.forEachIndexed { index, set ->
-                Text("Set ${index + 1}: ${set.weightKg}kg x ${set.reps} ${if (set.isPr) "(PR)" else ""}")
+
+            TextButton(
+                onClick = onCopyLastSet,
+                modifier = Modifier.fillMaxWidth(),
+                contentPadding = PaddingValues(vertical = 4.dp),
+            ) {
+                Text(
+                    text = "Son Seti Kopyala",
+                    style = MaterialTheme.typography.bodySmall,
+                )
+            }
+
+            if (exerciseWithSets.sets.isNotEmpty()) {
+                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    exerciseWithSets.sets.forEachIndexed { index, set ->
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Text(
+                                text = "Set ${index + 1}",
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Text(
+                                text = "${set.weightKg} kg  ×  ${set.reps}",
+                                style = MaterialTheme.typography.bodySmall,
+                            )
+                            if (set.isPr) {
+                                Text(
+                                    text = "PR 🏆",
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = MaterialTheme.colorScheme.tertiary,
+                                    fontWeight = FontWeight.Bold,
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun QuickAdjustRow(
+    deltas: List<Float>,
+    current: String,
+    onAdjust: (String) -> Unit,
+    isInteger: Boolean = false,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
+        deltas.forEach { delta ->
+            val label = if (delta % 1f == 0f) {
+                if (delta > 0) "+${delta.toInt()}" else "${delta.toInt()}"
+            } else {
+                if (delta > 0) "+$delta" else "$delta"
+            }
+            OutlinedButton(
+                onClick = {
+                    val adjusted = (current.toFloatOrNull() ?: 0f) + delta
+                    val clamped = adjusted.coerceAtLeast(0f)
+                    onAdjust(
+                        if (isInteger || clamped % 1f == 0f) {
+                            clamped.toInt().toString()
+                        } else {
+                            String.format(java.util.Locale.US, "%.1f", clamped)
+                        },
+                    )
+                },
+                modifier = Modifier.weight(1f),
+                contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp),
+            ) {
+                Text(
+                    text = label,
+                    style = MaterialTheme.typography.labelSmall,
+                    maxLines = 1,
+                )
             }
         }
     }
@@ -307,6 +473,14 @@ private fun ExerciseBlock(
 @Composable
 private fun FinishedSummaryCard(summary: com.fitlogic.ai.core.domain.model.FinishedWorkoutSummary?) {
     if (summary == null) return
+    val hasPr = summary.prCount > 0
+    val pulse =
+        rememberInfiniteTransition(label = "pr_pulse").animateFloat(
+            initialValue = 1f,
+            targetValue = 1.06f,
+            animationSpec = infiniteRepeatable(animation = tween(650), repeatMode = RepeatMode.Reverse),
+            label = "pr_scale",
+        )
     FlCard {
         Column(modifier = Modifier.fillMaxWidth().padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text("Son Antrenman Ozeti", style = MaterialTheme.typography.titleMedium)
@@ -314,6 +488,13 @@ private fun FinishedSummaryCard(summary: com.fitlogic.ai.core.domain.model.Finis
             Text("Toplam set: ${summary.totalSets}")
             Text("Sure: ${summary.durationMinutes} dk")
             Text("PR sayisi: ${summary.prCount}")
+            AnimatedVisibility(visible = hasPr, enter = fadeIn(), exit = fadeOut()) {
+                Text(
+                    text = "Tebrikler! Yeni PR acildi!",
+                    style = MaterialTheme.typography.titleSmall,
+                    modifier = Modifier.scale(pulse.value).testTag("workout_pr_celebration"),
+                )
+            }
         }
     }
 }

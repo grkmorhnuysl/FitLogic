@@ -2,7 +2,20 @@
 
 package com.fitlogic.ai.navigation
 
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.BarChart
+import androidx.compose.material.icons.filled.FitnessCenter
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Psychology
+import androidx.compose.material.icons.filled.Restaurant
+import androidx.compose.material.icons.filled.SportsGymnastics
+import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -11,6 +24,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -23,6 +38,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.fitlogic.ai.BuildConfig
 import com.fitlogic.ai.feature.auth.AuthScreen
+import com.fitlogic.ai.feature.coach.CoachScreen
 import com.fitlogic.ai.feature.exercises.ExercisesDetailScreen
 import com.fitlogic.ai.feature.exercises.ExercisesScreen
 import com.fitlogic.ai.feature.home.HomeScreen
@@ -34,41 +50,51 @@ import com.fitlogic.ai.feature.nutrition.NutritionScreen
 import com.fitlogic.ai.feature.nutrition.mealTypeFromName
 import com.fitlogic.ai.feature.onboarding.OnboardingScreen
 import com.fitlogic.ai.feature.profile.ProfileScreen
+import com.fitlogic.ai.feature.stats.StatsScreen
 import com.fitlogic.ai.feature.workout.WorkoutScreen
 
-private val bottomTabs =
-    listOf(
-        FitLogicRoute.Home,
-        FitLogicRoute.Workout,
-        FitLogicRoute.Exercises,
-        FitLogicRoute.Nutrition,
-        FitLogicRoute.Profile,
-    )
+private data class BottomTab(
+    val route: FitLogicRoute,
+    val icon: ImageVector,
+)
+
+private val bottomTabs = listOf(
+    BottomTab(FitLogicRoute.Home, Icons.Default.Home),
+    BottomTab(FitLogicRoute.Workout, Icons.Default.FitnessCenter),
+    BottomTab(FitLogicRoute.Exercises, Icons.Default.SportsGymnastics),
+    BottomTab(FitLogicRoute.Nutrition, Icons.Default.Restaurant),
+    BottomTab(FitLogicRoute.Stats, Icons.Default.BarChart),
+    BottomTab(FitLogicRoute.Coach, Icons.Default.Psychology),
+    BottomTab(FitLogicRoute.Profile, Icons.Default.Person),
+)
 
 @Composable
 fun FitLogicNavHost(navController: NavHostController = rememberNavController()) {
     val appStartViewModel: AppStartViewModel = hiltViewModel()
     val startRoute by appStartViewModel.startRoute.collectAsState()
     val currentDestination = navController.currentBackStackEntryAsState().value?.destination
-    val showBottomBar = bottomTabs.any { tab -> currentDestination?.hierarchy?.any { it.route == tab.route } == true }
+    val showBottomBar = bottomTabs.any { tab ->
+        currentDestination?.hierarchy?.any { it.route == tab.route.route } == true
+    }
 
     Scaffold(
         bottomBar = {
             if (showBottomBar) {
                 NavigationBar {
                     bottomTabs.forEach { tab ->
-                        val selected = currentDestination?.hierarchy?.any { it.route == tab.route } == true
+                        val selected = currentDestination?.hierarchy?.any { it.route == tab.route.route } == true
                         NavigationBarItem(
+                            modifier = Modifier.testTag("tab_${tab.route.route}"),
                             selected = selected,
                             onClick = {
-                                navController.navigate(tab.route) {
+                                navController.navigate(tab.route.route) {
                                     popUpTo(navController.graph.findStartDestination().id) { saveState = true }
                                     launchSingleTop = true
                                     restoreState = true
                                 }
                             },
-                            icon = { Text(text = tab.label.take(1)) },
-                            label = { Text(text = tab.label) },
+                            icon = { Icon(imageVector = tab.icon, contentDescription = tab.route.label) },
+                            label = { Text(text = tab.route.label) },
                         )
                     }
                 }
@@ -79,6 +105,10 @@ fun FitLogicNavHost(navController: NavHostController = rememberNavController()) 
             navController = navController,
             startDestination = startRoute,
             modifier = Modifier.padding(innerPadding),
+            enterTransition = { fadeIn() + slideInHorizontally(initialOffsetX = { it / 8 }) },
+            exitTransition = { fadeOut() + slideOutHorizontally(targetOffsetX = { -it / 8 }) },
+            popEnterTransition = { fadeIn() + slideInHorizontally(initialOffsetX = { -it / 8 }) },
+            popExitTransition = { fadeOut() + slideOutHorizontally(targetOffsetX = { it / 8 }) },
         ) {
             composable(FitLogicRoute.Onboarding.route) {
                 OnboardingScreen(
@@ -99,7 +129,24 @@ fun FitLogicNavHost(navController: NavHostController = rememberNavController()) 
                     },
                 )
             }
-            composable(FitLogicRoute.Home.route) { HomeScreen() }
+            composable(FitLogicRoute.Home.route) {
+                HomeScreen(
+                    onNavigateToWorkout = {
+                        navController.navigate(FitLogicRoute.Workout.route) {
+                            popUpTo(navController.graph.findStartDestination().id) { saveState = true }
+                            launchSingleTop = true
+                            restoreState = true
+                        }
+                    },
+                    onNavigateToCoach = {
+                        navController.navigate(FitLogicRoute.Coach.route) {
+                            popUpTo(navController.graph.findStartDestination().id) { saveState = true }
+                            launchSingleTop = true
+                            restoreState = true
+                        }
+                    },
+                )
+            }
             composable(FitLogicRoute.Workout.route) { WorkoutScreen() }
             composable(FitLogicRoute.Exercises.route) {
                 ExercisesScreen(
@@ -197,6 +244,8 @@ fun FitLogicNavHost(navController: NavHostController = rememberNavController()) 
                     },
                 )
             }
+            composable(FitLogicRoute.Stats.route) { StatsScreen() }
+            composable(FitLogicRoute.Coach.route) { CoachScreen() }
             composable(FitLogicRoute.Profile.route) { ProfileScreen() }
         }
     }

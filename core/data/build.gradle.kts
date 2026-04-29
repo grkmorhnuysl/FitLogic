@@ -2,6 +2,7 @@ import java.util.Properties
 
 plugins {
     id("fitlogic.android.library")
+    alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.hilt)
     id("org.jetbrains.kotlin.kapt")
 }
@@ -56,6 +57,7 @@ android {
 dependencies {
     implementation(project(":core:common"))
     implementation(project(":core:domain"))
+    implementation(project(":core:ai"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.kotlinx.coroutines.core)
@@ -68,6 +70,9 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     kapt(libs.androidx.room.compiler)
     implementation(libs.androidx.datastore.preferences)
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.androidx.hilt.work)
+    kapt(libs.androidx.hilt.compiler)
 
     implementation(libs.androidx.credentials)
     implementation(libs.androidx.credentials.play.services.auth)

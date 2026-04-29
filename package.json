@@ -1,0 +1,14 @@
+{
+  "name": "fitlogic",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"pnpm --dir web dev\" \"pnpm --dir web test:watch\"",
+    "build:web": "pnpm --dir web build",
+    "lint:web": "pnpm --dir web lint",
+    "preview:web": "pnpm --dir web preview",
+    "test:web": "pnpm --dir web test"
+  }
+}

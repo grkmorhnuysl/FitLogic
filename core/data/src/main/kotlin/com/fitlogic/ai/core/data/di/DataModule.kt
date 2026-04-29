@@ -9,11 +9,16 @@ import androidx.room.Room
 import com.fitlogic.ai.core.data.BuildConfig
 import com.fitlogic.ai.core.data.local.FitLogicDatabase
 import com.fitlogic.ai.core.data.local.dao.ExercisesCatalogDao
+import com.fitlogic.ai.core.data.local.dao.AiInsightDao
+import com.fitlogic.ai.core.data.local.dao.BodyWeightEntryDao
+import com.fitlogic.ai.core.data.local.dao.AchievementDao
 import com.fitlogic.ai.core.data.local.dao.FoodEntryDao
 import com.fitlogic.ai.core.data.local.dao.FoodsCatalogDao
+import com.fitlogic.ai.core.data.local.dao.NotificationSettingsDao
 import com.fitlogic.ai.core.data.local.dao.SetDao
 import com.fitlogic.ai.core.data.local.dao.UserDao
 import com.fitlogic.ai.core.data.local.dao.WaterEntryDao
+import com.fitlogic.ai.core.data.local.dao.WeeklyGoalDao
 import com.fitlogic.ai.core.data.local.dao.WorkoutDao
 import com.fitlogic.ai.core.data.local.dao.WorkoutExerciseDao
 import com.fitlogic.ai.core.data.remote.AuthDataSource
@@ -26,9 +31,17 @@ import com.fitlogic.ai.core.data.remote.OpenFoodFactsClientImpl
 import com.fitlogic.ai.core.data.remote.SupabaseAuthDataSource
 import com.fitlogic.ai.core.data.remote.SupabaseClientConfig
 import com.fitlogic.ai.core.data.repository.NutritionRepositoryImpl
+import com.fitlogic.ai.core.data.repository.AiInsightRepositoryImpl
+import com.fitlogic.ai.core.data.repository.GamificationRepositoryImpl
+import com.fitlogic.ai.core.data.repository.StatsRepositoryImpl
+import com.fitlogic.ai.core.data.repository.SyncRepositoryImpl
 import com.fitlogic.ai.core.data.repository.UserRepositoryImpl
 import com.fitlogic.ai.core.data.repository.WorkoutRepositoryImpl
 import com.fitlogic.ai.core.domain.repository.NutritionRepository
+import com.fitlogic.ai.core.domain.repository.AiInsightRepository
+import com.fitlogic.ai.core.domain.repository.GamificationRepository
+import com.fitlogic.ai.core.domain.repository.StatsRepository
+import com.fitlogic.ai.core.domain.repository.SyncRepository
 import com.fitlogic.ai.core.domain.repository.UserRepository
 import com.fitlogic.ai.core.domain.repository.WorkoutRepository
 import dagger.Binds
@@ -56,6 +69,9 @@ object DataProvidersModule {
             .addMigrations(FitLogicDatabase.MIGRATION_2_3)
             .addMigrations(FitLogicDatabase.MIGRATION_3_4)
             .addMigrations(FitLogicDatabase.MIGRATION_4_5)
+            .addMigrations(FitLogicDatabase.MIGRATION_5_6)
+            .addMigrations(FitLogicDatabase.MIGRATION_6_7)
+            .addMigrations(FitLogicDatabase.MIGRATION_7_8)
             .build()
 
     @Provides
@@ -81,6 +97,21 @@ object DataProvidersModule {
 
     @Provides
     fun provideWaterEntryDao(database: FitLogicDatabase): WaterEntryDao = database.waterEntryDao()
+
+    @Provides
+    fun provideBodyWeightEntryDao(database: FitLogicDatabase): BodyWeightEntryDao = database.bodyWeightEntryDao()
+
+    @Provides
+    fun provideAiInsightDao(database: FitLogicDatabase): AiInsightDao = database.aiInsightDao()
+
+    @Provides
+    fun provideAchievementDao(database: FitLogicDatabase): AchievementDao = database.achievementDao()
+
+    @Provides
+    fun provideWeeklyGoalDao(database: FitLogicDatabase): WeeklyGoalDao = database.weeklyGoalDao()
+
+    @Provides
+    fun provideNotificationSettingsDao(database: FitLogicDatabase): NotificationSettingsDao = database.notificationSettingsDao()
 
     @Provides
     @Singleton
@@ -121,6 +152,18 @@ abstract class DataBindingsModule {
 
     @Binds
     abstract fun bindNutritionRepository(impl: NutritionRepositoryImpl): NutritionRepository
+
+    @Binds
+    abstract fun bindStatsRepository(impl: StatsRepositoryImpl): StatsRepository
+
+    @Binds
+    abstract fun bindAiInsightRepository(impl: AiInsightRepositoryImpl): AiInsightRepository
+
+    @Binds
+    abstract fun bindGamificationRepository(impl: GamificationRepositoryImpl): GamificationRepository
+
+    @Binds
+    abstract fun bindSyncRepository(impl: SyncRepositoryImpl): SyncRepository
 
     @Binds
     abstract fun bindBarcodeScanDataSource(impl: MlKitBarcodeScanDataSource): BarcodeScanDataSource

@@ -4,13 +4,13 @@ sealed class FitLogicRoute(
     val route: String,
     val label: String,
 ) {
-    data object Onboarding : FitLogicRoute("onboarding", "Onboarding")
+    data object Onboarding : FitLogicRoute("onboarding", "Başlangıç")
 
-    data object Auth : FitLogicRoute("auth", "Auth")
+    data object Auth : FitLogicRoute("auth", "Giriş")
 
-    data object Home : FitLogicRoute("home", "Home")
+    data object Home : FitLogicRoute("home", "Ana Sayfa")
 
-    data object Workout : FitLogicRoute("workout", "Workout")
+    data object Workout : FitLogicRoute("workout", "Antrenman")
 
     data object Exercises : FitLogicRoute("exercises", "Egzersizler")
 
@@ -18,7 +18,7 @@ sealed class FitLogicRoute(
         fun createRoute(exerciseId: String) = "exercises/detail/$exerciseId"
     }
 
-    data object Nutrition : FitLogicRoute("nutrition", "Nutrition")
+    data object Nutrition : FitLogicRoute("nutrition", "Beslenme")
 
     data object NutritionAddFood : FitLogicRoute("nutrition/add/{mealType}", "Yemek Ekle") {
         fun createRoute(mealType: String) = "nutrition/add/$mealType"
@@ -39,5 +39,9 @@ sealed class FitLogicRoute(
         fun createRoute(mealType: String) = "nutrition/manual/$mealType"
     }
 
-    data object Profile : FitLogicRoute("profile", "Profile")
+    data object Stats : FitLogicRoute("stats", "İstatistik")
+
+    data object Coach : FitLogicRoute("coach", "AI Koç")
+
+    data object Profile : FitLogicRoute("profile", "Profil")
 }

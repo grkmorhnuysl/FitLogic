@@ -7,21 +7,56 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-
-private val LightColorScheme =
-    lightColorScheme(
-        primary = FlBlue,
-        secondary = FlGreen,
-        surface = FlSurfaceLight,
-        onSurface = FlOnLight,
-    )
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme =
     darkColorScheme(
-        primary = FlBlueDark,
-        secondary = FlGreen,
+        primary = FlPrimary,
+        onPrimary = Color.White,
+        primaryContainer = FlPrimaryContainer,
+        onPrimaryContainer = FlOnPrimaryContainer,
+        secondary = FlSecondary,
+        onSecondary = Color.White,
+        secondaryContainer = FlSecondaryContainer,
+        onSecondaryContainer = FlOnSecondaryContainer,
+        tertiary = FlTertiary,
+        onTertiary = Color.White,
+        tertiaryContainer = FlTertiaryContainer,
+        onTertiaryContainer = FlOnTertiaryContainer,
+        background = FlBackgroundDark,
+        onBackground = FlOnSurfaceDark,
         surface = FlSurfaceDark,
-        onSurface = FlOnDark,
+        onSurface = FlOnSurfaceDark,
+        surfaceVariant = FlSurfaceVariantDark,
+        onSurfaceVariant = FlOnSurfaceVariantDark,
+        error = FlError,
+        onError = FlOnError,
+        errorContainer = FlErrorContainer,
+        onErrorContainer = FlOnErrorContainer,
+    )
+
+private val LightColorScheme =
+    lightColorScheme(
+        primary = FlPrimaryDark,
+        onPrimary = Color.White,
+        primaryContainer = FlOnPrimaryContainer,
+        onPrimaryContainer = FlPrimaryDark,
+        secondary = FlSecondaryDark,
+        onSecondary = Color.White,
+        secondaryContainer = FlOnSecondaryContainer,
+        onSecondaryContainer = FlSecondaryDark,
+        tertiary = FlTertiary,
+        onTertiary = Color.White,
+        tertiaryContainer = FlOnTertiaryContainer,
+        onTertiaryContainer = FlTertiaryContainer,
+        background = FlBackgroundLight,
+        onBackground = FlOnSurfaceLight,
+        surface = FlSurfaceLight,
+        onSurface = FlOnSurfaceLight,
+        surfaceVariant = FlSurfaceVariantLight,
+        onSurfaceVariant = FlOnSurfaceVariantLight,
+        error = FlPrimaryDark,
+        onError = Color.White,
     )
 
 @Composable

@@ -1,10 +1,22 @@
 package com.fitlogic.ai.feature.profile
 
 import com.fitlogic.ai.core.domain.model.AppEntryDestination
+import com.fitlogic.ai.core.domain.model.Achievement
+import com.fitlogic.ai.core.domain.model.NotificationSettings
+import com.fitlogic.ai.core.domain.model.NotificationType
 import com.fitlogic.ai.core.domain.model.OnboardingDraft
+import com.fitlogic.ai.core.domain.model.StreakInfo
+import com.fitlogic.ai.core.domain.model.SyncStatus
 import com.fitlogic.ai.core.domain.model.UserAuthState
 import com.fitlogic.ai.core.domain.model.UserProfile
+import com.fitlogic.ai.core.domain.model.WeeklyGoal
+import com.fitlogic.ai.core.domain.repository.GamificationRepository
+import com.fitlogic.ai.core.domain.repository.SyncRepository
 import com.fitlogic.ai.core.domain.repository.UserRepository
+import com.fitlogic.ai.core.domain.usecase.gamification.ObserveNotificationSettingsUseCase
+import com.fitlogic.ai.core.domain.usecase.gamification.SetNotificationEnabledUseCase
+import com.fitlogic.ai.core.domain.usecase.sync.ObserveSyncStatusUseCase
+import com.fitlogic.ai.core.domain.usecase.sync.TriggerSyncNowUseCase
 import com.fitlogic.ai.core.domain.usecase.user.DeleteAccountUseCase
 import com.fitlogic.ai.core.domain.usecase.user.ObserveCurrentProfileUseCase
 import com.fitlogic.ai.core.domain.usecase.user.SignOutUseCase
@@ -69,10 +81,14 @@ class ProfileViewModelTest {
             updateUserPreferencesUseCase = UpdateUserPreferencesUseCase(repo),
             signOutUseCase = SignOutUseCase(repo),
             deleteAccountUseCase = DeleteAccountUseCase(repo),
+            observeNotificationSettingsUseCase = ObserveNotificationSettingsUseCase(repo),
+            setNotificationEnabledUseCase = SetNotificationEnabledUseCase(repo),
+            observeSyncStatusUseCase = ObserveSyncStatusUseCase(repo),
+            triggerSyncNowUseCase = TriggerSyncNowUseCase(repo),
         )
 }
 
-private class FakeProfileRepository : UserRepository {
+private class FakeProfileRepository : UserRepository, GamificationRepository, SyncRepository {
     val profile = MutableStateFlow<UserProfile?>(null)
     var deleteCalled: Boolean = false
 
@@ -110,4 +126,29 @@ private class FakeProfileRepository : UserRepository {
         deleteCalled = true
         return Result.success(Unit)
     }
+
+    override fun observeStreak(): Flow<StreakInfo> = flowOf(StreakInfo(0, 0, null))
+
+    override fun observeAchievements(): Flow<List<Achievement>> = flowOf(emptyList())
+
+    override fun observeWeeklyGoal(): Flow<WeeklyGoal> = flowOf(WeeklyGoal(targetWorkouts = 3, completedWorkouts = 0))
+
+    override fun observeNotificationSettings(): Flow<NotificationSettings> = flowOf(NotificationSettings())
+
+    override suspend fun setWeeklyGoal(targetWorkouts: Int): Result<Unit> = Result.success(Unit)
+
+    override suspend fun checkAchievements(): Result<List<Achievement>> = Result.success(emptyList())
+
+    override suspend fun setNotificationEnabled(
+        type: NotificationType,
+        enabled: Boolean,
+    ): Result<Unit> = Result.success(Unit)
+
+    override fun observeSyncStatus(): Flow<SyncStatus> = flowOf(SyncStatus())
+
+    override suspend fun triggerSyncNow(): Result<Unit> = Result.success(Unit)
+
+    override suspend fun ensurePeriodicSync(): Result<Unit> = Result.success(Unit)
+
+    override suspend fun triggerInitialPullIfNeeded(): Result<Unit> = Result.success(Unit)
 }

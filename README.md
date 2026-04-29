@@ -31,6 +31,22 @@ This repository now includes the Phase 0 bootstrap needed to start Phase 1 devel
 ./gradlew check
 ```
 
+## Web Preview (Optional)
+
+For fast browser-side UI testing, a Vite React app is included under `web/`.
+
+```bash
+cd web
+pnpm install
+pnpm dev
+```
+
+From repository root, you can also run:
+
+```bash
+pnpm dev
+```
+
 ## Project Layout
 
 - `app/`: minimal Android entry point

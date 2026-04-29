@@ -7,19 +7,29 @@ import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.fitlogic.ai.core.data.local.dao.ExercisesCatalogDao
+import com.fitlogic.ai.core.data.local.dao.AiInsightDao
+import com.fitlogic.ai.core.data.local.dao.BodyWeightEntryDao
+import com.fitlogic.ai.core.data.local.dao.AchievementDao
 import com.fitlogic.ai.core.data.local.dao.FoodEntryDao
 import com.fitlogic.ai.core.data.local.dao.FoodsCatalogDao
+import com.fitlogic.ai.core.data.local.dao.NotificationSettingsDao
 import com.fitlogic.ai.core.data.local.dao.SetDao
 import com.fitlogic.ai.core.data.local.dao.UserDao
 import com.fitlogic.ai.core.data.local.dao.WaterEntryDao
+import com.fitlogic.ai.core.data.local.dao.WeeklyGoalDao
 import com.fitlogic.ai.core.data.local.dao.WorkoutDao
 import com.fitlogic.ai.core.data.local.dao.WorkoutExerciseDao
 import com.fitlogic.ai.core.data.local.entity.ExercisesCatalogEntity
+import com.fitlogic.ai.core.data.local.entity.AiInsightEntity
+import com.fitlogic.ai.core.data.local.entity.BodyWeightEntryEntity
+import com.fitlogic.ai.core.data.local.entity.AchievementEntity
 import com.fitlogic.ai.core.data.local.entity.FoodEntryEntity
 import com.fitlogic.ai.core.data.local.entity.FoodsCatalogEntity
+import com.fitlogic.ai.core.data.local.entity.NotificationSettingsEntity
 import com.fitlogic.ai.core.data.local.entity.SetEntity
 import com.fitlogic.ai.core.data.local.entity.UserEntity
 import com.fitlogic.ai.core.data.local.entity.WaterEntryEntity
+import com.fitlogic.ai.core.data.local.entity.WeeklyGoalEntity
 import com.fitlogic.ai.core.data.local.entity.WorkoutEntity
 import com.fitlogic.ai.core.data.local.entity.WorkoutExerciseEntity
 
@@ -33,8 +43,13 @@ import com.fitlogic.ai.core.data.local.entity.WorkoutExerciseEntity
         FoodsCatalogEntity::class,
         FoodEntryEntity::class,
         WaterEntryEntity::class,
+        BodyWeightEntryEntity::class,
+        AiInsightEntity::class,
+        AchievementEntity::class,
+        WeeklyGoalEntity::class,
+        NotificationSettingsEntity::class,
     ],
-    version = 5,
+    version = 8,
     exportSchema = true,
 )
 abstract class FitLogicDatabase : RoomDatabase() {
@@ -53,6 +68,16 @@ abstract class FitLogicDatabase : RoomDatabase() {
     abstract fun foodEntryDao(): FoodEntryDao
 
     abstract fun waterEntryDao(): WaterEntryDao
+
+    abstract fun bodyWeightEntryDao(): BodyWeightEntryDao
+
+    abstract fun aiInsightDao(): AiInsightDao
+
+    abstract fun achievementDao(): AchievementDao
+
+    abstract fun weeklyGoalDao(): WeeklyGoalDao
+
+    abstract fun notificationSettingsDao(): NotificationSettingsDao
 
     companion object {
         val MIGRATION_1_2: Migration =
@@ -277,6 +302,117 @@ abstract class FitLogicDatabase : RoomDatabase() {
                         """
                         CREATE INDEX IF NOT EXISTS `index_water_entries_user_id_consumed_at`
                         ON `water_entries` (`user_id`, `consumed_at`)
+                        """.trimIndent(),
+                    )
+                }
+            }
+
+        val MIGRATION_5_6: Migration =
+            object : Migration(5, 6) {
+                override fun migrate(database: SupportSQLiteDatabase) {
+                    database.execSQL(
+                        """
+                        CREATE TABLE IF NOT EXISTS `body_weight_entries` (
+                            `id` TEXT NOT NULL,
+                            `user_id` TEXT NOT NULL,
+                            `weight_kg` REAL NOT NULL,
+                            `measured_at` INTEGER NOT NULL,
+                            `created_at` INTEGER NOT NULL,
+                            `updated_at` INTEGER NOT NULL,
+                            `sync_status` TEXT NOT NULL,
+                            PRIMARY KEY(`id`)
+                        )
+                        """.trimIndent(),
+                    )
+                    database.execSQL(
+                        """
+                        CREATE INDEX IF NOT EXISTS `index_body_weight_entries_user_id_measured_at`
+                        ON `body_weight_entries` (`user_id`, `measured_at`)
+                        """.trimIndent(),
+                    )
+                }
+            }
+
+        val MIGRATION_6_7: Migration =
+            object : Migration(6, 7) {
+                override fun migrate(database: SupportSQLiteDatabase) {
+                    database.execSQL(
+                        """
+                        CREATE TABLE IF NOT EXISTS `ai_insights` (
+                            `id` TEXT NOT NULL,
+                            `user_id` TEXT NOT NULL,
+                            `type` TEXT NOT NULL,
+                            `title` TEXT NOT NULL,
+                            `body` TEXT NOT NULL,
+                            `related_workout_id` TEXT,
+                            `created_at` INTEGER NOT NULL,
+                            `read_at` INTEGER,
+                            `updated_at` INTEGER NOT NULL,
+                            `sync_status` TEXT NOT NULL,
+                            PRIMARY KEY(`id`)
+                        )
+                        """.trimIndent(),
+                    )
+                    database.execSQL(
+                        """
+                        CREATE INDEX IF NOT EXISTS `index_ai_insights_user_id_created_at`
+                        ON `ai_insights` (`user_id`, `created_at`)
+                        """.trimIndent(),
+                    )
+                    database.execSQL(
+                        "CREATE INDEX IF NOT EXISTS `index_ai_insights_type` ON `ai_insights` (`type`)",
+                    )
+                }
+            }
+
+        val MIGRATION_7_8: Migration =
+            object : Migration(7, 8) {
+                override fun migrate(database: SupportSQLiteDatabase) {
+                    database.execSQL(
+                        """
+                        CREATE TABLE IF NOT EXISTS `achievements` (
+                            `id` TEXT NOT NULL,
+                            `user_id` TEXT NOT NULL,
+                            `title` TEXT NOT NULL,
+                            `description` TEXT NOT NULL,
+                            `progress` INTEGER NOT NULL,
+                            `target` INTEGER NOT NULL,
+                            `unlocked_at` INTEGER,
+                            `created_at` INTEGER NOT NULL,
+                            `updated_at` INTEGER NOT NULL,
+                            `sync_status` TEXT NOT NULL,
+                            PRIMARY KEY(`id`)
+                        )
+                        """.trimIndent(),
+                    )
+                    database.execSQL(
+                        """
+                        CREATE INDEX IF NOT EXISTS `index_achievements_user_id_unlocked_at`
+                        ON `achievements` (`user_id`, `unlocked_at`)
+                        """.trimIndent(),
+                    )
+                    database.execSQL(
+                        """
+                        CREATE TABLE IF NOT EXISTS `weekly_goal_settings` (
+                            `user_id` TEXT NOT NULL,
+                            `target_workouts` INTEGER NOT NULL,
+                            `updated_at` INTEGER NOT NULL,
+                            PRIMARY KEY(`user_id`)
+                        )
+                        """.trimIndent(),
+                    )
+                    database.execSQL(
+                        """
+                        CREATE TABLE IF NOT EXISTS `notification_settings` (
+                            `user_id` TEXT NOT NULL,
+                            `workout_reminder_enabled` INTEGER NOT NULL,
+                            `water_reminder_enabled` INTEGER NOT NULL,
+                            `weekly_report_enabled` INTEGER NOT NULL,
+                            `pr_celebration_enabled` INTEGER NOT NULL,
+                            `streak_save_enabled` INTEGER NOT NULL,
+                            `updated_at` INTEGER NOT NULL,
+                            PRIMARY KEY(`user_id`)
+                        )
                         """.trimIndent(),
                     )
                 }

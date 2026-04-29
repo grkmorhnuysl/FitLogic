@@ -23,6 +23,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -219,7 +220,7 @@ private fun WaterCard(
             FlButton(
                 text = "+$quickAmount ml su ekle",
                 onClick = { onAddWater(quickAmount) },
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().testTag("nutrition_add_water"),
             )
         }
     }
@@ -244,6 +245,7 @@ private fun MealSection(
                     text = "Barkod Tara",
                     onClick = onOpenBarcode,
                     variant = com.fitlogic.ai.core.designsystem.component.FlButtonVariant.Secondary,
+                    modifier = Modifier.testTag("nutrition_open_barcode_${mealType.name.lowercase()}"),
                 )
             }
             if (entries.isEmpty()) {

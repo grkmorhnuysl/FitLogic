@@ -10,10 +10,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -26,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.fitlogic.ai.core.designsystem.theme.FitLogicTheme
 import com.fitlogic.ai.core.domain.model.LanguagePreference
+import com.fitlogic.ai.core.domain.model.NotificationType
 import com.fitlogic.ai.core.domain.model.ThemePreference
 import com.fitlogic.ai.core.domain.model.WeightUnit
 
@@ -50,6 +54,8 @@ fun ProfileScreen(
         onDeleteConfirmInputChange = viewModel::onDeleteConfirmInputChange,
         onCancelDelete = viewModel::cancelDeleteAccount,
         onConfirmDelete = viewModel::confirmDeleteAccount,
+        onNotificationToggle = viewModel::setNotificationEnabled,
+        onSyncNow = viewModel::syncNow,
     )
 }
 
@@ -69,12 +75,15 @@ private fun ProfileContent(
     onDeleteConfirmInputChange: (String) -> Unit,
     onCancelDelete: () -> Unit,
     onConfirmDelete: () -> Unit,
+    onNotificationToggle: (NotificationType, Boolean) -> Unit,
+    onSyncNow: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     Column(
         modifier =
             modifier
                 .fillMaxSize()
+                .verticalScroll(rememberScrollState())
                 .padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
@@ -112,6 +121,43 @@ private fun ProfileContent(
                 Text("Hesabi Sil")
             }
         }
+        Text("Bildirim Ayarlari")
+        NotificationToggleRow(
+            label = "Antrenman hatirlaticisi",
+            testTag = "profile_notification_workout",
+            checked = state.notificationSettings.workoutReminderEnabled,
+            onCheckedChange = { onNotificationToggle(NotificationType.WORKOUT_REMINDER, it) },
+        )
+        NotificationToggleRow(
+            label = "Su hatirlaticisi",
+            testTag = "profile_notification_water",
+            checked = state.notificationSettings.waterReminderEnabled,
+            onCheckedChange = { onNotificationToggle(NotificationType.WATER_REMINDER, it) },
+        )
+        NotificationToggleRow(
+            label = "Haftalik rapor",
+            testTag = "profile_notification_weekly",
+            checked = state.notificationSettings.weeklyReportEnabled,
+            onCheckedChange = { onNotificationToggle(NotificationType.WEEKLY_REPORT, it) },
+        )
+        NotificationToggleRow(
+            label = "PR kutlamasi",
+            testTag = "profile_notification_pr",
+            checked = state.notificationSettings.prCelebrationEnabled,
+            onCheckedChange = { onNotificationToggle(NotificationType.PR_CELEBRATION, it) },
+        )
+        NotificationToggleRow(
+            label = "Streak koruma",
+            testTag = "profile_notification_streak",
+            checked = state.notificationSettings.streakSaveEnabled,
+            onCheckedChange = { onNotificationToggle(NotificationType.STREAK_SAVE, it) },
+        )
+        Spacer(modifier = Modifier.height(4.dp))
+        Text("Senkronizasyon")
+        Text("Bekleyen kayit: ${state.syncStatus.pendingCount}")
+        Text("Son sync: ${state.syncStatus.lastSyncAtEpochMs ?: 0}")
+        Text("Son pull: ${state.syncStatus.lastPullAtEpochMs ?: 0}")
+        Button(onClick = onSyncNow, modifier = Modifier.testTag("profile_sync_now")) { Text("Simdi Senkronize Et") }
         if (!state.message.isNullOrBlank()) {
             Spacer(modifier = Modifier.height(4.dp))
             Text(text = state.message, modifier = Modifier.testTag("profile_message"))
@@ -156,6 +202,22 @@ private fun ProfileContent(
     }
 }
 
+@Composable
+private fun NotificationToggleRow(
+    label: String,
+    testTag: String,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceBetween,
+    ) {
+        Text(label)
+        Switch(checked = checked, onCheckedChange = onCheckedChange, modifier = Modifier.testTag(testTag))
+    }
+}
+
 @Preview(showBackground = true)
 @Composable
 private fun ProfileScreenPreview() {
@@ -174,6 +236,8 @@ private fun ProfileScreenPreview() {
             onDeleteConfirmInputChange = {},
             onCancelDelete = {},
             onConfirmDelete = {},
+            onNotificationToggle = { _, _ -> },
+            onSyncNow = {},
         )
     }
 }

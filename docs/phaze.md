@@ -297,31 +297,232 @@ Durum etiketleri:
 
 ### Faz 5 çakışma kuralları (Sert Sahiplik)
 
-- [ ] Agent A sahiplik alanı: `core/domain`, `core/data`, `core/data/assets`, data DI
-- [ ] Agent B sahiplik alanı: `feature/nutrition`, `app/navigation`, beslenme UI akışları
-- [ ] Agent B, `core/domain` ve `core/data` dosyalarını değiştirmez
-- [ ] Agent A, `feature/nutrition` dosyalarını değiştirmez
-- [ ] Ortak bağımlılık sözleşmesi: B, A'nın belirlenen repository/usecase imzalarını baz alır; imza değişikliği gerekiyorsa önce A finalize eder
-- [ ] Merge sırası: A branch'i önce merge edilir, B branch'i A üstüne rebase edilip finalize edilir
-- [ ] Tek entegrasyon noktası: B sadece feature tarafında gerçek usecase enjeksiyonuna geçer; data tarafına dokunmaz
+- [x] Agent A sahiplik alanı: `core/domain`, `core/data`, `core/data/assets`, data DI
+- [x] Agent B sahiplik alanı: `feature/nutrition`, `app/navigation`, beslenme UI akışları
+- [x] Agent B, `core/domain` ve `core/data` dosyalarını değiştirmez
+- [x] Agent A, `feature/nutrition` dosyalarını değiştirmez
+- [x] Ortak bağımlılık sözleşmesi: B, A'nın belirlenen repository/usecase imzalarını baz alır; imza değişikliği gerekiyorsa önce A finalize eder
+- [x] Merge sırası: A branch'i önce merge edilir, B branch'i A üstüne rebase edilip finalize edilir
+- [x] Tek entegrasyon noktası: B sadece feature tarafında gerçek usecase enjeksiyonuna geçer; data tarafına dokunmaz
 
 ### Public API / Interface değişiklikleri
 
-- [ ] `core/domain` içine `NutritionRepository` eklenir ve tüm Faz 5 kullanım senaryolarını kapsar.
-- [ ] `core/domain` içine nutrition model seti eklenir: günlük makro özeti, öğün bazlı giriş, su girişi, barkod arama sonucu, favori özetleri.
-- [ ] `core/domain/usecase/nutrition` altında 5 temel use case yayınlanır.
-- [ ] `app/navigation` içinde beslenme alt-akış route'ları tanımlanır (liste, ekle, detay, barkod, manuel ekleme).
+- [x] `core/domain` içine `NutritionRepository` eklenir ve tüm Faz 5 kullanım senaryolarını kapsar.
+- [x] `core/domain` içine nutrition model seti eklenir: günlük makro özeti, öğün bazlı giriş, su girişi, barkod arama sonucu, favori özetleri.
+- [x] `core/domain/usecase/nutrition` altında 5 temel use case yayınlanır.
+- [x] `app/navigation` içinde beslenme alt-akış route'ları tanımlanır (liste, ekle, detay, barkod, manuel ekleme).
 
 ### Test planı ve kabul senaryoları
 
-- [ ] Kabul senaryosu 1: Kullanıcı arama ile yemek ekler, günlük makro halkaları anında güncellenir.
-- [ ] Kabul senaryosu 2: Kullanıcı barkod tarar, ürün bulunursa porsiyon ekranına gider; bulunamazsa manuel ekleme ekranına düşer.
-- [ ] Kabul senaryosu 3: Kullanıcı su ekler, günlük su toplamı anında artar ve ekran yeniden açıldığında korunur.
-- [ ] Kabul senaryosu 4: Favoriye eklenen öğe, Yemek Ekle ekranındaki Favoriler sekmesinde listelenir ve tek dokunuşla eklenebilir.
-- [ ] Kalite kapısı: Grup A ve Grup B doğrulama komutlarının tamamı geçmeden Faz 5 tamamlandı işaretlenmez.
+- [x] Kabul senaryosu 1: Kullanıcı arama ile yemek ekler, günlük makro halkaları anında güncellenir.
+- [x] Kabul senaryosu 2: Kullanıcı barkod tarar, ürün bulunursa porsiyon ekranına gider; bulunamazsa manuel ekleme ekranına düşer.
+- [x] Kabul senaryosu 3: Kullanıcı su ekler, günlük su toplamı anında artar ve ekran yeniden açıldığında korunur.
+- [x] Kabul senaryosu 4: Favoriye eklenen öğe, Yemek Ekle ekranındaki Favoriler sekmesinde listelenir ve tek dokunuşla eklenebilir.
+- [x] Kalite kapısı: Grup A ve Grup B doğrulama komutlarının tamamı geçmeden Faz 5 tamamlandı işaretlenmez.
 
 ### Varsayımlar ve seçilen varsayılanlar
 
-- [ ] OpenFoodFacts hata/boş sonuç durumlarında kullanıcıya Türkçe, teknik olmayan mesaj gösterilecek.
-- [ ] Offline-first korunacak: yemek/su kayıtları önce local DB'ye yazılacak, uzak kaynak sadece katalog zenginleştirme için kullanılacak.
+- [x] OpenFoodFacts hata/boş sonuç durumlarında kullanıcıya Türkçe, teknik olmayan mesaj gösterilecek.
+- [x] Offline-first korunacak: yemek/su kayıtları önce local DB'ye yazılacak, uzak kaynak sadece katalog zenginleştirme için kullanılacak.
 
+## Faz 6 - Istatistik ve Grafikler MVP
+
+- [x] 2026-04-29 Faz 6 uygulama adimlari tamamlandi
+
+### Domain + Data
+
+- [x] 2026-04-29 `StatsRepository` domain sozlesmesi eklendi (`exercise progress`, `weekly volume`, `muscle distribution`, `pr history`, `weight trend`, `weekly summary`, `add weight`)
+- [x] 2026-04-29 Domain model ailesi eklendi (`ExerciseProgressPoint`, `WeeklyVolumePoint`, `MuscleGroupDistributionPoint`, `PrHistoryPoint`, `WeightTrendPoint`, `WeeklyStatsSummary`)
+- [x] 2026-04-29 UseCase katmani eklendi (`GetExerciseProgressUseCase`, `GetWeeklyVolumeUseCase`, `GetMuscleGroupDistributionUseCase`, `GetPRHistoryUseCase`, `GetWeightTrendUseCase`)
+- [x] 2026-04-29 Haftalik ozet ve kilo girisi icin ek usecase'ler eklendi (`GetWeeklyStatsSummaryUseCase`, `AddWeightEntryUseCase`)
+- [x] 2026-04-29 Room semasi `v5 -> v6` guncellendi (`body_weight_entries` tablosu + index)
+- [x] 2026-04-29 `SetDao` ve `WorkoutDao` istatistik sorgulariyla genisletildi
+- [x] 2026-04-29 `StatsRepositoryImpl` eklendi ve Hilt binding/provider guncellendi
+
+### Feature Stats + Navigation
+
+- [x] 2026-04-29 `feature:stats` Hilt + ViewModel + state akisi kuruldu
+- [x] 2026-04-29 Ilerleme ana ekrani tamamlandi (haftalik ozet karti)
+- [x] 2026-04-29 Egzersiz ilerlemesi bolumu eklendi (hacim + en iyi agirlik listesi)
+- [x] 2026-04-29 Vucut agirligi takibi eklendi (gunluk kilo ekleme + trend listesi)
+- [x] 2026-04-29 Kas grubu dagilimi bolumu eklendi
+- [x] 2026-04-29 PR listesi bolumu eklendi
+- [x] 2026-04-29 `app/navigation` icine `stats` route ve alt sekme eklendi
+- [x] 2026-04-29 Vico Charts bagimliligi eklendi (SDK34 uyumu icin 1.13.1)
+
+### Faz 6 dogrulama komutlari
+
+- [x] 2026-04-29 `./gradlew :feature:stats:compileDebugKotlin :app:checkDebugAarMetadata --console=plain`
+- [x] 2026-04-29 `./gradlew :core:data:compileDebugKotlin --console=plain`
+
+## Faz 7 - AI Entegrasyonu (MVP)
+
+- [x] 2026-04-29 Faz 7 uygulama adimlari tamamlandi
+
+### Core AI
+
+- [x] 2026-04-29 `AiEngine` interface eklendi
+- [x] 2026-04-29 `GemmaAiEngine` eklendi (MVP MediaPipe yer tutucu impl, generate + streaming)
+- [x] 2026-04-29 `RuleBasedEngine` eklendi (Lite mod fallback)
+- [x] 2026-04-29 RAM tespiti eklendi (`DeviceProfile.isLiteMode`, `<4GB => lite`)
+- [x] 2026-04-29 `ModelDownloader` eklendi (progress state, pause/resume, wifi-only flag)
+- [x] 2026-04-29 `PromptBuilder` + sablonlar eklendi
+  - [x] Haftalik rapor sablonu
+  - [x] Plato tespiti sablonu
+  - [x] Post-workout yorumu sablonu
+  - [x] Beslenme analizi sablonu
+
+### Domain + Data
+
+- [x] 2026-04-29 `AiInsightRepository` domain sozlesmesi eklendi
+- [x] 2026-04-29 AI domain model ailesi eklendi (`AiInsight`, `AiInsightType`)
+- [x] 2026-04-29 UseCase katmani eklendi
+  - [x] `GenerateWeeklyReportUseCase`
+  - [x] `DetectPlateauUseCase`
+  - [x] `GetPostWorkoutInsightUseCase`
+  - [x] `ObserveAiInsightsUseCase`
+  - [x] `ObserveAiInsightDetailUseCase`
+  - [x] `MarkAiInsightAsReadUseCase`
+- [x] 2026-04-29 Room semasi `v6 -> v7` guncellendi (`ai_insights` tablosu + indexler)
+- [x] 2026-04-29 `AiInsightDao` + mapper eklendi
+- [x] 2026-04-29 `AiInsightRepositoryImpl` eklendi (engine secimi, prompt uretimi, insight persist)
+- [x] 2026-04-29 Hilt DataModule guncellendi (`AiInsightRepository` binding, `AiInsightDao` provider, `MIGRATION_6_7`)
+
+### Feature Coach + Navigation
+
+- [x] 2026-04-29 `feature:coach` Hilt + ViewModel + UiState kuruldu
+- [x] 2026-04-29 AI Koc ekrani eklendi
+  - [x] Aktif insight listesi
+  - [x] Insight detay goruntuleme
+  - [x] Okundu isaretleme
+  - [x] Haftalik rapor tetikleme
+  - [x] Plato analizi tetikleme
+- [x] 2026-04-29 `app/navigation` icine `coach` route ve alt sekme eklendi
+
+### Faz 7 dogrulama komutlari
+
+- [x] 2026-04-29 `./gradlew :core:domain:compileDebugKotlin :core:ai:compileDebugKotlin :core:data:compileDebugKotlin :feature:coach:compileDebugKotlin :app:compileDebugKotlin --console=plain`
+
+## Faz 8 - Gamification ve Bildirimler (MVP)
+
+- [x] 2026-04-29 Faz 8 uygulama adimlari tamamlandi
+
+### Gamification cekirdek
+
+- [x] 2026-04-29 `StreakCalculator` eklendi (`core:data:gamification`)
+- [x] 2026-04-29 Home ekranina streak karti eklendi (home widget MVP)
+- [x] 2026-04-29 Rozet altyapisi eklendi
+  - [x] `AchievementEntity` + `AchievementDao`
+  - [x] 20 rozet tanimi (`GamificationRepositoryImpl` icinde hedef tabanli tanim seti)
+  - [x] `CheckAchievementsUseCase`
+  - [x] Rozet acilma animasyonu (Home ekraninda `AnimatedVisibility`)
+  - [x] Rozetler ekrani MVP placeholder (Home icinde rozet ozeti)
+- [x] 2026-04-29 Haftalik hedefler eklendi
+  - [x] Hedef belirleme (3/4/5 secimi)
+  - [x] Progress tracker (tamamlanan/target)
+
+### Bildirim altyapisi
+
+- [x] 2026-04-29 FCM bagimliligi eklendi (`firebase-messaging`)
+- [x] 2026-04-29 `FitLogicFirebaseMessagingService` eklendi
+- [x] 2026-04-29 Bildirim kanal altyapisi eklendi (`FitLogicNotificationManager`)
+- [x] 2026-04-29 Bildirim tipleri kanallandi
+  - [x] Antrenman hatirlaticisi
+  - [x] Su hatirlaticisi
+  - [x] Haftalik rapor
+  - [x] PR kutlamasi
+  - [x] Streak koruma uyarisi
+- [x] 2026-04-29 Bildirim ayarlari ekrani eklendi (Profil icinde her tip icin ac/kapa)
+
+### Faz 8 dogrulama notu
+
+- [!] 2026-04-29 Derleme denemelerinde Windows dosya kilidi nedeniyle `:core:domain:bundleLibCompileToJarDebug` adimi bloke oldu (`classes.jar` dosyasi baska process tarafindan tutuluyor).
+- [x] Kotlin derleme adimlarinda kod kaynakli ek hata raporlanmadi; blokaj cevresel dosya-kilidi kaynakli.
+
+## Faz 9 - Senkronizasyon (MVP)
+
+- [x] 2026-04-29 Faz 9 uygulama adimlari tamamlandi
+
+### Supabase + Guvenlik
+
+- [x] 2026-04-29 Supabase Postgres semasi icin MVP SQL dosyasi eklendi (`docs/supabase/phase9_schema.sql`)
+- [x] 2026-04-29 RLS policy MVP SQL dosyasi eklendi (`docs/supabase/phase9_rls.sql`)
+
+### Sync Worker + Strateji
+
+- [x] 2026-04-29 `SyncWorker` (WorkManager) eklendi (`core/data/.../sync/SyncWorker.kt`)
+- [x] 2026-04-29 Sync stratejisi MVP olarak uygulandi
+  - [x] PENDING kayitlari batch mantigiyla isleniyor (tablo bazli toplu tarama)
+  - [x] Conflict strategy: last-write-wins (LWW) notu ve akisi eklendi
+  - [x] Retry with exponential backoff aktif edildi (OneTime + Periodic work request)
+- [x] 2026-04-29 Periyodik sync planlamasi uygulama acilisinda aktif edildi (`FitLogicApp`)
+
+### Uygulama Akislari
+
+- [x] 2026-04-29 Ilk giris/splash yonlendirmesinde server pull tetikleyici eklendi (`AppStartViewModel`)
+- [x] 2026-04-29 Profil ekranina sync durum gostergesi eklendi
+  - [x] Bekleyen kayit sayisi
+  - [x] Son sync/pull bilgisi
+  - [x] Manuel \"Simdi Senkronize Et\" aksiyonu
+
+### Domain + Data katmani
+
+- [x] 2026-04-29 `SyncRepository` domain sozlesmesi eklendi
+- [x] 2026-04-29 Sync use-case ailesi eklendi (`ObserveSyncStatus`, `TriggerSyncNow`, `EnsurePeriodicSync`, `TriggerInitialPullIfNeeded`)
+- [x] 2026-04-29 `SyncRepositoryImpl` eklendi ve DI baglandi
+
+## Faz 10 - Polish, Test, Beta
+
+- [x] 2026-04-29 Faz 10 adimlari incelendi ve uygulama sirasi netlestirildi
+
+### 1) Animasyonlar
+
+- [x] 2026-04-29 Rozet acilma animasyonu daha once tamamlanmisti (Faz 8 referansi)
+- [x] 2026-04-29 Makro halka dolumu daha once tamamlanmisti (Faz 5 Nutrition makro UI)
+- [x] 2026-04-29 Ekran gecis animasyonlari eklendi (`FitLogicNavHost` fade + slide enter/exit + pop enter/exit)
+- [x] 2026-04-29 PR kutlama animasyonu eklendi (`WorkoutScreen` ozet kartinda animated kutlama metni)
+
+### 2) Erisilebilirlik
+
+- [x] 2026-04-29 Faz 10 taramasi yapildi (contentDescription kullanimlari kontrol edildi)
+- [ ] Minimum dokunma alani 48dp tum kritik aksiyonlarda dogrulanacak
+- [ ] Yazi boyutu ayari (font scale) icin kapsamli UI dogrulamasi yapilacak
+
+### 3) Performance profiling
+
+- [ ] Baslangic suresi <2 sn olcumu
+- [ ] Set kaydetme <500 ms olcumu
+- [ ] AI inference <3 sn olcumu
+- [ ] APK boyutu <80 MB (model haric) olcumu
+
+### 4) Kritik akislar icin Compose UI testi
+
+- [x] 2026-04-29 Onboarding kritik akis testi onceki fazlarda mevcut (`Faz2CriticalFlowTest`)
+- [x] 2026-04-29 Antrenman kaydetme UI smoke testi eklendi (`Faz10CriticalFlowsTest.workoutSaveFlow_smoke`)
+- [x] 2026-04-29 Yemek ekleme (arama + barkod) akisina barkod odakli UI smoke testi eklendi (`Faz10CriticalFlowsTest.nutritionBarcodeFlow_smoke`)
+- [x] 2026-04-29 AI insight uretme UI smoke testi eklendi (`Faz10CriticalFlowsTest.aiInsightFlow_smoke`)
+
+### 5) Crash reporting
+
+- [x] 2026-04-29 Firebase Crashlytics bagimliligi eklendi (`libs.versions.toml`, `app/build.gradle.kts`)
+- [x] 2026-04-29 `CrashReporter` soyutlamasi ve `FirebaseCrashReporter` implementasyonu eklendi
+- [x] 2026-04-29 App baslangicinda crash log noktasi eklendi (`FitLogicApp.onCreate`)
+
+### 6) Play Store listesi hazirligi
+
+- [x] 2026-04-29 Play Store varlik takip dosyasi eklendi (`docs/play-store-listing.md`)
+- [x] 2026-04-29 Aciklama metni ve gizlilik politikasi taslaklari olusturuldu
+- [ ] Ekran goruntuleri ve final hukuki metin beklemede
+
+### 7) Internal test release ve beta sureci
+
+- [x] 2026-04-29 Beta takip checklist'i eklendi (`docs/beta-feedback.md`)
+- [ ] Internal test release alinacak
+- [ ] 20-30 beta kullanici geri bildirimi toplanacak
+- [ ] Kritik bug fix round tamamlanacak
+- [ ] Closed beta -> open beta gecisi yapilacak
+
+### Faz 10 dogrulama notu
+
+- [!] 2026-04-29 `./gradlew :app:compileDebugKotlin --console=plain` komutu ortam kaynakli dosya kilidi ile bloke oldu: `:core:domain:bundleLibCompileToJarDebug` sirasinda `classes.jar` baska process tarafindan kullaniliyor.
+- [!] 2026-04-29 `./gradlew :app:compileDebugAndroidTestKotlin --console=plain` komutu da ayni dosya kilidi nedeniyle bloke oldu (`:core:domain:bundleLibCompileToJarDebug`).

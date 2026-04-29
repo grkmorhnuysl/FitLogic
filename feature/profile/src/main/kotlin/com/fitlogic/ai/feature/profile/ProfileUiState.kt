@@ -1,6 +1,8 @@
 package com.fitlogic.ai.feature.profile
 
 import com.fitlogic.ai.core.domain.model.LanguagePreference
+import com.fitlogic.ai.core.domain.model.NotificationSettings
+import com.fitlogic.ai.core.domain.model.SyncStatus
 import com.fitlogic.ai.core.domain.model.ThemePreference
 import com.fitlogic.ai.core.domain.model.UserProfile
 import com.fitlogic.ai.core.domain.model.WeightUnit
@@ -16,4 +18,6 @@ data class ProfileUiState(
     val isDeleteDialogVisible: Boolean = false,
     val deleteConfirmInput: String = "",
     val isDeleteInProgress: Boolean = false,
+    val notificationSettings: NotificationSettings = NotificationSettings(),
+    val syncStatus: SyncStatus = SyncStatus(),
 )

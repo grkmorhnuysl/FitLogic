@@ -3,8 +3,13 @@ package com.fitlogic.ai.feature.profile
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.fitlogic.ai.core.domain.model.LanguagePreference
+import com.fitlogic.ai.core.domain.model.NotificationType
 import com.fitlogic.ai.core.domain.model.ThemePreference
 import com.fitlogic.ai.core.domain.model.WeightUnit
+import com.fitlogic.ai.core.domain.usecase.gamification.ObserveNotificationSettingsUseCase
+import com.fitlogic.ai.core.domain.usecase.gamification.SetNotificationEnabledUseCase
+import com.fitlogic.ai.core.domain.usecase.sync.ObserveSyncStatusUseCase
+import com.fitlogic.ai.core.domain.usecase.sync.TriggerSyncNowUseCase
 import com.fitlogic.ai.core.domain.usecase.user.DeleteAccountUseCase
 import com.fitlogic.ai.core.domain.usecase.user.ObserveCurrentProfileUseCase
 import com.fitlogic.ai.core.domain.usecase.user.SignOutUseCase
@@ -27,6 +32,10 @@ class ProfileViewModel
         private val updateUserPreferencesUseCase: UpdateUserPreferencesUseCase,
         private val signOutUseCase: SignOutUseCase,
         private val deleteAccountUseCase: DeleteAccountUseCase,
+        observeNotificationSettingsUseCase: ObserveNotificationSettingsUseCase,
+        private val setNotificationEnabledUseCase: SetNotificationEnabledUseCase,
+        observeSyncStatusUseCase: ObserveSyncStatusUseCase,
+        private val triggerSyncNowUseCase: TriggerSyncNowUseCase,
     ) : ViewModel() {
         private val _uiState = MutableStateFlow(ProfileUiState())
         val uiState: StateFlow<ProfileUiState> = _uiState.asStateFlow()
@@ -44,6 +53,16 @@ class ProfileViewModel
                             isLoading = false,
                         )
                     }
+                }
+            }
+            viewModelScope.launch {
+                observeNotificationSettingsUseCase().collect { settings ->
+                    _uiState.update { it.copy(notificationSettings = settings) }
+                }
+            }
+            viewModelScope.launch {
+                observeSyncStatusUseCase().collect { status ->
+                    _uiState.update { it.copy(syncStatus = status) }
                 }
             }
         }
@@ -138,6 +157,29 @@ class ProfileViewModel
                         isDeleteDialogVisible = false,
                         deleteConfirmInput = "",
                         message = if (result.isSuccess) "Hesap silme islemi tamamlandi." else "Hesap silinemedi.",
+                    )
+                }
+            }
+        }
+
+        fun setNotificationEnabled(
+            type: NotificationType,
+            enabled: Boolean,
+        ) {
+            viewModelScope.launch {
+                setNotificationEnabledUseCase(type, enabled)
+                    .onFailure {
+                        _uiState.update { state -> state.copy(message = "Bildirim ayari guncellenemedi.") }
+                    }
+            }
+        }
+
+        fun syncNow() {
+            viewModelScope.launch {
+                val result = triggerSyncNowUseCase()
+                _uiState.update {
+                    it.copy(
+                        message = if (result.isSuccess) "Senkronizasyon kuyruga alindi." else "Senkronizasyon baslatilamadi.",
                     )
                 }
             }

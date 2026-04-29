@@ -62,6 +62,8 @@ dependencies {
     implementation(project(":feature:workout"))
     implementation(project(":feature:exercises"))
     implementation(project(":feature:nutrition"))
+    implementation(project(":feature:stats"))
+    implementation(project(":feature:coach"))
     implementation(project(":feature:profile"))
 
     implementation(libs.androidx.core.ktx)
@@ -73,12 +75,18 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.compose.navigation)
     implementation(libs.hilt.android)
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.timber)
     implementation(libs.google.material)
+    implementation(libs.firebase.messaging)
+    implementation(libs.firebase.crashlytics)
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.androidx.hilt.work)
     ksp(libs.hilt.compiler)
+    ksp(libs.androidx.hilt.compiler)
 
     testImplementation(libs.junit4)
 

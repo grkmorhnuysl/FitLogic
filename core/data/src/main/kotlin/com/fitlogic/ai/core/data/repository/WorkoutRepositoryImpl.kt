@@ -3,6 +3,7 @@
 package com.fitlogic.ai.core.data.repository
 
 import android.content.Context
+import android.util.Log
 import androidx.room.withTransaction
 import com.fitlogic.ai.core.data.local.FitLogicDatabase
 import com.fitlogic.ai.core.data.local.dao.ExercisesCatalogDao
@@ -33,7 +34,6 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.mapLatest
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
@@ -122,7 +122,11 @@ class WorkoutRepositoryImpl
             runCatching {
                 if (exercisesCatalogDao.count() > 0) return@runCatching
                 val json = context.assets.open(SEED_FILE).bufferedReader().use { it.readText() }
-                val records = jsonParser.decodeFromString<List<ExerciseSeedRecord>>(json)
+                val records =
+                    runCatching { WorkoutSeedParser.parseAndValidate(json) }
+                        .onFailure { throwable ->
+                            Log.e("WorkoutRepository", "Workout seed parse failed", throwable)
+                        }.getOrThrow()
                 val entities =
                     records.map { record ->
                         ExercisesCatalogEntity(
@@ -378,20 +382,6 @@ class WorkoutRepositoryImpl
                 exercises = exerciseBlocks,
             )
         }
-
-        @Serializable
-        private data class ExerciseSeedRecord(
-            val id: String,
-            val name: String,
-            val muscleGroup: String,
-            val equipment: String,
-            val difficulty: String,
-            val instructions: String,
-            val instructionSteps: List<String>,
-            val commonMistakes: List<String>,
-            val alternativeExerciseIds: List<String>,
-            val gifAssetPath: String,
-        )
 
         companion object {
             private const val SEED_FILE = "workout_exercises_seed.json"
