@@ -1,0 +1,5003 @@
+﻿[
+    {
+        "id":  "tr-menemen-v1",
+        "name":  "Menemen Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  121,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4.1,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-menemen-v2",
+        "name":  "Menemen Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  108.9,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4.1,
+        "fatPer100g":  6.6
+    },
+    {
+        "id":  "tr-menemen-v3",
+        "name":  "Menemen Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  127,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  3.9,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-menemen-v4",
+        "name":  "Menemen Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  102.8,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  3.5,
+        "fatPer100g":  7.9
+    },
+    {
+        "id":  "tr-menemen-v5",
+        "name":  "Menemen Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  133.1,
+        "proteinPer100g":  7.1,
+        "carbPer100g":  4.1,
+        "fatPer100g":  8.4
+    },
+    {
+        "id":  "tr-menemen-v6",
+        "name":  "Menemen Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  124.6,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4.3,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-menemen-v7",
+        "name":  "Menemen Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  142.8,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4.4,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-menemen-v8",
+        "name":  "Menemen Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  118.6,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4.1,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-menemen-v9",
+        "name":  "Menemen Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  111.3,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  3.3,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-menemen-v10",
+        "name":  "Menemen Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  117.4,
+        "proteinPer100g":  6,
+        "carbPer100g":  3.9,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-menemen-v11",
+        "name":  "Menemen Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  115,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4.1,
+        "fatPer100g":  7.7
+    },
+    {
+        "id":  "tr-menemen-v12",
+        "name":  "Menemen Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  106.5,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  4,
+        "fatPer100g":  6.3
+    },
+    {
+        "id":  "tr-menemen-v13",
+        "name":  "Menemen Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  112.5,
+        "proteinPer100g":  6.2,
+        "carbPer100g":  4,
+        "fatPer100g":  7.2
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v1",
+        "name":  "Mercimek Corbasi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  74,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  9.8,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v2",
+        "name":  "Mercimek Corbasi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  66.6,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  9.8,
+        "fatPer100g":  1.6
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v3",
+        "name":  "Mercimek Corbasi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  77.7,
+        "proteinPer100g":  4.3,
+        "carbPer100g":  9.3,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v4",
+        "name":  "Mercimek Corbasi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  62.9,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  8.3,
+        "fatPer100g":  1.9
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v5",
+        "name":  "Mercimek Corbasi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  81.4,
+        "proteinPer100g":  4.5,
+        "carbPer100g":  9.8,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v6",
+        "name":  "Mercimek Corbasi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  76.2,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  10.3,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v7",
+        "name":  "Mercimek Corbasi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  87.3,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  10.6,
+        "fatPer100g":  2.4
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v8",
+        "name":  "Mercimek Corbasi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  72.5,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  9.8,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v9",
+        "name":  "Mercimek Corbasi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  68.1,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  7.8,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v10",
+        "name":  "Mercimek Corbasi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  71.8,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  9.3,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v11",
+        "name":  "Mercimek Corbasi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  70.3,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  9.8,
+        "fatPer100g":  1.8
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v12",
+        "name":  "Mercimek Corbasi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  65.1,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  9.6,
+        "fatPer100g":  1.5
+    },
+    {
+        "id":  "tr-mercimek-corbasi-v13",
+        "name":  "Mercimek Corbasi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  68.8,
+        "proteinPer100g":  3.9,
+        "carbPer100g":  9.5,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v1",
+        "name":  "Ezogelin Corbasi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  68,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  10.9,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v2",
+        "name":  "Ezogelin Corbasi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  61.2,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  10.9,
+        "fatPer100g":  1.3
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v3",
+        "name":  "Ezogelin Corbasi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  71.4,
+        "proteinPer100g":  3.4,
+        "carbPer100g":  10.4,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v4",
+        "name":  "Ezogelin Corbasi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  57.8,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  9.3,
+        "fatPer100g":  1.5
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v5",
+        "name":  "Ezogelin Corbasi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  74.8,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  10.9,
+        "fatPer100g":  1.6
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v6",
+        "name":  "Ezogelin Corbasi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  70,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  11.4,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v7",
+        "name":  "Ezogelin Corbasi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  80.2,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  11.8,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v8",
+        "name":  "Ezogelin Corbasi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  66.6,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  10.9,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v9",
+        "name":  "Ezogelin Corbasi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  62.6,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  8.7,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v10",
+        "name":  "Ezogelin Corbasi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  66,
+        "proteinPer100g":  2.9,
+        "carbPer100g":  10.4,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v11",
+        "name":  "Ezogelin Corbasi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  64.6,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  10.9,
+        "fatPer100g":  1.5
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v12",
+        "name":  "Ezogelin Corbasi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  59.8,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  10.7,
+        "fatPer100g":  1.2
+    },
+    {
+        "id":  "tr-ezogelin-corbasi-v13",
+        "name":  "Ezogelin Corbasi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  63.2,
+        "proteinPer100g":  3,
+        "carbPer100g":  10.6,
+        "fatPer100g":  1.4
+    },
+    {
+        "id":  "tr-tavuk-sis-v1",
+        "name":  "Tavuk Sis Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  172,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.1,
+        "fatPer100g":  6.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v2",
+        "name":  "Tavuk Sis Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  154.8,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.1,
+        "fatPer100g":  5.1
+    },
+    {
+        "id":  "tr-tavuk-sis-v3",
+        "name":  "Tavuk Sis Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  180.6,
+        "proteinPer100g":  31.2,
+        "carbPer100g":  1,
+        "fatPer100g":  6.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v4",
+        "name":  "Tavuk Sis Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  146.2,
+        "proteinPer100g":  26,
+        "carbPer100g":  0.9,
+        "fatPer100g":  6.1
+    },
+    {
+        "id":  "tr-tavuk-sis-v5",
+        "name":  "Tavuk Sis Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  189.2,
+        "proteinPer100g":  32.5,
+        "carbPer100g":  1.1,
+        "fatPer100g":  6.5
+    },
+    {
+        "id":  "tr-tavuk-sis-v6",
+        "name":  "Tavuk Sis Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  177.2,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.2,
+        "fatPer100g":  6.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v7",
+        "name":  "Tavuk Sis Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  203,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.2,
+        "fatPer100g":  7.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v8",
+        "name":  "Tavuk Sis Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  168.6,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.1,
+        "fatPer100g":  6.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v9",
+        "name":  "Tavuk Sis Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  158.2,
+        "proteinPer100g":  26,
+        "carbPer100g":  0.9,
+        "fatPer100g":  6.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v10",
+        "name":  "Tavuk Sis Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  166.8,
+        "proteinPer100g":  27.3,
+        "carbPer100g":  1,
+        "fatPer100g":  6.8
+    },
+    {
+        "id":  "tr-tavuk-sis-v11",
+        "name":  "Tavuk Sis Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  163.4,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.1,
+        "fatPer100g":  6
+    },
+    {
+        "id":  "tr-tavuk-sis-v12",
+        "name":  "Tavuk Sis Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  151.4,
+        "proteinPer100g":  26,
+        "carbPer100g":  1.1,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-tavuk-sis-v13",
+        "name":  "Tavuk Sis Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  160,
+        "proteinPer100g":  28.1,
+        "carbPer100g":  1.1,
+        "fatPer100g":  5.6
+    },
+    {
+        "id":  "tr-kuru-fasulye-v1",
+        "name":  "Kuru Fasulye Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  127,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  16.8,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-kuru-fasulye-v2",
+        "name":  "Kuru Fasulye Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  114.3,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  16.8,
+        "fatPer100g":  2.4
+    },
+    {
+        "id":  "tr-kuru-fasulye-v3",
+        "name":  "Kuru Fasulye Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  133.4,
+        "proteinPer100g":  8.3,
+        "carbPer100g":  16,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-kuru-fasulye-v4",
+        "name":  "Kuru Fasulye Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  108,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  14.3,
+        "fatPer100g":  2.9
+    },
+    {
+        "id":  "tr-kuru-fasulye-v5",
+        "name":  "Kuru Fasulye Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  139.7,
+        "proteinPer100g":  8.6,
+        "carbPer100g":  16.8,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-kuru-fasulye-v6",
+        "name":  "Kuru Fasulye Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  130.8,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  17.6,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-kuru-fasulye-v7",
+        "name":  "Kuru Fasulye Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  149.9,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  18.1,
+        "fatPer100g":  3.7
+    },
+    {
+        "id":  "tr-kuru-fasulye-v8",
+        "name":  "Kuru Fasulye Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  124.5,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  16.8,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-kuru-fasulye-v9",
+        "name":  "Kuru Fasulye Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  116.8,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  13.4,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-kuru-fasulye-v10",
+        "name":  "Kuru Fasulye Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  123.2,
+        "proteinPer100g":  7.2,
+        "carbPer100g":  16,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-kuru-fasulye-v11",
+        "name":  "Kuru Fasulye Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  120.6,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  16.8,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-kuru-fasulye-v12",
+        "name":  "Kuru Fasulye Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  111.8,
+        "proteinPer100g":  6.9,
+        "carbPer100g":  16.5,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-kuru-fasulye-v13",
+        "name":  "Kuru Fasulye Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  118.1,
+        "proteinPer100g":  7.5,
+        "carbPer100g":  16.3,
+        "fatPer100g":  2.6
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v1",
+        "name":  "Pirinc Pilavi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  169,
+        "proteinPer100g":  3,
+        "carbPer100g":  29.9,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v2",
+        "name":  "Pirinc Pilavi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  152.1,
+        "proteinPer100g":  3,
+        "carbPer100g":  29.9,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v3",
+        "name":  "Pirinc Pilavi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  177.5,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  28.4,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v4",
+        "name":  "Pirinc Pilavi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  143.6,
+        "proteinPer100g":  3,
+        "carbPer100g":  25.4,
+        "fatPer100g":  4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v5",
+        "name":  "Pirinc Pilavi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  185.9,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  29.9,
+        "fatPer100g":  4.2
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v6",
+        "name":  "Pirinc Pilavi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  174.1,
+        "proteinPer100g":  3,
+        "carbPer100g":  31.4,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v7",
+        "name":  "Pirinc Pilavi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  199.4,
+        "proteinPer100g":  3,
+        "carbPer100g":  32.3,
+        "fatPer100g":  5.1
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v8",
+        "name":  "Pirinc Pilavi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  165.6,
+        "proteinPer100g":  3,
+        "carbPer100g":  29.9,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v9",
+        "name":  "Pirinc Pilavi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  155.5,
+        "proteinPer100g":  3,
+        "carbPer100g":  23.9,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v10",
+        "name":  "Pirinc Pilavi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  163.9,
+        "proteinPer100g":  3.2,
+        "carbPer100g":  28.4,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v11",
+        "name":  "Pirinc Pilavi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  160.5,
+        "proteinPer100g":  3,
+        "carbPer100g":  29.9,
+        "fatPer100g":  3.9
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v12",
+        "name":  "Pirinc Pilavi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  148.7,
+        "proteinPer100g":  3,
+        "carbPer100g":  29.3,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-pilav-sehriyeli-v13",
+        "name":  "Pirinc Pilavi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  157.2,
+        "proteinPer100g":  3.2,
+        "carbPer100g":  29,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v1",
+        "name":  "Bulgur Pilavi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  134,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  24.8,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v2",
+        "name":  "Bulgur Pilavi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  120.6,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  24.8,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v3",
+        "name":  "Bulgur Pilavi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  140.7,
+        "proteinPer100g":  4.6,
+        "carbPer100g":  23.6,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v4",
+        "name":  "Bulgur Pilavi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  113.9,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  21.1,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v5",
+        "name":  "Bulgur Pilavi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  147.4,
+        "proteinPer100g":  4.8,
+        "carbPer100g":  24.8,
+        "fatPer100g":  2.2
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v6",
+        "name":  "Bulgur Pilavi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  138,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  26,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v7",
+        "name":  "Bulgur Pilavi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  158.1,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  26.8,
+        "fatPer100g":  2.6
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v8",
+        "name":  "Bulgur Pilavi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  131.3,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  24.8,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v9",
+        "name":  "Bulgur Pilavi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  123.3,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  19.8,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v10",
+        "name":  "Bulgur Pilavi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  130,
+        "proteinPer100g":  4,
+        "carbPer100g":  23.6,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v11",
+        "name":  "Bulgur Pilavi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  127.3,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  24.8,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v12",
+        "name":  "Bulgur Pilavi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  117.9,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  24.3,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-bulgur-pilavi-v13",
+        "name":  "Bulgur Pilavi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  124.6,
+        "proteinPer100g":  4.1,
+        "carbPer100g":  24.1,
+        "fatPer100g":  1.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v1",
+        "name":  "Izgara Kofte Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  244,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  4,
+        "fatPer100g":  16.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v2",
+        "name":  "Izgara Kofte Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  219.6,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  4,
+        "fatPer100g":  12.7
+    },
+    {
+        "id":  "tr-kofte-izgara-v3",
+        "name":  "Izgara Kofte Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  256.2,
+        "proteinPer100g":  24.4,
+        "carbPer100g":  3.8,
+        "fatPer100g":  16.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v4",
+        "name":  "Izgara Kofte Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  207.4,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  3.4,
+        "fatPer100g":  15.2
+    },
+    {
+        "id":  "tr-kofte-izgara-v5",
+        "name":  "Izgara Kofte Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  268.4,
+        "proteinPer100g":  25.4,
+        "carbPer100g":  4,
+        "fatPer100g":  16.1
+    },
+    {
+        "id":  "tr-kofte-izgara-v6",
+        "name":  "Izgara Kofte Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  251.3,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  4.2,
+        "fatPer100g":  16.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v7",
+        "name":  "Izgara Kofte Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  287.9,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  4.3,
+        "fatPer100g":  19.4
+    },
+    {
+        "id":  "tr-kofte-izgara-v8",
+        "name":  "Izgara Kofte Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  239.1,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  4,
+        "fatPer100g":  16.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v9",
+        "name":  "Izgara Kofte Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  224.5,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  3.2,
+        "fatPer100g":  16.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v10",
+        "name":  "Izgara Kofte Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  236.7,
+        "proteinPer100g":  21.3,
+        "carbPer100g":  3.8,
+        "fatPer100g":  16.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v11",
+        "name":  "Izgara Kofte Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  231.8,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  4,
+        "fatPer100g":  14.9
+    },
+    {
+        "id":  "tr-kofte-izgara-v12",
+        "name":  "Izgara Kofte Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  214.7,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  3.9,
+        "fatPer100g":  12.2
+    },
+    {
+        "id":  "tr-kofte-izgara-v13",
+        "name":  "Izgara Kofte Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  226.9,
+        "proteinPer100g":  21.9,
+        "carbPer100g":  3.9,
+        "fatPer100g":  13.9
+    },
+    {
+        "id":  "tr-imam-bayildi-v1",
+        "name":  "Imam Bayildi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  139,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  8.9,
+        "fatPer100g":  10.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v2",
+        "name":  "Imam Bayildi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  125.1,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  8.9,
+        "fatPer100g":  8.1
+    },
+    {
+        "id":  "tr-imam-bayildi-v3",
+        "name":  "Imam Bayildi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  146,
+        "proteinPer100g":  2.2,
+        "carbPer100g":  8.5,
+        "fatPer100g":  10.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v4",
+        "name":  "Imam Bayildi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  118.2,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  7.6,
+        "fatPer100g":  9.7
+    },
+    {
+        "id":  "tr-imam-bayildi-v5",
+        "name":  "Imam Bayildi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  152.9,
+        "proteinPer100g":  2.2,
+        "carbPer100g":  8.9,
+        "fatPer100g":  10.3
+    },
+    {
+        "id":  "tr-imam-bayildi-v6",
+        "name":  "Imam Bayildi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  143.2,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  9.3,
+        "fatPer100g":  10.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v7",
+        "name":  "Imam Bayildi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  164,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  9.6,
+        "fatPer100g":  12.4
+    },
+    {
+        "id":  "tr-imam-bayildi-v8",
+        "name":  "Imam Bayildi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  136.2,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  8.9,
+        "fatPer100g":  10.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v9",
+        "name":  "Imam Bayildi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  127.9,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  7.1,
+        "fatPer100g":  10.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v10",
+        "name":  "Imam Bayildi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  134.8,
+        "proteinPer100g":  1.9,
+        "carbPer100g":  8.5,
+        "fatPer100g":  10.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v11",
+        "name":  "Imam Bayildi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  132,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  8.9,
+        "fatPer100g":  9.5
+    },
+    {
+        "id":  "tr-imam-bayildi-v12",
+        "name":  "Imam Bayildi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  122.3,
+        "proteinPer100g":  1.8,
+        "carbPer100g":  8.7,
+        "fatPer100g":  7.8
+    },
+    {
+        "id":  "tr-imam-bayildi-v13",
+        "name":  "Imam Bayildi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  129.3,
+        "proteinPer100g":  1.9,
+        "carbPer100g":  8.6,
+        "fatPer100g":  8.9
+    },
+    {
+        "id":  "tr-yayla-corbasi-v1",
+        "name":  "Yayla Corbasi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  71,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  9.1,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-yayla-corbasi-v2",
+        "name":  "Yayla Corbasi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  63.9,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  9.1,
+        "fatPer100g":  2.1
+    },
+    {
+        "id":  "tr-yayla-corbasi-v3",
+        "name":  "Yayla Corbasi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  74.6,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  8.6,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-yayla-corbasi-v4",
+        "name":  "Yayla Corbasi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  60.4,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  7.7,
+        "fatPer100g":  2.5
+    },
+    {
+        "id":  "tr-yayla-corbasi-v5",
+        "name":  "Yayla Corbasi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  78.1,
+        "proteinPer100g":  3.2,
+        "carbPer100g":  9.1,
+        "fatPer100g":  2.7
+    },
+    {
+        "id":  "tr-yayla-corbasi-v6",
+        "name":  "Yayla Corbasi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  73.1,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  9.6,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-yayla-corbasi-v7",
+        "name":  "Yayla Corbasi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  83.8,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  9.8,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-yayla-corbasi-v8",
+        "name":  "Yayla Corbasi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  69.6,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  9.1,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-yayla-corbasi-v9",
+        "name":  "Yayla Corbasi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  65.3,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  7.3,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-yayla-corbasi-v10",
+        "name":  "Yayla Corbasi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  68.9,
+        "proteinPer100g":  2.7,
+        "carbPer100g":  8.6,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-yayla-corbasi-v11",
+        "name":  "Yayla Corbasi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  67.4,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  9.1,
+        "fatPer100g":  2.5
+    },
+    {
+        "id":  "tr-yayla-corbasi-v12",
+        "name":  "Yayla Corbasi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  62.5,
+        "proteinPer100g":  2.6,
+        "carbPer100g":  8.9,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-yayla-corbasi-v13",
+        "name":  "Yayla Corbasi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  66,
+        "proteinPer100g":  2.8,
+        "carbPer100g":  8.8,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-lahmacun-v1",
+        "name":  "Lahmacun Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  252,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  29.4,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-lahmacun-v2",
+        "name":  "Lahmacun Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  226.8,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  29.4,
+        "fatPer100g":  7.6
+    },
+    {
+        "id":  "tr-lahmacun-v3",
+        "name":  "Lahmacun Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  264.6,
+        "proteinPer100g":  13.4,
+        "carbPer100g":  27.9,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-lahmacun-v4",
+        "name":  "Lahmacun Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  214.2,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  25,
+        "fatPer100g":  9.1
+    },
+    {
+        "id":  "tr-lahmacun-v5",
+        "name":  "Lahmacun Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  277.2,
+        "proteinPer100g":  14,
+        "carbPer100g":  29.4,
+        "fatPer100g":  9.6
+    },
+    {
+        "id":  "tr-lahmacun-v6",
+        "name":  "Lahmacun Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  259.6,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  30.9,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-lahmacun-v7",
+        "name":  "Lahmacun Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  297.4,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  31.8,
+        "fatPer100g":  11.6
+    },
+    {
+        "id":  "tr-lahmacun-v8",
+        "name":  "Lahmacun Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  247,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  29.4,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-lahmacun-v9",
+        "name":  "Lahmacun Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  231.8,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  23.5,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-lahmacun-v10",
+        "name":  "Lahmacun Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  244.4,
+        "proteinPer100g":  11.8,
+        "carbPer100g":  27.9,
+        "fatPer100g":  10.1
+    },
+    {
+        "id":  "tr-lahmacun-v11",
+        "name":  "Lahmacun Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  239.4,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  29.4,
+        "fatPer100g":  8.9
+    },
+    {
+        "id":  "tr-lahmacun-v12",
+        "name":  "Lahmacun Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  221.8,
+        "proteinPer100g":  11.2,
+        "carbPer100g":  28.8,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-lahmacun-v13",
+        "name":  "Lahmacun Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  234.4,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  28.5,
+        "fatPer100g":  8.3
+    },
+    {
+        "id":  "tr-pide-kasarli-v1",
+        "name":  "Kasarli Pide Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  278,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  33.2,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v2",
+        "name":  "Kasarli Pide Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  250.2,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  33.2,
+        "fatPer100g":  8
+    },
+    {
+        "id":  "tr-pide-kasarli-v3",
+        "name":  "Kasarli Pide Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  291.9,
+        "proteinPer100g":  14.5,
+        "carbPer100g":  31.5,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v4",
+        "name":  "Kasarli Pide Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  236.3,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  28.2,
+        "fatPer100g":  9.6
+    },
+    {
+        "id":  "tr-pide-kasarli-v5",
+        "name":  "Kasarli Pide Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  305.8,
+        "proteinPer100g":  15.1,
+        "carbPer100g":  33.2,
+        "fatPer100g":  10.2
+    },
+    {
+        "id":  "tr-pide-kasarli-v6",
+        "name":  "Kasarli Pide Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  286.3,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  34.9,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v7",
+        "name":  "Kasarli Pide Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  328,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  35.9,
+        "fatPer100g":  12.3
+    },
+    {
+        "id":  "tr-pide-kasarli-v8",
+        "name":  "Kasarli Pide Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  272.4,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  33.2,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v9",
+        "name":  "Kasarli Pide Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  255.8,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  26.6,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v10",
+        "name":  "Kasarli Pide Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  269.7,
+        "proteinPer100g":  12.7,
+        "carbPer100g":  31.5,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v11",
+        "name":  "Kasarli Pide Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  264.1,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  33.2,
+        "fatPer100g":  9.4
+    },
+    {
+        "id":  "tr-pide-kasarli-v12",
+        "name":  "Kasarli Pide Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  244.6,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  32.5,
+        "fatPer100g":  7.7
+    },
+    {
+        "id":  "tr-pide-kasarli-v13",
+        "name":  "Kasarli Pide Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  258.5,
+        "proteinPer100g":  13.1,
+        "carbPer100g":  32.2,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-simit-v1",
+        "name":  "Simit Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  304,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  52,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-simit-v2",
+        "name":  "Simit Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  273.6,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  52,
+        "fatPer100g":  5.5
+    },
+    {
+        "id":  "tr-simit-v3",
+        "name":  "Simit Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  319.2,
+        "proteinPer100g":  11.6,
+        "carbPer100g":  49.4,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-simit-v4",
+        "name":  "Simit Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  258.4,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  44.2,
+        "fatPer100g":  6.6
+    },
+    {
+        "id":  "tr-simit-v5",
+        "name":  "Simit Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  334.4,
+        "proteinPer100g":  12.1,
+        "carbPer100g":  52,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-simit-v6",
+        "name":  "Simit Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  313.1,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  54.6,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-simit-v7",
+        "name":  "Simit Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  358.7,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  56.2,
+        "fatPer100g":  8.4
+    },
+    {
+        "id":  "tr-simit-v8",
+        "name":  "Simit Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  297.9,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  52,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-simit-v9",
+        "name":  "Simit Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  279.7,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  41.6,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-simit-v10",
+        "name":  "Simit Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  294.9,
+        "proteinPer100g":  10.2,
+        "carbPer100g":  49.4,
+        "fatPer100g":  7.3
+    },
+    {
+        "id":  "tr-simit-v11",
+        "name":  "Simit Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  288.8,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  52,
+        "fatPer100g":  6.4
+    },
+    {
+        "id":  "tr-simit-v12",
+        "name":  "Simit Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  267.5,
+        "proteinPer100g":  9.7,
+        "carbPer100g":  51,
+        "fatPer100g":  5.3
+    },
+    {
+        "id":  "tr-simit-v13",
+        "name":  "Simit Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  282.7,
+        "proteinPer100g":  10.5,
+        "carbPer100g":  50.4,
+        "fatPer100g":  6
+    },
+    {
+        "id":  "tr-beyaz-peynir-v1",
+        "name":  "Beyaz Peynir Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  262,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2,
+        "fatPer100g":  21.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v2",
+        "name":  "Beyaz Peynir Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  235.8,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2,
+        "fatPer100g":  16
+    },
+    {
+        "id":  "tr-beyaz-peynir-v3",
+        "name":  "Beyaz Peynir Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  275.1,
+        "proteinPer100g":  17,
+        "carbPer100g":  1.9,
+        "fatPer100g":  21.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v4",
+        "name":  "Beyaz Peynir Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  222.7,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  1.7,
+        "fatPer100g":  19.3
+    },
+    {
+        "id":  "tr-beyaz-peynir-v5",
+        "name":  "Beyaz Peynir Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  288.2,
+        "proteinPer100g":  17.8,
+        "carbPer100g":  2,
+        "fatPer100g":  20.3
+    },
+    {
+        "id":  "tr-beyaz-peynir-v6",
+        "name":  "Beyaz Peynir Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  269.9,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2.1,
+        "fatPer100g":  21.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v7",
+        "name":  "Beyaz Peynir Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  309.2,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2.2,
+        "fatPer100g":  24.6
+    },
+    {
+        "id":  "tr-beyaz-peynir-v8",
+        "name":  "Beyaz Peynir Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  256.8,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2,
+        "fatPer100g":  21.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v9",
+        "name":  "Beyaz Peynir Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  241,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  1.6,
+        "fatPer100g":  21.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v10",
+        "name":  "Beyaz Peynir Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  254.1,
+        "proteinPer100g":  14.9,
+        "carbPer100g":  1.9,
+        "fatPer100g":  21.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v11",
+        "name":  "Beyaz Peynir Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  248.9,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2,
+        "fatPer100g":  18.8
+    },
+    {
+        "id":  "tr-beyaz-peynir-v12",
+        "name":  "Beyaz Peynir Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  230.6,
+        "proteinPer100g":  14.2,
+        "carbPer100g":  2,
+        "fatPer100g":  15.4
+    },
+    {
+        "id":  "tr-beyaz-peynir-v13",
+        "name":  "Beyaz Peynir Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  243.7,
+        "proteinPer100g":  15.3,
+        "carbPer100g":  1.9,
+        "fatPer100g":  17.5
+    },
+    {
+        "id":  "tr-kasar-peyniri-v1",
+        "name":  "Kasar Peyniri Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  343,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.2,
+        "fatPer100g":  27.1
+    },
+    {
+        "id":  "tr-kasar-peyniri-v2",
+        "name":  "Kasar Peyniri Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  308.7,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.2,
+        "fatPer100g":  20.3
+    },
+    {
+        "id":  "tr-kasar-peyniri-v3",
+        "name":  "Kasar Peyniri Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  360.2,
+        "proteinPer100g":  30,
+        "carbPer100g":  1.1,
+        "fatPer100g":  27.1
+    },
+    {
+        "id":  "tr-kasar-peyniri-v4",
+        "name":  "Kasar Peyniri Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  291.6,
+        "proteinPer100g":  25,
+        "carbPer100g":  1,
+        "fatPer100g":  24.4
+    },
+    {
+        "id":  "tr-kasar-peyniri-v5",
+        "name":  "Kasar Peyniri Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  377.3,
+        "proteinPer100g":  31.2,
+        "carbPer100g":  1.2,
+        "fatPer100g":  25.7
+    },
+    {
+        "id":  "tr-kasar-peyniri-v6",
+        "name":  "Kasar Peyniri Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  353.3,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.3,
+        "fatPer100g":  27.1
+    },
+    {
+        "id":  "tr-kasar-peyniri-v7",
+        "name":  "Kasar Peyniri Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  404.7,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.3,
+        "fatPer100g":  31.2
+    },
+    {
+        "id":  "tr-kasar-peyniri-v8",
+        "name":  "Kasar Peyniri Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  336.1,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.2,
+        "fatPer100g":  27.1
+    },
+    {
+        "id":  "tr-kasar-peyniri-v9",
+        "name":  "Kasar Peyniri Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  315.6,
+        "proteinPer100g":  25,
+        "carbPer100g":  1,
+        "fatPer100g":  27.1
+    },
+    {
+        "id":  "tr-kasar-peyniri-v10",
+        "name":  "Kasar Peyniri Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  332.7,
+        "proteinPer100g":  26.2,
+        "carbPer100g":  1.1,
+        "fatPer100g":  27.1
+    },
+    {
+        "id":  "tr-kasar-peyniri-v11",
+        "name":  "Kasar Peyniri Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  325.8,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.2,
+        "fatPer100g":  23.8
+    },
+    {
+        "id":  "tr-kasar-peyniri-v12",
+        "name":  "Kasar Peyniri Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  301.8,
+        "proteinPer100g":  25,
+        "carbPer100g":  1.2,
+        "fatPer100g":  19.5
+    },
+    {
+        "id":  "tr-kasar-peyniri-v13",
+        "name":  "Kasar Peyniri Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  319,
+        "proteinPer100g":  27,
+        "carbPer100g":  1.2,
+        "fatPer100g":  22.2
+    },
+    {
+        "id":  "tr-yogurt-tam-v1",
+        "name":  "Yogurt Tam Yagli Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  61,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.7,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-yogurt-tam-v2",
+        "name":  "Yogurt Tam Yagli Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  54.9,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.7,
+        "fatPer100g":  2.5
+    },
+    {
+        "id":  "tr-yogurt-tam-v3",
+        "name":  "Yogurt Tam Yagli Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  64,
+        "proteinPer100g":  4.2,
+        "carbPer100g":  4.5,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-yogurt-tam-v4",
+        "name":  "Yogurt Tam Yagli Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  51.8,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-yogurt-tam-v5",
+        "name":  "Yogurt Tam Yagli Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  67.1,
+        "proteinPer100g":  4.4,
+        "carbPer100g":  4.7,
+        "fatPer100g":  3.1
+    },
+    {
+        "id":  "tr-yogurt-tam-v6",
+        "name":  "Yogurt Tam Yagli Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  62.8,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.9,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-yogurt-tam-v7",
+        "name":  "Yogurt Tam Yagli Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  72,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  5.1,
+        "fatPer100g":  3.8
+    },
+    {
+        "id":  "tr-yogurt-tam-v8",
+        "name":  "Yogurt Tam Yagli Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  59.8,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.7,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-yogurt-tam-v9",
+        "name":  "Yogurt Tam Yagli Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  56.1,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  3.8,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-yogurt-tam-v10",
+        "name":  "Yogurt Tam Yagli Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  59.2,
+        "proteinPer100g":  3.7,
+        "carbPer100g":  4.5,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-yogurt-tam-v11",
+        "name":  "Yogurt Tam Yagli Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  58,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.7,
+        "fatPer100g":  2.9
+    },
+    {
+        "id":  "tr-yogurt-tam-v12",
+        "name":  "Yogurt Tam Yagli Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  53.7,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.6,
+        "fatPer100g":  2.4
+    },
+    {
+        "id":  "tr-yogurt-tam-v13",
+        "name":  "Yogurt Tam Yagli Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  56.7,
+        "proteinPer100g":  3.8,
+        "carbPer100g":  4.6,
+        "fatPer100g":  2.7
+    },
+    {
+        "id":  "tr-ayran-v1",
+        "name":  "Ayran Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  37,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.7,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ayran-v2",
+        "name":  "Ayran Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  33.3,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.7,
+        "fatPer100g":  1.3
+    },
+    {
+        "id":  "tr-ayran-v3",
+        "name":  "Ayran Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  38.8,
+        "proteinPer100g":  2.4,
+        "carbPer100g":  2.6,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ayran-v4",
+        "name":  "Ayran Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  31.4,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.3,
+        "fatPer100g":  1.5
+    },
+    {
+        "id":  "tr-ayran-v5",
+        "name":  "Ayran Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  40.7,
+        "proteinPer100g":  2.5,
+        "carbPer100g":  2.7,
+        "fatPer100g":  1.6
+    },
+    {
+        "id":  "tr-ayran-v6",
+        "name":  "Ayran Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  38.1,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.8,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ayran-v7",
+        "name":  "Ayran Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  43.7,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.9,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-ayran-v8",
+        "name":  "Ayran Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  36.3,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.7,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ayran-v9",
+        "name":  "Ayran Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  34,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.2,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ayran-v10",
+        "name":  "Ayran Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  35.9,
+        "proteinPer100g":  2.1,
+        "carbPer100g":  2.6,
+        "fatPer100g":  1.7
+    },
+    {
+        "id":  "tr-ayran-v11",
+        "name":  "Ayran Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  35.2,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.7,
+        "fatPer100g":  1.5
+    },
+    {
+        "id":  "tr-ayran-v12",
+        "name":  "Ayran Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  32.6,
+        "proteinPer100g":  2,
+        "carbPer100g":  2.6,
+        "fatPer100g":  1.2
+    },
+    {
+        "id":  "tr-ayran-v13",
+        "name":  "Ayran Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  34.4,
+        "proteinPer100g":  2.2,
+        "carbPer100g":  2.6,
+        "fatPer100g":  1.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v1",
+        "name":  "Nohut Yemegi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  141,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  19,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v2",
+        "name":  "Nohut Yemegi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  126.9,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  19,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-nohut-yemegi-v3",
+        "name":  "Nohut Yemegi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  148,
+        "proteinPer100g":  8.2,
+        "carbPer100g":  18,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v4",
+        "name":  "Nohut Yemegi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  119.8,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  16.2,
+        "fatPer100g":  4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v5",
+        "name":  "Nohut Yemegi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  155.1,
+        "proteinPer100g":  8.5,
+        "carbPer100g":  19,
+        "fatPer100g":  4.2
+    },
+    {
+        "id":  "tr-nohut-yemegi-v6",
+        "name":  "Nohut Yemegi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  145.2,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  20,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v7",
+        "name":  "Nohut Yemegi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  166.4,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  20.5,
+        "fatPer100g":  5.1
+    },
+    {
+        "id":  "tr-nohut-yemegi-v8",
+        "name":  "Nohut Yemegi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  138.2,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  19,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v9",
+        "name":  "Nohut Yemegi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  129.7,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  15.2,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v10",
+        "name":  "Nohut Yemegi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  136.8,
+        "proteinPer100g":  7.1,
+        "carbPer100g":  18,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-nohut-yemegi-v11",
+        "name":  "Nohut Yemegi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  134,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  19,
+        "fatPer100g":  3.9
+    },
+    {
+        "id":  "tr-nohut-yemegi-v12",
+        "name":  "Nohut Yemegi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  124.1,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  18.6,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-nohut-yemegi-v13",
+        "name":  "Nohut Yemegi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  131.1,
+        "proteinPer100g":  7.3,
+        "carbPer100g":  18.4,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-taze-fasulye-v1",
+        "name":  "Zeytinyagli Taze Fasulye Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  89,
+        "proteinPer100g":  2,
+        "carbPer100g":  9.1,
+        "fatPer100g":  4.8
+    },
+    {
+        "id":  "tr-taze-fasulye-v2",
+        "name":  "Zeytinyagli Taze Fasulye Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  80.1,
+        "proteinPer100g":  2,
+        "carbPer100g":  9.1,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-taze-fasulye-v3",
+        "name":  "Zeytinyagli Taze Fasulye Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  93.4,
+        "proteinPer100g":  2.4,
+        "carbPer100g":  8.6,
+        "fatPer100g":  4.8
+    },
+    {
+        "id":  "tr-taze-fasulye-v4",
+        "name":  "Zeytinyagli Taze Fasulye Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  75.6,
+        "proteinPer100g":  2,
+        "carbPer100g":  7.7,
+        "fatPer100g":  4.3
+    },
+    {
+        "id":  "tr-taze-fasulye-v5",
+        "name":  "Zeytinyagli Taze Fasulye Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  97.9,
+        "proteinPer100g":  2.5,
+        "carbPer100g":  9.1,
+        "fatPer100g":  4.6
+    },
+    {
+        "id":  "tr-taze-fasulye-v6",
+        "name":  "Zeytinyagli Taze Fasulye Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  91.7,
+        "proteinPer100g":  2,
+        "carbPer100g":  9.6,
+        "fatPer100g":  4.8
+    },
+    {
+        "id":  "tr-taze-fasulye-v7",
+        "name":  "Zeytinyagli Taze Fasulye Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  105,
+        "proteinPer100g":  2,
+        "carbPer100g":  9.8,
+        "fatPer100g":  5.5
+    },
+    {
+        "id":  "tr-taze-fasulye-v8",
+        "name":  "Zeytinyagli Taze Fasulye Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  87.2,
+        "proteinPer100g":  2,
+        "carbPer100g":  9.1,
+        "fatPer100g":  4.8
+    },
+    {
+        "id":  "tr-taze-fasulye-v9",
+        "name":  "Zeytinyagli Taze Fasulye Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  81.9,
+        "proteinPer100g":  2,
+        "carbPer100g":  7.3,
+        "fatPer100g":  4.8
+    },
+    {
+        "id":  "tr-taze-fasulye-v10",
+        "name":  "Zeytinyagli Taze Fasulye Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  86.3,
+        "proteinPer100g":  2.1,
+        "carbPer100g":  8.6,
+        "fatPer100g":  4.8
+    },
+    {
+        "id":  "tr-taze-fasulye-v11",
+        "name":  "Zeytinyagli Taze Fasulye Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  84.6,
+        "proteinPer100g":  2,
+        "carbPer100g":  9.1,
+        "fatPer100g":  4.2
+    },
+    {
+        "id":  "tr-taze-fasulye-v12",
+        "name":  "Zeytinyagli Taze Fasulye Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  78.3,
+        "proteinPer100g":  2,
+        "carbPer100g":  8.9,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-taze-fasulye-v13",
+        "name":  "Zeytinyagli Taze Fasulye Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  82.8,
+        "proteinPer100g":  2.2,
+        "carbPer100g":  8.8,
+        "fatPer100g":  3.9
+    },
+    {
+        "id":  "tr-karniyarik-v1",
+        "name":  "Karniyarik Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  152,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.2,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-karniyarik-v2",
+        "name":  "Karniyarik Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  136.8,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.2,
+        "fatPer100g":  7.4
+    },
+    {
+        "id":  "tr-karniyarik-v3",
+        "name":  "Karniyarik Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  159.6,
+        "proteinPer100g":  10.4,
+        "carbPer100g":  6.8,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-karniyarik-v4",
+        "name":  "Karniyarik Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  129.2,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  6.1,
+        "fatPer100g":  8.8
+    },
+    {
+        "id":  "tr-karniyarik-v5",
+        "name":  "Karniyarik Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  167.2,
+        "proteinPer100g":  10.9,
+        "carbPer100g":  7.2,
+        "fatPer100g":  9.3
+    },
+    {
+        "id":  "tr-karniyarik-v6",
+        "name":  "Karniyarik Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  156.6,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.6,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-karniyarik-v7",
+        "name":  "Karniyarik Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  179.4,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.8,
+        "fatPer100g":  11.3
+    },
+    {
+        "id":  "tr-karniyarik-v8",
+        "name":  "Karniyarik Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  149,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.2,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-karniyarik-v9",
+        "name":  "Karniyarik Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  139.8,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  5.8,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-karniyarik-v10",
+        "name":  "Karniyarik Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  147.4,
+        "proteinPer100g":  9.1,
+        "carbPer100g":  6.8,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-karniyarik-v11",
+        "name":  "Karniyarik Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  144.4,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.2,
+        "fatPer100g":  8.6
+    },
+    {
+        "id":  "tr-karniyarik-v12",
+        "name":  "Karniyarik Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  133.8,
+        "proteinPer100g":  8.7,
+        "carbPer100g":  7.1,
+        "fatPer100g":  7.1
+    },
+    {
+        "id":  "tr-karniyarik-v13",
+        "name":  "Karniyarik Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  141.4,
+        "proteinPer100g":  9.4,
+        "carbPer100g":  7,
+        "fatPer100g":  8
+    },
+    {
+        "id":  "tr-dolma-biber-v1",
+        "name":  "Biber Dolmasi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  128,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  17.2,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-dolma-biber-v2",
+        "name":  "Biber Dolmasi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  115.2,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  17.2,
+        "fatPer100g":  3.7
+    },
+    {
+        "id":  "tr-dolma-biber-v3",
+        "name":  "Biber Dolmasi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  134.4,
+        "proteinPer100g":  3.7,
+        "carbPer100g":  16.3,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-dolma-biber-v4",
+        "name":  "Biber Dolmasi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  108.8,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  14.6,
+        "fatPer100g":  4.4
+    },
+    {
+        "id":  "tr-dolma-biber-v5",
+        "name":  "Biber Dolmasi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  140.8,
+        "proteinPer100g":  3.9,
+        "carbPer100g":  17.2,
+        "fatPer100g":  4.7
+    },
+    {
+        "id":  "tr-dolma-biber-v6",
+        "name":  "Biber Dolmasi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  131.8,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  18.1,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-dolma-biber-v7",
+        "name":  "Biber Dolmasi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  151,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  18.6,
+        "fatPer100g":  5.6
+    },
+    {
+        "id":  "tr-dolma-biber-v8",
+        "name":  "Biber Dolmasi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  125.4,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  17.2,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-dolma-biber-v9",
+        "name":  "Biber Dolmasi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  117.8,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  13.8,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-dolma-biber-v10",
+        "name":  "Biber Dolmasi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  124.2,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  16.3,
+        "fatPer100g":  4.9
+    },
+    {
+        "id":  "tr-dolma-biber-v11",
+        "name":  "Biber Dolmasi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  121.6,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  17.2,
+        "fatPer100g":  4.3
+    },
+    {
+        "id":  "tr-dolma-biber-v12",
+        "name":  "Biber Dolmasi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  112.6,
+        "proteinPer100g":  3.1,
+        "carbPer100g":  16.9,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-dolma-biber-v13",
+        "name":  "Biber Dolmasi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  119,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  16.7,
+        "fatPer100g":  4
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v1",
+        "name":  "Makarna Haslanmis Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  131,
+        "proteinPer100g":  5,
+        "carbPer100g":  25,
+        "fatPer100g":  1.1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v2",
+        "name":  "Makarna Haslanmis Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  117.9,
+        "proteinPer100g":  5,
+        "carbPer100g":  25,
+        "fatPer100g":  0.8
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v3",
+        "name":  "Makarna Haslanmis Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  137.6,
+        "proteinPer100g":  6,
+        "carbPer100g":  23.8,
+        "fatPer100g":  1.1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v4",
+        "name":  "Makarna Haslanmis Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  111.4,
+        "proteinPer100g":  5,
+        "carbPer100g":  21.2,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v5",
+        "name":  "Makarna Haslanmis Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  144.1,
+        "proteinPer100g":  6.2,
+        "carbPer100g":  25,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v6",
+        "name":  "Makarna Haslanmis Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  134.9,
+        "proteinPer100g":  5,
+        "carbPer100g":  26.2,
+        "fatPer100g":  1.1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v7",
+        "name":  "Makarna Haslanmis Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  154.6,
+        "proteinPer100g":  5,
+        "carbPer100g":  27,
+        "fatPer100g":  1.3
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v8",
+        "name":  "Makarna Haslanmis Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  128.4,
+        "proteinPer100g":  5,
+        "carbPer100g":  25,
+        "fatPer100g":  1.1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v9",
+        "name":  "Makarna Haslanmis Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  120.5,
+        "proteinPer100g":  5,
+        "carbPer100g":  20,
+        "fatPer100g":  1.1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v10",
+        "name":  "Makarna Haslanmis Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  127.1,
+        "proteinPer100g":  5.2,
+        "carbPer100g":  23.8,
+        "fatPer100g":  1.1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v11",
+        "name":  "Makarna Haslanmis Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  124.4,
+        "proteinPer100g":  5,
+        "carbPer100g":  25,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v12",
+        "name":  "Makarna Haslanmis Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  115.3,
+        "proteinPer100g":  5,
+        "carbPer100g":  24.5,
+        "fatPer100g":  0.8
+    },
+    {
+        "id":  "tr-makarna-haslanmis-v13",
+        "name":  "Makarna Haslanmis Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  121.8,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  24.2,
+        "fatPer100g":  0.9
+    },
+    {
+        "id":  "tr-ton-baligi-v1",
+        "name":  "Ton Baligi Konserve Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  116,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v2",
+        "name":  "Ton Baligi Konserve Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  104.4,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  0.8
+    },
+    {
+        "id":  "tr-ton-baligi-v3",
+        "name":  "Ton Baligi Konserve Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  121.8,
+        "proteinPer100g":  30.6,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v4",
+        "name":  "Ton Baligi Konserve Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  98.6,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  0.9
+    },
+    {
+        "id":  "tr-ton-baligi-v5",
+        "name":  "Ton Baligi Konserve Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  127.6,
+        "proteinPer100g":  31.9,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v6",
+        "name":  "Ton Baligi Konserve Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  119.5,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v7",
+        "name":  "Ton Baligi Konserve Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  136.9,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  1.2
+    },
+    {
+        "id":  "tr-ton-baligi-v8",
+        "name":  "Ton Baligi Konserve Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  113.7,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v9",
+        "name":  "Ton Baligi Konserve Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  106.7,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v10",
+        "name":  "Ton Baligi Konserve Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  112.5,
+        "proteinPer100g":  26.8,
+        "carbPer100g":  0,
+        "fatPer100g":  1
+    },
+    {
+        "id":  "tr-ton-baligi-v11",
+        "name":  "Ton Baligi Konserve Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  110.2,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  0.9
+    },
+    {
+        "id":  "tr-ton-baligi-v12",
+        "name":  "Ton Baligi Konserve Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  102.1,
+        "proteinPer100g":  25.5,
+        "carbPer100g":  0,
+        "fatPer100g":  0.7
+    },
+    {
+        "id":  "tr-ton-baligi-v13",
+        "name":  "Ton Baligi Konserve Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  107.9,
+        "proteinPer100g":  27.5,
+        "carbPer100g":  0,
+        "fatPer100g":  0.8
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v1",
+        "name":  "Haslanmis Yumurta Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  155,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.1,
+        "fatPer100g":  11
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v2",
+        "name":  "Haslanmis Yumurta Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  139.5,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.1,
+        "fatPer100g":  8.2
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v3",
+        "name":  "Haslanmis Yumurta Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  162.8,
+        "proteinPer100g":  15.6,
+        "carbPer100g":  1,
+        "fatPer100g":  11
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v4",
+        "name":  "Haslanmis Yumurta Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  131.8,
+        "proteinPer100g":  13,
+        "carbPer100g":  0.9,
+        "fatPer100g":  9.9
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v5",
+        "name":  "Haslanmis Yumurta Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  170.5,
+        "proteinPer100g":  16.2,
+        "carbPer100g":  1.1,
+        "fatPer100g":  10.4
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v6",
+        "name":  "Haslanmis Yumurta Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  159.6,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.2,
+        "fatPer100g":  11
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v7",
+        "name":  "Haslanmis Yumurta Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  182.9,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.2,
+        "fatPer100g":  12.6
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v8",
+        "name":  "Haslanmis Yumurta Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  151.9,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.1,
+        "fatPer100g":  11
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v9",
+        "name":  "Haslanmis Yumurta Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  142.6,
+        "proteinPer100g":  13,
+        "carbPer100g":  0.9,
+        "fatPer100g":  11
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v10",
+        "name":  "Haslanmis Yumurta Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  150.4,
+        "proteinPer100g":  13.6,
+        "carbPer100g":  1,
+        "fatPer100g":  11
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v11",
+        "name":  "Haslanmis Yumurta Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  147.2,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.1,
+        "fatPer100g":  9.7
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v12",
+        "name":  "Haslanmis Yumurta Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  136.4,
+        "proteinPer100g":  13,
+        "carbPer100g":  1.1,
+        "fatPer100g":  7.9
+    },
+    {
+        "id":  "tr-yumurta-haslanmis-v13",
+        "name":  "Haslanmis Yumurta Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  144.2,
+        "proteinPer100g":  14,
+        "carbPer100g":  1.1,
+        "fatPer100g":  9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v1",
+        "name":  "Yulaf Ezmesi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  389,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  66.3,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v2",
+        "name":  "Yulaf Ezmesi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  350.1,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  66.3,
+        "fatPer100g":  5.2
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v3",
+        "name":  "Yulaf Ezmesi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  408.5,
+        "proteinPer100g":  20.3,
+        "carbPer100g":  63,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v4",
+        "name":  "Yulaf Ezmesi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  330.6,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  56.4,
+        "fatPer100g":  6.2
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v5",
+        "name":  "Yulaf Ezmesi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  427.9,
+        "proteinPer100g":  21.1,
+        "carbPer100g":  66.3,
+        "fatPer100g":  6.6
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v6",
+        "name":  "Yulaf Ezmesi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  400.7,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  69.6,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v7",
+        "name":  "Yulaf Ezmesi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  459,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  71.6,
+        "fatPer100g":  7.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v8",
+        "name":  "Yulaf Ezmesi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  381.2,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  66.3,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v9",
+        "name":  "Yulaf Ezmesi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  357.9,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  53,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v10",
+        "name":  "Yulaf Ezmesi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  377.3,
+        "proteinPer100g":  17.7,
+        "carbPer100g":  63,
+        "fatPer100g":  6.9
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v11",
+        "name":  "Yulaf Ezmesi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  369.5,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  66.3,
+        "fatPer100g":  6.1
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v12",
+        "name":  "Yulaf Ezmesi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  342.3,
+        "proteinPer100g":  16.9,
+        "carbPer100g":  65,
+        "fatPer100g":  5
+    },
+    {
+        "id":  "tr-yulaf-ezmesi-v13",
+        "name":  "Yulaf Ezmesi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  361.8,
+        "proteinPer100g":  18.3,
+        "carbPer100g":  64.3,
+        "fatPer100g":  5.7
+    },
+    {
+        "id":  "tr-tavuk-gogus-v1",
+        "name":  "Tavuk Gogus Pismis Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  165,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v2",
+        "name":  "Tavuk Gogus Pismis Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  148.5,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  2.7
+    },
+    {
+        "id":  "tr-tavuk-gogus-v3",
+        "name":  "Tavuk Gogus Pismis Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  173.2,
+        "proteinPer100g":  37.2,
+        "carbPer100g":  0,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v4",
+        "name":  "Tavuk Gogus Pismis Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  140.2,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-tavuk-gogus-v5",
+        "name":  "Tavuk Gogus Pismis Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  181.5,
+        "proteinPer100g":  38.8,
+        "carbPer100g":  0,
+        "fatPer100g":  3.4
+    },
+    {
+        "id":  "tr-tavuk-gogus-v6",
+        "name":  "Tavuk Gogus Pismis Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  170,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v7",
+        "name":  "Tavuk Gogus Pismis Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  194.7,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  4.1
+    },
+    {
+        "id":  "tr-tavuk-gogus-v8",
+        "name":  "Tavuk Gogus Pismis Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  161.7,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v9",
+        "name":  "Tavuk Gogus Pismis Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  151.8,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v10",
+        "name":  "Tavuk Gogus Pismis Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  160,
+        "proteinPer100g":  32.6,
+        "carbPer100g":  0,
+        "fatPer100g":  3.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v11",
+        "name":  "Tavuk Gogus Pismis Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  156.8,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-tavuk-gogus-v12",
+        "name":  "Tavuk Gogus Pismis Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  145.2,
+        "proteinPer100g":  31,
+        "carbPer100g":  0,
+        "fatPer100g":  2.6
+    },
+    {
+        "id":  "tr-tavuk-gogus-v13",
+        "name":  "Tavuk Gogus Pismis Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  153.5,
+        "proteinPer100g":  33.5,
+        "carbPer100g":  0,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-somon-v1",
+        "name":  "Somon Izgara Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  208,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-somon-v2",
+        "name":  "Somon Izgara Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  187.2,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  9.8
+    },
+    {
+        "id":  "tr-somon-v3",
+        "name":  "Somon Izgara Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  218.4,
+        "proteinPer100g":  24,
+        "carbPer100g":  0,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-somon-v4",
+        "name":  "Somon Izgara Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  176.8,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  11.7
+    },
+    {
+        "id":  "tr-somon-v5",
+        "name":  "Somon Izgara Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  228.8,
+        "proteinPer100g":  25,
+        "carbPer100g":  0,
+        "fatPer100g":  12.4
+    },
+    {
+        "id":  "tr-somon-v6",
+        "name":  "Somon Izgara Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  214.2,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-somon-v7",
+        "name":  "Somon Izgara Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  245.4,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  15
+    },
+    {
+        "id":  "tr-somon-v8",
+        "name":  "Somon Izgara Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  203.8,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-somon-v9",
+        "name":  "Somon Izgara Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  191.4,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-somon-v10",
+        "name":  "Somon Izgara Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  201.8,
+        "proteinPer100g":  21,
+        "carbPer100g":  0,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-somon-v11",
+        "name":  "Somon Izgara Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  197.6,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  11.4
+    },
+    {
+        "id":  "tr-somon-v12",
+        "name":  "Somon Izgara Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  183,
+        "proteinPer100g":  20,
+        "carbPer100g":  0,
+        "fatPer100g":  9.4
+    },
+    {
+        "id":  "tr-somon-v13",
+        "name":  "Somon Izgara Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  193.4,
+        "proteinPer100g":  21.6,
+        "carbPer100g":  0,
+        "fatPer100g":  10.7
+    },
+    {
+        "id":  "tr-muz-v1",
+        "name":  "Muz Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  89,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  22.8,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v2",
+        "name":  "Muz Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  80.1,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  22.8,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-muz-v3",
+        "name":  "Muz Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  93.4,
+        "proteinPer100g":  1.3,
+        "carbPer100g":  21.7,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v4",
+        "name":  "Muz Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  75.6,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  19.4,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v5",
+        "name":  "Muz Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  97.9,
+        "proteinPer100g":  1.4,
+        "carbPer100g":  22.8,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v6",
+        "name":  "Muz Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  91.7,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  23.9,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v7",
+        "name":  "Muz Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  105,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  24.6,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v8",
+        "name":  "Muz Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  87.2,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  22.8,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v9",
+        "name":  "Muz Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  81.9,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  18.2,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v10",
+        "name":  "Muz Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  86.3,
+        "proteinPer100g":  1.2,
+        "carbPer100g":  21.7,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v11",
+        "name":  "Muz Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  84.6,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  22.8,
+        "fatPer100g":  0.3
+    },
+    {
+        "id":  "tr-muz-v12",
+        "name":  "Muz Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  78.3,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  22.3,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-muz-v13",
+        "name":  "Muz Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  82.8,
+        "proteinPer100g":  1.2,
+        "carbPer100g":  22.1,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v1",
+        "name":  "Elma Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  52,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.8,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v2",
+        "name":  "Elma Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  46.8,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.8,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v3",
+        "name":  "Elma Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  54.6,
+        "proteinPer100g":  0.4,
+        "carbPer100g":  13.1,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v4",
+        "name":  "Elma Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  44.2,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  11.7,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v5",
+        "name":  "Elma Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  57.2,
+        "proteinPer100g":  0.4,
+        "carbPer100g":  13.8,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v6",
+        "name":  "Elma Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  53.6,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  14.5,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v7",
+        "name":  "Elma Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  61.4,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  14.9,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v8",
+        "name":  "Elma Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  51,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.8,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v9",
+        "name":  "Elma Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  47.8,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  11,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v10",
+        "name":  "Elma Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  50.4,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.1,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v11",
+        "name":  "Elma Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  49.4,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.8,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-elma-v12",
+        "name":  "Elma Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  45.8,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.5,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-elma-v13",
+        "name":  "Elma Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  48.4,
+        "proteinPer100g":  0.3,
+        "carbPer100g":  13.4,
+        "fatPer100g":  0.2
+    },
+    {
+        "id":  "tr-portakal-v1",
+        "name":  "Portakal Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  47,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  11.8,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v2",
+        "name":  "Portakal Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  42.3,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  11.8,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v3",
+        "name":  "Portakal Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  49.4,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  11.2,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v4",
+        "name":  "Portakal Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  39.9,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  10,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v5",
+        "name":  "Portakal Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  51.7,
+        "proteinPer100g":  1.1,
+        "carbPer100g":  11.8,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v6",
+        "name":  "Portakal Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  48.4,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  12.4,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v7",
+        "name":  "Portakal Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  55.5,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  12.7,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v8",
+        "name":  "Portakal Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  46.1,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  11.8,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v9",
+        "name":  "Portakal Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  43.2,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  9.4,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v10",
+        "name":  "Portakal Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  45.6,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  11.2,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v11",
+        "name":  "Portakal Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  44.6,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  11.8,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v12",
+        "name":  "Portakal Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  41.4,
+        "proteinPer100g":  0.9,
+        "carbPer100g":  11.6,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-portakal-v13",
+        "name":  "Portakal Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  43.7,
+        "proteinPer100g":  1,
+        "carbPer100g":  11.4,
+        "fatPer100g":  0.1
+    },
+    {
+        "id":  "tr-zeytinyagi-v1",
+        "name":  "Zeytinyagi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  884,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  100
+    },
+    {
+        "id":  "tr-zeytinyagi-v2",
+        "name":  "Zeytinyagi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  795.6,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  75
+    },
+    {
+        "id":  "tr-zeytinyagi-v3",
+        "name":  "Zeytinyagi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  928.2,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  100
+    },
+    {
+        "id":  "tr-zeytinyagi-v4",
+        "name":  "Zeytinyagi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  751.4,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  90
+    },
+    {
+        "id":  "tr-zeytinyagi-v5",
+        "name":  "Zeytinyagi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  972.4,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  95
+    },
+    {
+        "id":  "tr-zeytinyagi-v6",
+        "name":  "Zeytinyagi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  910.5,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  100
+    },
+    {
+        "id":  "tr-zeytinyagi-v7",
+        "name":  "Zeytinyagi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  1043.1,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  115
+    },
+    {
+        "id":  "tr-zeytinyagi-v8",
+        "name":  "Zeytinyagi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  866.3,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  100
+    },
+    {
+        "id":  "tr-zeytinyagi-v9",
+        "name":  "Zeytinyagi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  813.3,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  100
+    },
+    {
+        "id":  "tr-zeytinyagi-v10",
+        "name":  "Zeytinyagi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  857.5,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  100
+    },
+    {
+        "id":  "tr-zeytinyagi-v11",
+        "name":  "Zeytinyagi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  839.8,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  88
+    },
+    {
+        "id":  "tr-zeytinyagi-v12",
+        "name":  "Zeytinyagi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  777.9,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  72
+    },
+    {
+        "id":  "tr-zeytinyagi-v13",
+        "name":  "Zeytinyagi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  822.1,
+        "proteinPer100g":  0,
+        "carbPer100g":  0,
+        "fatPer100g":  82
+    },
+    {
+        "id":  "tr-findik-v1",
+        "name":  "Findik Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  628,
+        "proteinPer100g":  15,
+        "carbPer100g":  17,
+        "fatPer100g":  61
+    },
+    {
+        "id":  "tr-findik-v2",
+        "name":  "Findik Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  565.2,
+        "proteinPer100g":  15,
+        "carbPer100g":  17,
+        "fatPer100g":  45.8
+    },
+    {
+        "id":  "tr-findik-v3",
+        "name":  "Findik Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  659.4,
+        "proteinPer100g":  18,
+        "carbPer100g":  16.2,
+        "fatPer100g":  61
+    },
+    {
+        "id":  "tr-findik-v4",
+        "name":  "Findik Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  533.8,
+        "proteinPer100g":  15,
+        "carbPer100g":  14.4,
+        "fatPer100g":  54.9
+    },
+    {
+        "id":  "tr-findik-v5",
+        "name":  "Findik Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  690.8,
+        "proteinPer100g":  18.8,
+        "carbPer100g":  17,
+        "fatPer100g":  58
+    },
+    {
+        "id":  "tr-findik-v6",
+        "name":  "Findik Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  646.8,
+        "proteinPer100g":  15,
+        "carbPer100g":  17.8,
+        "fatPer100g":  61
+    },
+    {
+        "id":  "tr-findik-v7",
+        "name":  "Findik Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  741,
+        "proteinPer100g":  15,
+        "carbPer100g":  18.4,
+        "fatPer100g":  70.1
+    },
+    {
+        "id":  "tr-findik-v8",
+        "name":  "Findik Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  615.4,
+        "proteinPer100g":  15,
+        "carbPer100g":  17,
+        "fatPer100g":  61
+    },
+    {
+        "id":  "tr-findik-v9",
+        "name":  "Findik Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  577.8,
+        "proteinPer100g":  15,
+        "carbPer100g":  13.6,
+        "fatPer100g":  61
+    },
+    {
+        "id":  "tr-findik-v10",
+        "name":  "Findik Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  609.2,
+        "proteinPer100g":  15.8,
+        "carbPer100g":  16.2,
+        "fatPer100g":  61
+    },
+    {
+        "id":  "tr-findik-v11",
+        "name":  "Findik Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  596.6,
+        "proteinPer100g":  15,
+        "carbPer100g":  17,
+        "fatPer100g":  53.7
+    },
+    {
+        "id":  "tr-findik-v12",
+        "name":  "Findik Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  552.6,
+        "proteinPer100g":  15,
+        "carbPer100g":  16.7,
+        "fatPer100g":  43.9
+    },
+    {
+        "id":  "tr-findik-v13",
+        "name":  "Findik Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  584,
+        "proteinPer100g":  16.2,
+        "carbPer100g":  16.5,
+        "fatPer100g":  50
+    },
+    {
+        "id":  "tr-badem-v1",
+        "name":  "Badem Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  579,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  21.6,
+        "fatPer100g":  49.9
+    },
+    {
+        "id":  "tr-badem-v2",
+        "name":  "Badem Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  521.1,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  21.6,
+        "fatPer100g":  37.4
+    },
+    {
+        "id":  "tr-badem-v3",
+        "name":  "Badem Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  608,
+        "proteinPer100g":  25.4,
+        "carbPer100g":  20.5,
+        "fatPer100g":  49.9
+    },
+    {
+        "id":  "tr-badem-v4",
+        "name":  "Badem Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  492.2,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  18.4,
+        "fatPer100g":  44.9
+    },
+    {
+        "id":  "tr-badem-v5",
+        "name":  "Badem Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  636.9,
+        "proteinPer100g":  26.5,
+        "carbPer100g":  21.6,
+        "fatPer100g":  47.4
+    },
+    {
+        "id":  "tr-badem-v6",
+        "name":  "Badem Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  596.4,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  22.7,
+        "fatPer100g":  49.9
+    },
+    {
+        "id":  "tr-badem-v7",
+        "name":  "Badem Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  683.2,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  23.3,
+        "fatPer100g":  57.4
+    },
+    {
+        "id":  "tr-badem-v8",
+        "name":  "Badem Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  567.4,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  21.6,
+        "fatPer100g":  49.9
+    },
+    {
+        "id":  "tr-badem-v9",
+        "name":  "Badem Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  532.7,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  17.3,
+        "fatPer100g":  49.9
+    },
+    {
+        "id":  "tr-badem-v10",
+        "name":  "Badem Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  561.6,
+        "proteinPer100g":  22.3,
+        "carbPer100g":  20.5,
+        "fatPer100g":  49.9
+    },
+    {
+        "id":  "tr-badem-v11",
+        "name":  "Badem Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  550,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  21.6,
+        "fatPer100g":  43.9
+    },
+    {
+        "id":  "tr-badem-v12",
+        "name":  "Badem Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  509.5,
+        "proteinPer100g":  21.2,
+        "carbPer100g":  21.2,
+        "fatPer100g":  35.9
+    },
+    {
+        "id":  "tr-badem-v13",
+        "name":  "Badem Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  538.5,
+        "proteinPer100g":  22.9,
+        "carbPer100g":  21,
+        "fatPer100g":  40.9
+    },
+    {
+        "id":  "tr-ceviz-v1",
+        "name":  "Ceviz Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  654,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  13.7,
+        "fatPer100g":  65.2
+    },
+    {
+        "id":  "tr-ceviz-v2",
+        "name":  "Ceviz Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  588.6,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  13.7,
+        "fatPer100g":  48.9
+    },
+    {
+        "id":  "tr-ceviz-v3",
+        "name":  "Ceviz Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  686.7,
+        "proteinPer100g":  18.2,
+        "carbPer100g":  13,
+        "fatPer100g":  65.2
+    },
+    {
+        "id":  "tr-ceviz-v4",
+        "name":  "Ceviz Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  555.9,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  11.6,
+        "fatPer100g":  58.7
+    },
+    {
+        "id":  "tr-ceviz-v5",
+        "name":  "Ceviz Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  719.4,
+        "proteinPer100g":  19,
+        "carbPer100g":  13.7,
+        "fatPer100g":  61.9
+    },
+    {
+        "id":  "tr-ceviz-v6",
+        "name":  "Ceviz Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  673.6,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  14.4,
+        "fatPer100g":  65.2
+    },
+    {
+        "id":  "tr-ceviz-v7",
+        "name":  "Ceviz Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  771.7,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  14.8,
+        "fatPer100g":  75
+    },
+    {
+        "id":  "tr-ceviz-v8",
+        "name":  "Ceviz Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  640.9,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  13.7,
+        "fatPer100g":  65.2
+    },
+    {
+        "id":  "tr-ceviz-v9",
+        "name":  "Ceviz Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  601.7,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  11,
+        "fatPer100g":  65.2
+    },
+    {
+        "id":  "tr-ceviz-v10",
+        "name":  "Ceviz Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  634.4,
+        "proteinPer100g":  16,
+        "carbPer100g":  13,
+        "fatPer100g":  65.2
+    },
+    {
+        "id":  "tr-ceviz-v11",
+        "name":  "Ceviz Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  621.3,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  13.7,
+        "fatPer100g":  57.4
+    },
+    {
+        "id":  "tr-ceviz-v12",
+        "name":  "Ceviz Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  575.5,
+        "proteinPer100g":  15.2,
+        "carbPer100g":  13.4,
+        "fatPer100g":  46.9
+    },
+    {
+        "id":  "tr-ceviz-v13",
+        "name":  "Ceviz Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  608.2,
+        "proteinPer100g":  16.4,
+        "carbPer100g":  13.3,
+        "fatPer100g":  53.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v1",
+        "name":  "Tam Bugday Ekmek Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  252,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  43,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v2",
+        "name":  "Tam Bugday Ekmek Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  226.8,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  43,
+        "fatPer100g":  2.6
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v3",
+        "name":  "Tam Bugday Ekmek Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  264.6,
+        "proteinPer100g":  15,
+        "carbPer100g":  40.8,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v4",
+        "name":  "Tam Bugday Ekmek Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  214.2,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  36.6,
+        "fatPer100g":  3.2
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v5",
+        "name":  "Tam Bugday Ekmek Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  277.2,
+        "proteinPer100g":  15.6,
+        "carbPer100g":  43,
+        "fatPer100g":  3.3
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v6",
+        "name":  "Tam Bugday Ekmek Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  259.6,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  45.2,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v7",
+        "name":  "Tam Bugday Ekmek Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  297.4,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  46.4,
+        "fatPer100g":  4
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v8",
+        "name":  "Tam Bugday Ekmek Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  247,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  43,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v9",
+        "name":  "Tam Bugday Ekmek Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  231.8,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  34.4,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v10",
+        "name":  "Tam Bugday Ekmek Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  244.4,
+        "proteinPer100g":  13.1,
+        "carbPer100g":  40.8,
+        "fatPer100g":  3.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v11",
+        "name":  "Tam Bugday Ekmek Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  239.4,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  43,
+        "fatPer100g":  3.1
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v12",
+        "name":  "Tam Bugday Ekmek Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  221.8,
+        "proteinPer100g":  12.5,
+        "carbPer100g":  42.1,
+        "fatPer100g":  2.5
+    },
+    {
+        "id":  "tr-ekmek-tambugday-v13",
+        "name":  "Tam Bugday Ekmek Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  234.4,
+        "proteinPer100g":  13.5,
+        "carbPer100g":  41.7,
+        "fatPer100g":  2.9
+    },
+    {
+        "id":  "tr-rice-cake-v1",
+        "name":  "Pirincl Patlagi Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  387,
+        "proteinPer100g":  8,
+        "carbPer100g":  81,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-rice-cake-v2",
+        "name":  "Pirincl Patlagi Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  348.3,
+        "proteinPer100g":  8,
+        "carbPer100g":  81,
+        "fatPer100g":  2.2
+    },
+    {
+        "id":  "tr-rice-cake-v3",
+        "name":  "Pirincl Patlagi Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  406.4,
+        "proteinPer100g":  9.6,
+        "carbPer100g":  77,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-rice-cake-v4",
+        "name":  "Pirincl Patlagi Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  329,
+        "proteinPer100g":  8,
+        "carbPer100g":  68.8,
+        "fatPer100g":  2.7
+    },
+    {
+        "id":  "tr-rice-cake-v5",
+        "name":  "Pirincl Patlagi Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  425.7,
+        "proteinPer100g":  10,
+        "carbPer100g":  81,
+        "fatPer100g":  2.8
+    },
+    {
+        "id":  "tr-rice-cake-v6",
+        "name":  "Pirincl Patlagi Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  398.6,
+        "proteinPer100g":  8,
+        "carbPer100g":  85,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-rice-cake-v7",
+        "name":  "Pirincl Patlagi Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  456.7,
+        "proteinPer100g":  8,
+        "carbPer100g":  87.5,
+        "fatPer100g":  3.4
+    },
+    {
+        "id":  "tr-rice-cake-v8",
+        "name":  "Pirincl Patlagi Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  379.3,
+        "proteinPer100g":  8,
+        "carbPer100g":  81,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-rice-cake-v9",
+        "name":  "Pirincl Patlagi Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  356,
+        "proteinPer100g":  8,
+        "carbPer100g":  64.8,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-rice-cake-v10",
+        "name":  "Pirincl Patlagi Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  375.4,
+        "proteinPer100g":  8.4,
+        "carbPer100g":  77,
+        "fatPer100g":  3
+    },
+    {
+        "id":  "tr-rice-cake-v11",
+        "name":  "Pirincl Patlagi Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  367.6,
+        "proteinPer100g":  8,
+        "carbPer100g":  81,
+        "fatPer100g":  2.6
+    },
+    {
+        "id":  "tr-rice-cake-v12",
+        "name":  "Pirincl Patlagi Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  340.6,
+        "proteinPer100g":  8,
+        "carbPer100g":  79.4,
+        "fatPer100g":  2.2
+    },
+    {
+        "id":  "tr-rice-cake-v13",
+        "name":  "Pirincl Patlagi Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  359.9,
+        "proteinPer100g":  8.6,
+        "carbPer100g":  78.6,
+        "fatPer100g":  2.5
+    },
+    {
+        "id":  "tr-kefir-v1",
+        "name":  "Kefir Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  52,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4.7,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-kefir-v2",
+        "name":  "Kefir Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  46.8,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4.7,
+        "fatPer100g":  1.5
+    },
+    {
+        "id":  "tr-kefir-v3",
+        "name":  "Kefir Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  54.6,
+        "proteinPer100g":  4,
+        "carbPer100g":  4.5,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-kefir-v4",
+        "name":  "Kefir Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  44.2,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4,
+        "fatPer100g":  1.8
+    },
+    {
+        "id":  "tr-kefir-v5",
+        "name":  "Kefir Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  57.2,
+        "proteinPer100g":  4.1,
+        "carbPer100g":  4.7,
+        "fatPer100g":  1.9
+    },
+    {
+        "id":  "tr-kefir-v6",
+        "name":  "Kefir Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  53.6,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4.9,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-kefir-v7",
+        "name":  "Kefir Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  61.4,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  5.1,
+        "fatPer100g":  2.3
+    },
+    {
+        "id":  "tr-kefir-v8",
+        "name":  "Kefir Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  51,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4.7,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-kefir-v9",
+        "name":  "Kefir Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  47.8,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  3.8,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-kefir-v10",
+        "name":  "Kefir Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  50.4,
+        "proteinPer100g":  3.5,
+        "carbPer100g":  4.5,
+        "fatPer100g":  2
+    },
+    {
+        "id":  "tr-kefir-v11",
+        "name":  "Kefir Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  49.4,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4.7,
+        "fatPer100g":  1.8
+    },
+    {
+        "id":  "tr-kefir-v12",
+        "name":  "Kefir Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  45.8,
+        "proteinPer100g":  3.3,
+        "carbPer100g":  4.6,
+        "fatPer100g":  1.4
+    },
+    {
+        "id":  "tr-kefir-v13",
+        "name":  "Kefir Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  48.4,
+        "proteinPer100g":  3.6,
+        "carbPer100g":  4.6,
+        "fatPer100g":  1.6
+    },
+    {
+        "id":  "tr-labne-v1",
+        "name":  "Labne Peyniri Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  196,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4.1,
+        "fatPer100g":  17.4
+    },
+    {
+        "id":  "tr-labne-v2",
+        "name":  "Labne Peyniri Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  176.4,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4.1,
+        "fatPer100g":  13
+    },
+    {
+        "id":  "tr-labne-v3",
+        "name":  "Labne Peyniri Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  205.8,
+        "proteinPer100g":  6.5,
+        "carbPer100g":  3.9,
+        "fatPer100g":  17.4
+    },
+    {
+        "id":  "tr-labne-v4",
+        "name":  "Labne Peyniri Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  166.6,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  3.5,
+        "fatPer100g":  15.7
+    },
+    {
+        "id":  "tr-labne-v5",
+        "name":  "Labne Peyniri Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  215.6,
+        "proteinPer100g":  6.8,
+        "carbPer100g":  4.1,
+        "fatPer100g":  16.5
+    },
+    {
+        "id":  "tr-labne-v6",
+        "name":  "Labne Peyniri Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  201.9,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4.3,
+        "fatPer100g":  17.4
+    },
+    {
+        "id":  "tr-labne-v7",
+        "name":  "Labne Peyniri Restoran Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  231.3,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4.4,
+        "fatPer100g":  20
+    },
+    {
+        "id":  "tr-labne-v8",
+        "name":  "Labne Peyniri Evde Hazir",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  192.1,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4.1,
+        "fatPer100g":  17.4
+    },
+    {
+        "id":  "tr-labne-v9",
+        "name":  "Labne Peyniri Sekersiz",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  180.3,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  3.3,
+        "fatPer100g":  17.4
+    },
+    {
+        "id":  "tr-labne-v10",
+        "name":  "Labne Peyniri Tam Tahilli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  190.1,
+        "proteinPer100g":  5.7,
+        "carbPer100g":  3.9,
+        "fatPer100g":  17.4
+    },
+    {
+        "id":  "tr-labne-v11",
+        "name":  "Labne Peyniri Firin",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  186.2,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4.1,
+        "fatPer100g":  15.3
+    },
+    {
+        "id":  "tr-labne-v12",
+        "name":  "Labne Peyniri Haslama",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  172.5,
+        "proteinPer100g":  5.4,
+        "carbPer100g":  4,
+        "fatPer100g":  12.5
+    },
+    {
+        "id":  "tr-labne-v13",
+        "name":  "Labne Peyniri Izgara",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  182.3,
+        "proteinPer100g":  5.8,
+        "carbPer100g":  4,
+        "fatPer100g":  14.3
+    },
+    {
+        "id":  "tr-sucuk-v1",
+        "name":  "Sucuk Ev Tipi",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  452,
+        "proteinPer100g":  24,
+        "carbPer100g":  2,
+        "fatPer100g":  39
+    },
+    {
+        "id":  "tr-sucuk-v2",
+        "name":  "Sucuk Az Yagli",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  406.8,
+        "proteinPer100g":  24,
+        "carbPer100g":  2,
+        "fatPer100g":  29.2
+    },
+    {
+        "id":  "tr-sucuk-v3",
+        "name":  "Sucuk Protein Plus",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  474.6,
+        "proteinPer100g":  28.8,
+        "carbPer100g":  1.9,
+        "fatPer100g":  39
+    },
+    {
+        "id":  "tr-sucuk-v4",
+        "name":  "Sucuk Diyet",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  384.2,
+        "proteinPer100g":  24,
+        "carbPer100g":  1.7,
+        "fatPer100g":  35.1
+    },
+    {
+        "id":  "tr-sucuk-v5",
+        "name":  "Sucuk Sporcu",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  497.2,
+        "proteinPer100g":  30,
+        "carbPer100g":  2,
+        "fatPer100g":  37
+    },
+    {
+        "id":  "tr-sucuk-v6",
+        "name":  "Sucuk Pratik",
+        "brandName":  null,
+        "barcode":  null,
+        "kcalPer100g":  465.6,
+        "proteinPer100g":  24,
+        "carbPer100g":  2.1,
+        "fatPer100g":  39
+    }
+]
+

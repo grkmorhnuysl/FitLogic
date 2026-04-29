@@ -1,0 +1,3682 @@
+﻿[
+    {
+        "id":  "ex-001",
+        "name":  "Bench Press",
+        "muscleGroup":  "Chest",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Bench Press hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-010",
+                                       "ex-026"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-001.gif"
+    },
+    {
+        "id":  "ex-002",
+        "name":  "Incline Dumbbell Press",
+        "muscleGroup":  "Back",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Incline Dumbbell Press hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-011",
+                                       "ex-027"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-002.gif"
+    },
+    {
+        "id":  "ex-003",
+        "name":  "Push Up",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Push Up hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-012",
+                                       "ex-028"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-003.gif"
+    },
+    {
+        "id":  "ex-004",
+        "name":  "Chest Fly",
+        "muscleGroup":  "Legs",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Chest Fly hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-013",
+                                       "ex-029"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-004.gif"
+    },
+    {
+        "id":  "ex-005",
+        "name":  "Cable Crossover",
+        "muscleGroup":  "Arms",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Cable Crossover hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-014",
+                                       "ex-030"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-005.gif"
+    },
+    {
+        "id":  "ex-006",
+        "name":  "Overhead Press",
+        "muscleGroup":  "Core",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Overhead Press hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-015",
+                                       "ex-031"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-006.gif"
+    },
+    {
+        "id":  "ex-007",
+        "name":  "Lateral Raise",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Lateral Raise hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-016",
+                                       "ex-032"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-007.gif"
+    },
+    {
+        "id":  "ex-008",
+        "name":  "Front Squat",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Front Squat hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-017",
+                                       "ex-033"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-008.gif"
+    },
+    {
+        "id":  "ex-009",
+        "name":  "Romanian Deadlift",
+        "muscleGroup":  "Chest",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Romanian Deadlift hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-018",
+                                       "ex-034"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-009.gif"
+    },
+    {
+        "id":  "ex-010",
+        "name":  "Deadlift",
+        "muscleGroup":  "Back",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Deadlift hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-019",
+                                       "ex-035"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-010.gif"
+    },
+    {
+        "id":  "ex-011",
+        "name":  "Bent Over Row",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Bent Over Row hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-020",
+                                       "ex-036"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-011.gif"
+    },
+    {
+        "id":  "ex-012",
+        "name":  "Lat Pulldown",
+        "muscleGroup":  "Legs",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Lat Pulldown hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-021",
+                                       "ex-037"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-012.gif"
+    },
+    {
+        "id":  "ex-013",
+        "name":  "Seated Row",
+        "muscleGroup":  "Arms",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Seated Row hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-022",
+                                       "ex-038"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-013.gif"
+    },
+    {
+        "id":  "ex-014",
+        "name":  "Pull Up",
+        "muscleGroup":  "Core",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Pull Up hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-023",
+                                       "ex-039"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-014.gif"
+    },
+    {
+        "id":  "ex-015",
+        "name":  "Chin Up",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Chin Up hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-024",
+                                       "ex-040"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-015.gif"
+    },
+    {
+        "id":  "ex-016",
+        "name":  "Biceps Curl",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Biceps Curl hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-025",
+                                       "ex-041"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-016.gif"
+    },
+    {
+        "id":  "ex-017",
+        "name":  "Hammer Curl",
+        "muscleGroup":  "Chest",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Hammer Curl hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-026",
+                                       "ex-042"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-017.gif"
+    },
+    {
+        "id":  "ex-018",
+        "name":  "Triceps Pushdown",
+        "muscleGroup":  "Back",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Triceps Pushdown hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-027",
+                                       "ex-043"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-018.gif"
+    },
+    {
+        "id":  "ex-019",
+        "name":  "Skull Crusher",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Skull Crusher hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-028",
+                                       "ex-044"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-019.gif"
+    },
+    {
+        "id":  "ex-020",
+        "name":  "Dip",
+        "muscleGroup":  "Legs",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Dip hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-029",
+                                       "ex-045"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-020.gif"
+    },
+    {
+        "id":  "ex-021",
+        "name":  "Leg Press",
+        "muscleGroup":  "Arms",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Leg Press hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-030",
+                                       "ex-046"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-021.gif"
+    },
+    {
+        "id":  "ex-022",
+        "name":  "Goblet Squat",
+        "muscleGroup":  "Core",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Goblet Squat hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-031",
+                                       "ex-047"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-022.gif"
+    },
+    {
+        "id":  "ex-023",
+        "name":  "Bulgarian Split Squat",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Bulgarian Split Squat hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-032",
+                                       "ex-048"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-023.gif"
+    },
+    {
+        "id":  "ex-024",
+        "name":  "Walking Lunge",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Walking Lunge hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-033",
+                                       "ex-049"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-024.gif"
+    },
+    {
+        "id":  "ex-025",
+        "name":  "Hip Thrust",
+        "muscleGroup":  "Chest",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Hip Thrust hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-034",
+                                       "ex-050"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-025.gif"
+    },
+    {
+        "id":  "ex-026",
+        "name":  "Glute Bridge",
+        "muscleGroup":  "Back",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Glute Bridge hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-035",
+                                       "ex-051"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-026.gif"
+    },
+    {
+        "id":  "ex-027",
+        "name":  "Calf Raise",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Calf Raise hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-036",
+                                       "ex-052"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-027.gif"
+    },
+    {
+        "id":  "ex-028",
+        "name":  "Leg Extension",
+        "muscleGroup":  "Legs",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Leg Extension hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-037",
+                                       "ex-053"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-028.gif"
+    },
+    {
+        "id":  "ex-029",
+        "name":  "Leg Curl",
+        "muscleGroup":  "Arms",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Leg Curl hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-038",
+                                       "ex-054"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-029.gif"
+    },
+    {
+        "id":  "ex-030",
+        "name":  "Plank",
+        "muscleGroup":  "Core",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Plank hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-039",
+                                       "ex-055"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-030.gif"
+    },
+    {
+        "id":  "ex-031",
+        "name":  "Side Plank",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Side Plank hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-040",
+                                       "ex-056"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-031.gif"
+    },
+    {
+        "id":  "ex-032",
+        "name":  "Russian Twist",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Russian Twist hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-041",
+                                       "ex-057"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-032.gif"
+    },
+    {
+        "id":  "ex-033",
+        "name":  "Hanging Knee Raise",
+        "muscleGroup":  "Chest",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Hanging Knee Raise hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-042",
+                                       "ex-058"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-033.gif"
+    },
+    {
+        "id":  "ex-034",
+        "name":  "Mountain Climber",
+        "muscleGroup":  "Back",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Mountain Climber hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-043",
+                                       "ex-059"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-034.gif"
+    },
+    {
+        "id":  "ex-035",
+        "name":  "Burpee",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Burpee hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-044",
+                                       "ex-060"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-035.gif"
+    },
+    {
+        "id":  "ex-036",
+        "name":  "Jump Rope",
+        "muscleGroup":  "Legs",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Jump Rope hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-045",
+                                       "ex-061"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-036.gif"
+    },
+    {
+        "id":  "ex-037",
+        "name":  "Face Pull",
+        "muscleGroup":  "Arms",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Face Pull hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-046",
+                                       "ex-062"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-037.gif"
+    },
+    {
+        "id":  "ex-038",
+        "name":  "Rear Delt Fly",
+        "muscleGroup":  "Core",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Rear Delt Fly hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-047",
+                                       "ex-063"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-038.gif"
+    },
+    {
+        "id":  "ex-039",
+        "name":  "Arnold Press",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Arnold Press hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-048",
+                                       "ex-064"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-039.gif"
+    },
+    {
+        "id":  "ex-040",
+        "name":  "Upright Row",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Upright Row hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-049",
+                                       "ex-065"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-040.gif"
+    },
+    {
+        "id":  "ex-041",
+        "name":  "Bench Press V2",
+        "muscleGroup":  "Chest",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Bench Press V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-050",
+                                       "ex-066"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-041.gif"
+    },
+    {
+        "id":  "ex-042",
+        "name":  "Incline Dumbbell Press V2",
+        "muscleGroup":  "Back",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Incline Dumbbell Press V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-051",
+                                       "ex-067"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-042.gif"
+    },
+    {
+        "id":  "ex-043",
+        "name":  "Push Up V2",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Push Up V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-052",
+                                       "ex-068"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-043.gif"
+    },
+    {
+        "id":  "ex-044",
+        "name":  "Chest Fly V2",
+        "muscleGroup":  "Legs",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Chest Fly V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-053",
+                                       "ex-069"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-044.gif"
+    },
+    {
+        "id":  "ex-045",
+        "name":  "Cable Crossover V2",
+        "muscleGroup":  "Arms",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Cable Crossover V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-054",
+                                       "ex-070"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-045.gif"
+    },
+    {
+        "id":  "ex-046",
+        "name":  "Overhead Press V2",
+        "muscleGroup":  "Core",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Overhead Press V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-055",
+                                       "ex-071"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-046.gif"
+    },
+    {
+        "id":  "ex-047",
+        "name":  "Lateral Raise V2",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Lateral Raise V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-056",
+                                       "ex-072"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-047.gif"
+    },
+    {
+        "id":  "ex-048",
+        "name":  "Front Squat V2",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Front Squat V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-057",
+                                       "ex-073"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-048.gif"
+    },
+    {
+        "id":  "ex-049",
+        "name":  "Romanian Deadlift V2",
+        "muscleGroup":  "Chest",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Romanian Deadlift V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-058",
+                                       "ex-074"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-049.gif"
+    },
+    {
+        "id":  "ex-050",
+        "name":  "Deadlift V2",
+        "muscleGroup":  "Back",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Deadlift V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-059",
+                                       "ex-075"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-050.gif"
+    },
+    {
+        "id":  "ex-051",
+        "name":  "Bent Over Row V2",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Bent Over Row V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-060",
+                                       "ex-076"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-051.gif"
+    },
+    {
+        "id":  "ex-052",
+        "name":  "Lat Pulldown V2",
+        "muscleGroup":  "Legs",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Lat Pulldown V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-061",
+                                       "ex-077"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-052.gif"
+    },
+    {
+        "id":  "ex-053",
+        "name":  "Seated Row V2",
+        "muscleGroup":  "Arms",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Seated Row V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-062",
+                                       "ex-078"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-053.gif"
+    },
+    {
+        "id":  "ex-054",
+        "name":  "Pull Up V2",
+        "muscleGroup":  "Core",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Pull Up V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-063",
+                                       "ex-079"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-054.gif"
+    },
+    {
+        "id":  "ex-055",
+        "name":  "Chin Up V2",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Chin Up V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-064",
+                                       "ex-080"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-055.gif"
+    },
+    {
+        "id":  "ex-056",
+        "name":  "Biceps Curl V2",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Biceps Curl V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-065",
+                                       "ex-081"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-056.gif"
+    },
+    {
+        "id":  "ex-057",
+        "name":  "Hammer Curl V2",
+        "muscleGroup":  "Chest",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Hammer Curl V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-066",
+                                       "ex-082"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-057.gif"
+    },
+    {
+        "id":  "ex-058",
+        "name":  "Triceps Pushdown V2",
+        "muscleGroup":  "Back",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Triceps Pushdown V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-067",
+                                       "ex-083"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-058.gif"
+    },
+    {
+        "id":  "ex-059",
+        "name":  "Skull Crusher V2",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Skull Crusher V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-068",
+                                       "ex-084"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-059.gif"
+    },
+    {
+        "id":  "ex-060",
+        "name":  "Dip V2",
+        "muscleGroup":  "Legs",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Dip V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-069",
+                                       "ex-085"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-060.gif"
+    },
+    {
+        "id":  "ex-061",
+        "name":  "Leg Press V2",
+        "muscleGroup":  "Arms",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Leg Press V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-070",
+                                       "ex-086"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-061.gif"
+    },
+    {
+        "id":  "ex-062",
+        "name":  "Goblet Squat V2",
+        "muscleGroup":  "Core",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Goblet Squat V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-071",
+                                       "ex-087"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-062.gif"
+    },
+    {
+        "id":  "ex-063",
+        "name":  "Bulgarian Split Squat V2",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Bulgarian Split Squat V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-072",
+                                       "ex-088"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-063.gif"
+    },
+    {
+        "id":  "ex-064",
+        "name":  "Walking Lunge V2",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Walking Lunge V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-073",
+                                       "ex-089"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-064.gif"
+    },
+    {
+        "id":  "ex-065",
+        "name":  "Hip Thrust V2",
+        "muscleGroup":  "Chest",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Hip Thrust V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-074",
+                                       "ex-090"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-065.gif"
+    },
+    {
+        "id":  "ex-066",
+        "name":  "Glute Bridge V2",
+        "muscleGroup":  "Back",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Glute Bridge V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-075",
+                                       "ex-091"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-066.gif"
+    },
+    {
+        "id":  "ex-067",
+        "name":  "Calf Raise V2",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Calf Raise V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-076",
+                                       "ex-092"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-067.gif"
+    },
+    {
+        "id":  "ex-068",
+        "name":  "Leg Extension V2",
+        "muscleGroup":  "Legs",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Leg Extension V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-077",
+                                       "ex-093"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-068.gif"
+    },
+    {
+        "id":  "ex-069",
+        "name":  "Leg Curl V2",
+        "muscleGroup":  "Arms",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Leg Curl V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-078",
+                                       "ex-094"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-069.gif"
+    },
+    {
+        "id":  "ex-070",
+        "name":  "Plank V2",
+        "muscleGroup":  "Core",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Plank V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-079",
+                                       "ex-095"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-070.gif"
+    },
+    {
+        "id":  "ex-071",
+        "name":  "Side Plank V2",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Side Plank V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-080",
+                                       "ex-096"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-071.gif"
+    },
+    {
+        "id":  "ex-072",
+        "name":  "Russian Twist V2",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Russian Twist V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-081",
+                                       "ex-097"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-072.gif"
+    },
+    {
+        "id":  "ex-073",
+        "name":  "Hanging Knee Raise V2",
+        "muscleGroup":  "Chest",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Hanging Knee Raise V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-082",
+                                       "ex-098"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-073.gif"
+    },
+    {
+        "id":  "ex-074",
+        "name":  "Mountain Climber V2",
+        "muscleGroup":  "Back",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Mountain Climber V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-083",
+                                       "ex-099"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-074.gif"
+    },
+    {
+        "id":  "ex-075",
+        "name":  "Burpee V2",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Burpee V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-084",
+                                       "ex-100"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-075.gif"
+    },
+    {
+        "id":  "ex-076",
+        "name":  "Jump Rope V2",
+        "muscleGroup":  "Legs",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Jump Rope V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-085",
+                                       "ex-101"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-076.gif"
+    },
+    {
+        "id":  "ex-077",
+        "name":  "Face Pull V2",
+        "muscleGroup":  "Arms",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Face Pull V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-086",
+                                       "ex-102"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-077.gif"
+    },
+    {
+        "id":  "ex-078",
+        "name":  "Rear Delt Fly V2",
+        "muscleGroup":  "Core",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Rear Delt Fly V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-087",
+                                       "ex-103"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-078.gif"
+    },
+    {
+        "id":  "ex-079",
+        "name":  "Arnold Press V2",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Arnold Press V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-088",
+                                       "ex-104"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-079.gif"
+    },
+    {
+        "id":  "ex-080",
+        "name":  "Upright Row V2",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Upright Row V2 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-089",
+                                       "ex-105"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-080.gif"
+    },
+    {
+        "id":  "ex-081",
+        "name":  "Bench Press V3",
+        "muscleGroup":  "Chest",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Bench Press V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-090",
+                                       "ex-106"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-081.gif"
+    },
+    {
+        "id":  "ex-082",
+        "name":  "Incline Dumbbell Press V3",
+        "muscleGroup":  "Back",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Incline Dumbbell Press V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-091",
+                                       "ex-107"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-082.gif"
+    },
+    {
+        "id":  "ex-083",
+        "name":  "Push Up V3",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Push Up V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-092",
+                                       "ex-108"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-083.gif"
+    },
+    {
+        "id":  "ex-084",
+        "name":  "Chest Fly V3",
+        "muscleGroup":  "Legs",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Chest Fly V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-093",
+                                       "ex-109"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-084.gif"
+    },
+    {
+        "id":  "ex-085",
+        "name":  "Cable Crossover V3",
+        "muscleGroup":  "Arms",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Cable Crossover V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-094",
+                                       "ex-110"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-085.gif"
+    },
+    {
+        "id":  "ex-086",
+        "name":  "Overhead Press V3",
+        "muscleGroup":  "Core",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Overhead Press V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-095",
+                                       "ex-111"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-086.gif"
+    },
+    {
+        "id":  "ex-087",
+        "name":  "Lateral Raise V3",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Lateral Raise V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-096",
+                                       "ex-112"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-087.gif"
+    },
+    {
+        "id":  "ex-088",
+        "name":  "Front Squat V3",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Front Squat V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-097",
+                                       "ex-113"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-088.gif"
+    },
+    {
+        "id":  "ex-089",
+        "name":  "Romanian Deadlift V3",
+        "muscleGroup":  "Chest",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Romanian Deadlift V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-098",
+                                       "ex-114"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-089.gif"
+    },
+    {
+        "id":  "ex-090",
+        "name":  "Deadlift V3",
+        "muscleGroup":  "Back",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Deadlift V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-099",
+                                       "ex-115"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-090.gif"
+    },
+    {
+        "id":  "ex-091",
+        "name":  "Bent Over Row V3",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Bent Over Row V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-100",
+                                       "ex-116"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-091.gif"
+    },
+    {
+        "id":  "ex-092",
+        "name":  "Lat Pulldown V3",
+        "muscleGroup":  "Legs",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Lat Pulldown V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-101",
+                                       "ex-117"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-092.gif"
+    },
+    {
+        "id":  "ex-093",
+        "name":  "Seated Row V3",
+        "muscleGroup":  "Arms",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Seated Row V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-102",
+                                       "ex-118"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-093.gif"
+    },
+    {
+        "id":  "ex-094",
+        "name":  "Pull Up V3",
+        "muscleGroup":  "Core",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Pull Up V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-103",
+                                       "ex-119"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-094.gif"
+    },
+    {
+        "id":  "ex-095",
+        "name":  "Chin Up V3",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Chin Up V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-104",
+                                       "ex-120"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-095.gif"
+    },
+    {
+        "id":  "ex-096",
+        "name":  "Biceps Curl V3",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Biceps Curl V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-105",
+                                       "ex-121"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-096.gif"
+    },
+    {
+        "id":  "ex-097",
+        "name":  "Hammer Curl V3",
+        "muscleGroup":  "Chest",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Hammer Curl V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-106",
+                                       "ex-122"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-097.gif"
+    },
+    {
+        "id":  "ex-098",
+        "name":  "Triceps Pushdown V3",
+        "muscleGroup":  "Back",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Triceps Pushdown V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-107",
+                                       "ex-123"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-098.gif"
+    },
+    {
+        "id":  "ex-099",
+        "name":  "Skull Crusher V3",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Skull Crusher V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-108",
+                                       "ex-124"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-099.gif"
+    },
+    {
+        "id":  "ex-100",
+        "name":  "Dip V3",
+        "muscleGroup":  "Legs",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Dip V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-109",
+                                       "ex-125"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-100.gif"
+    },
+    {
+        "id":  "ex-101",
+        "name":  "Leg Press V3",
+        "muscleGroup":  "Arms",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Leg Press V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-110",
+                                       "ex-126"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-101.gif"
+    },
+    {
+        "id":  "ex-102",
+        "name":  "Goblet Squat V3",
+        "muscleGroup":  "Core",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Goblet Squat V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-111",
+                                       "ex-127"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-102.gif"
+    },
+    {
+        "id":  "ex-103",
+        "name":  "Bulgarian Split Squat V3",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Bulgarian Split Squat V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-112",
+                                       "ex-128"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-103.gif"
+    },
+    {
+        "id":  "ex-104",
+        "name":  "Walking Lunge V3",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Walking Lunge V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-113",
+                                       "ex-129"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-104.gif"
+    },
+    {
+        "id":  "ex-105",
+        "name":  "Hip Thrust V3",
+        "muscleGroup":  "Chest",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Hip Thrust V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-114",
+                                       "ex-130"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-105.gif"
+    },
+    {
+        "id":  "ex-106",
+        "name":  "Glute Bridge V3",
+        "muscleGroup":  "Back",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Glute Bridge V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-115",
+                                       "ex-131"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-106.gif"
+    },
+    {
+        "id":  "ex-107",
+        "name":  "Calf Raise V3",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Calf Raise V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-116",
+                                       "ex-132"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-107.gif"
+    },
+    {
+        "id":  "ex-108",
+        "name":  "Leg Extension V3",
+        "muscleGroup":  "Legs",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Leg Extension V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-117",
+                                       "ex-133"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-108.gif"
+    },
+    {
+        "id":  "ex-109",
+        "name":  "Leg Curl V3",
+        "muscleGroup":  "Arms",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Leg Curl V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-118",
+                                       "ex-134"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-109.gif"
+    },
+    {
+        "id":  "ex-110",
+        "name":  "Plank V3",
+        "muscleGroup":  "Core",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Plank V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-119",
+                                       "ex-135"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-110.gif"
+    },
+    {
+        "id":  "ex-111",
+        "name":  "Side Plank V3",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Side Plank V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-120",
+                                       "ex-136"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-111.gif"
+    },
+    {
+        "id":  "ex-112",
+        "name":  "Russian Twist V3",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Russian Twist V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-121",
+                                       "ex-137"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-112.gif"
+    },
+    {
+        "id":  "ex-113",
+        "name":  "Hanging Knee Raise V3",
+        "muscleGroup":  "Chest",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Hanging Knee Raise V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-122",
+                                       "ex-138"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-113.gif"
+    },
+    {
+        "id":  "ex-114",
+        "name":  "Mountain Climber V3",
+        "muscleGroup":  "Back",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Mountain Climber V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-123",
+                                       "ex-139"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-114.gif"
+    },
+    {
+        "id":  "ex-115",
+        "name":  "Burpee V3",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Burpee V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-124",
+                                       "ex-140"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-115.gif"
+    },
+    {
+        "id":  "ex-116",
+        "name":  "Jump Rope V3",
+        "muscleGroup":  "Legs",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Jump Rope V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-125",
+                                       "ex-141"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-116.gif"
+    },
+    {
+        "id":  "ex-117",
+        "name":  "Face Pull V3",
+        "muscleGroup":  "Arms",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Face Pull V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-126",
+                                       "ex-142"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-117.gif"
+    },
+    {
+        "id":  "ex-118",
+        "name":  "Rear Delt Fly V3",
+        "muscleGroup":  "Core",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Rear Delt Fly V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-127",
+                                       "ex-143"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-118.gif"
+    },
+    {
+        "id":  "ex-119",
+        "name":  "Arnold Press V3",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Arnold Press V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-128",
+                                       "ex-144"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-119.gif"
+    },
+    {
+        "id":  "ex-120",
+        "name":  "Upright Row V3",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Upright Row V3 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-129",
+                                       "ex-145"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-120.gif"
+    },
+    {
+        "id":  "ex-121",
+        "name":  "Bench Press V4",
+        "muscleGroup":  "Chest",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Bench Press V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-130",
+                                       "ex-146"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-121.gif"
+    },
+    {
+        "id":  "ex-122",
+        "name":  "Incline Dumbbell Press V4",
+        "muscleGroup":  "Back",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Incline Dumbbell Press V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-131",
+                                       "ex-147"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-122.gif"
+    },
+    {
+        "id":  "ex-123",
+        "name":  "Push Up V4",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Push Up V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-132",
+                                       "ex-148"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-123.gif"
+    },
+    {
+        "id":  "ex-124",
+        "name":  "Chest Fly V4",
+        "muscleGroup":  "Legs",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Chest Fly V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-133",
+                                       "ex-149"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-124.gif"
+    },
+    {
+        "id":  "ex-125",
+        "name":  "Cable Crossover V4",
+        "muscleGroup":  "Arms",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Cable Crossover V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-134",
+                                       "ex-150"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-125.gif"
+    },
+    {
+        "id":  "ex-126",
+        "name":  "Overhead Press V4",
+        "muscleGroup":  "Core",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Overhead Press V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-135",
+                                       "ex-151"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-126.gif"
+    },
+    {
+        "id":  "ex-127",
+        "name":  "Lateral Raise V4",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Lateral Raise V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-136",
+                                       "ex-152"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-127.gif"
+    },
+    {
+        "id":  "ex-128",
+        "name":  "Front Squat V4",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Front Squat V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-137",
+                                       "ex-153"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-128.gif"
+    },
+    {
+        "id":  "ex-129",
+        "name":  "Romanian Deadlift V4",
+        "muscleGroup":  "Chest",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Romanian Deadlift V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-138",
+                                       "ex-154"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-129.gif"
+    },
+    {
+        "id":  "ex-130",
+        "name":  "Deadlift V4",
+        "muscleGroup":  "Back",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Deadlift V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-139",
+                                       "ex-155"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-130.gif"
+    },
+    {
+        "id":  "ex-131",
+        "name":  "Bent Over Row V4",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Bent Over Row V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-140",
+                                       "ex-156"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-131.gif"
+    },
+    {
+        "id":  "ex-132",
+        "name":  "Lat Pulldown V4",
+        "muscleGroup":  "Legs",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Lat Pulldown V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-141",
+                                       "ex-157"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-132.gif"
+    },
+    {
+        "id":  "ex-133",
+        "name":  "Seated Row V4",
+        "muscleGroup":  "Arms",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Seated Row V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-142",
+                                       "ex-158"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-133.gif"
+    },
+    {
+        "id":  "ex-134",
+        "name":  "Pull Up V4",
+        "muscleGroup":  "Core",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Pull Up V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-143",
+                                       "ex-159"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-134.gif"
+    },
+    {
+        "id":  "ex-135",
+        "name":  "Chin Up V4",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Chin Up V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-144",
+                                       "ex-160"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-135.gif"
+    },
+    {
+        "id":  "ex-136",
+        "name":  "Biceps Curl V4",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Biceps Curl V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-145",
+                                       "ex-001"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-136.gif"
+    },
+    {
+        "id":  "ex-137",
+        "name":  "Hammer Curl V4",
+        "muscleGroup":  "Chest",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Hammer Curl V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-146",
+                                       "ex-002"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-137.gif"
+    },
+    {
+        "id":  "ex-138",
+        "name":  "Triceps Pushdown V4",
+        "muscleGroup":  "Back",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Triceps Pushdown V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-147",
+                                       "ex-003"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-138.gif"
+    },
+    {
+        "id":  "ex-139",
+        "name":  "Skull Crusher V4",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Skull Crusher V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-148",
+                                       "ex-004"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-139.gif"
+    },
+    {
+        "id":  "ex-140",
+        "name":  "Dip V4",
+        "muscleGroup":  "Legs",
+        "equipment":  "Band",
+        "difficulty":  "Intermediate",
+        "instructions":  "Dip V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-149",
+                                       "ex-005"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-140.gif"
+    },
+    {
+        "id":  "ex-141",
+        "name":  "Leg Press V4",
+        "muscleGroup":  "Arms",
+        "equipment":  "Barbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Leg Press V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-150",
+                                       "ex-006"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-141.gif"
+    },
+    {
+        "id":  "ex-142",
+        "name":  "Goblet Squat V4",
+        "muscleGroup":  "Core",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Goblet Squat V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-151",
+                                       "ex-007"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-142.gif"
+    },
+    {
+        "id":  "ex-143",
+        "name":  "Bulgarian Split Squat V4",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Machine",
+        "difficulty":  "Intermediate",
+        "instructions":  "Bulgarian Split Squat V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-152",
+                                       "ex-008"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-143.gif"
+    },
+    {
+        "id":  "ex-144",
+        "name":  "Walking Lunge V4",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Cable",
+        "difficulty":  "Advanced",
+        "instructions":  "Walking Lunge V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-153",
+                                       "ex-009"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-144.gif"
+    },
+    {
+        "id":  "ex-145",
+        "name":  "Hip Thrust V4",
+        "muscleGroup":  "Chest",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Beginner",
+        "instructions":  "Hip Thrust V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-154",
+                                       "ex-010"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-145.gif"
+    },
+    {
+        "id":  "ex-146",
+        "name":  "Glute Bridge V4",
+        "muscleGroup":  "Back",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Glute Bridge V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-155",
+                                       "ex-011"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-146.gif"
+    },
+    {
+        "id":  "ex-147",
+        "name":  "Calf Raise V4",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Band",
+        "difficulty":  "Advanced",
+        "instructions":  "Calf Raise V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-156",
+                                       "ex-012"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-147.gif"
+    },
+    {
+        "id":  "ex-148",
+        "name":  "Leg Extension V4",
+        "muscleGroup":  "Legs",
+        "equipment":  "Barbell",
+        "difficulty":  "Beginner",
+        "instructions":  "Leg Extension V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-157",
+                                       "ex-013"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-148.gif"
+    },
+    {
+        "id":  "ex-149",
+        "name":  "Leg Curl V4",
+        "muscleGroup":  "Arms",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Leg Curl V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-158",
+                                       "ex-014"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-149.gif"
+    },
+    {
+        "id":  "ex-150",
+        "name":  "Plank V4",
+        "muscleGroup":  "Core",
+        "equipment":  "Machine",
+        "difficulty":  "Advanced",
+        "instructions":  "Plank V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-159",
+                                       "ex-015"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-150.gif"
+    },
+    {
+        "id":  "ex-151",
+        "name":  "Side Plank V4",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Cable",
+        "difficulty":  "Beginner",
+        "instructions":  "Side Plank V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-160",
+                                       "ex-016"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-151.gif"
+    },
+    {
+        "id":  "ex-152",
+        "name":  "Russian Twist V4",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Intermediate",
+        "instructions":  "Russian Twist V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-001",
+                                       "ex-017"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-152.gif"
+    },
+    {
+        "id":  "ex-153",
+        "name":  "Hanging Knee Raise V4",
+        "muscleGroup":  "Chest",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Advanced",
+        "instructions":  "Hanging Knee Raise V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-002",
+                                       "ex-018"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-153.gif"
+    },
+    {
+        "id":  "ex-154",
+        "name":  "Mountain Climber V4",
+        "muscleGroup":  "Back",
+        "equipment":  "Band",
+        "difficulty":  "Beginner",
+        "instructions":  "Mountain Climber V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-003",
+                                       "ex-019"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-154.gif"
+    },
+    {
+        "id":  "ex-155",
+        "name":  "Burpee V4",
+        "muscleGroup":  "Shoulders",
+        "equipment":  "Barbell",
+        "difficulty":  "Intermediate",
+        "instructions":  "Burpee V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-004",
+                                       "ex-020"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-155.gif"
+    },
+    {
+        "id":  "ex-156",
+        "name":  "Jump Rope V4",
+        "muscleGroup":  "Legs",
+        "equipment":  "Dumbbell",
+        "difficulty":  "Advanced",
+        "instructions":  "Jump Rope V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-005",
+                                       "ex-021"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-156.gif"
+    },
+    {
+        "id":  "ex-157",
+        "name":  "Face Pull V4",
+        "muscleGroup":  "Arms",
+        "equipment":  "Machine",
+        "difficulty":  "Beginner",
+        "instructions":  "Face Pull V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-006",
+                                       "ex-022"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-157.gif"
+    },
+    {
+        "id":  "ex-158",
+        "name":  "Rear Delt Fly V4",
+        "muscleGroup":  "Core",
+        "equipment":  "Cable",
+        "difficulty":  "Intermediate",
+        "instructions":  "Rear Delt Fly V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-007",
+                                       "ex-023"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-158.gif"
+    },
+    {
+        "id":  "ex-159",
+        "name":  "Arnold Press V4",
+        "muscleGroup":  "Glutes",
+        "equipment":  "Bodyweight",
+        "difficulty":  "Advanced",
+        "instructions":  "Arnold Press V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-008",
+                                       "ex-024"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-159.gif"
+    },
+    {
+        "id":  "ex-160",
+        "name":  "Upright Row V4",
+        "muscleGroup":  "Conditioning",
+        "equipment":  "Kettlebell",
+        "difficulty":  "Beginner",
+        "instructions":  "Upright Row V4 hareketini kontrollu tempo ve tam hareket acisiyla uygula.",
+        "instructionSteps":  [
+                                 "Baslangic pozisyonunu stabil kur ve nefesini hazirla.",
+                                 "Hareketin negatif fazini kontrollu sekilde tamamla.",
+                                 "Hedef kas grubunu hissederek pozitif faza geri don."
+                             ],
+        "commonMistakes":  [
+                               "Hareket hizini kontrolsuz arttirmak.",
+                               "Menzili kisaltip yarim tekrar yapmak.",
+                               "Gereksiz agirlik secip formu bozmak."
+                           ],
+        "alternativeExerciseIds":  [
+                                       "ex-009",
+                                       "ex-025"
+                                   ],
+        "gifAssetPath":  "gifs/exercises/ex-160.gif"
+    }
+]

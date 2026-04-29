@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew :feature:exercises:ktlintCheck :feature:exercises:detekt --rerun-tasks --console=plain)",
+      "Bash(./gradlew :feature:exercises:ktlintFormat --console=plain)",
+      "Bash(./gradlew :feature:exercises:ktlintCheck :feature:exercises:detekt :feature:exercises:test --console=plain)",
+      "Bash(./gradlew :app:assembleDebug --console=plain)"
+    ]
+  }
+}

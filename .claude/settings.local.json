@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep *)",
+      "Bash(./gradlew :feature:exercises:test --console=plain)",
+      "Bash(./gradlew :feature:exercises:ktlintCheck :feature:exercises:detekt --console=plain)",
+      "Bash(./gradlew :feature:workout:detekt --console=plain)"
+    ]
+  }
+}
