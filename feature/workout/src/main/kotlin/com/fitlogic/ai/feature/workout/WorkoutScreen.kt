@@ -224,7 +224,7 @@ private fun ActiveWorkoutSection(
                 Text("Bos, sablon veya gecmisten tekrar ile baslayabilirsin.")
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
                     Button(onClick = onStartEmpty, modifier = Modifier.testTag("workout_start_empty")) { Text("Bos Baslat") }
-                    Button(onClick = onStartTemplate) { Text("Sablon") }
+                    Button(onClick = onStartTemplate, modifier = Modifier.testTag("workout_start_template")) { Text("Sablon") }
                     Button(
                         onClick = { state.history.firstOrNull()?.workoutId?.let(onStartFromHistory) },
                         enabled = state.history.isNotEmpty(),
@@ -344,7 +344,7 @@ private fun ExerciseBlock(
                     value = weight,
                     onValueChange = onWeightChange,
                     label = { Text("kg") },
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth().testTag("workout_weight_input"),
                     singleLine = true,
                 )
             }
@@ -365,7 +365,7 @@ private fun ExerciseBlock(
                     value = reps,
                     onValueChange = onRepsChange,
                     label = { Text("rep") },
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth().testTag("workout_reps_input"),
                     singleLine = true,
                 )
             }
@@ -407,10 +407,12 @@ private fun ExerciseBlock(
                                 text = "Set ${index + 1}",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                modifier = Modifier.testTag("workout_set_row_${index + 1}"),
                             )
                             Text(
                                 text = "${set.weightKg} kg  ×  ${set.reps}",
                                 style = MaterialTheme.typography.bodySmall,
+                                modifier = Modifier.testTag("workout_set_value_${index + 1}"),
                             )
                             if (set.isPr) {
                                 Text(
@@ -525,7 +527,10 @@ private fun HistorySection(
                         ) {
                             Column(modifier = Modifier.weight(1f)) {
                                 Text(item.title)
-                                Text("Hacim ${item.totalVolume} | Set ${item.totalSets}")
+                                Text(
+                                    "Hacim ${item.totalVolume} | Set ${item.totalSets}",
+                                    modifier = Modifier.testTag("workout_history_item"),
+                                )
                             }
                             Column {
                                 TextButton(onClick = { onOpenDetail(item.workoutId) }) { Text("Detay") }

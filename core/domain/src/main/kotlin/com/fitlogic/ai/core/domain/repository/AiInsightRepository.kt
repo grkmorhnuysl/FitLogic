@@ -15,4 +15,6 @@ interface AiInsightRepository {
     suspend fun detectPlateau(): Result<AiInsight?>
 
     suspend fun getPostWorkoutInsight(workoutId: String): Result<AiInsight>
+
+    suspend fun sendCoachMessage(message: String): Result<String>
 }

@@ -33,6 +33,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.fitlogic.ai.core.designsystem.component.FlButton
@@ -147,7 +148,8 @@ private fun SearchTab(
             modifier =
                 Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 8.dp),
+                    .padding(horizontal = 16.dp, vertical = 8.dp)
+                    .testTag("nutrition_search_input"),
         )
 
         if (state.isLoading) {
@@ -174,7 +176,7 @@ private fun BarcodeTab(onBarcodeClick: () -> Unit) {
         FlButton(
             text = "Barkod Kamerasini Ac",
             onClick = onBarcodeClick,
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().testTag("nutrition_open_barcode"),
         )
     }
 }
@@ -213,6 +215,7 @@ private fun FavoritesTab(
                         text = "Hizli Ekle",
                         onClick = { viewModel.addFavoriteQuick(food.id) },
                         variant = FlButtonVariant.Secondary,
+                        modifier = Modifier.testTag("nutrition_quick_add_favorite"),
                     )
                 }
             }
@@ -257,6 +260,7 @@ private fun FoodList(
                 modifier =
                     Modifier
                         .fillMaxWidth()
+                        .testTag("nutrition_search_item")
                         .clickable { onFoodClick(food.id) },
             ) {
                 Row(

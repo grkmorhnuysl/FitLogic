@@ -35,4 +35,13 @@ interface ExercisesCatalogDao {
 
     @Query("SELECT * FROM exercises_catalog WHERE id = :id LIMIT 1")
     suspend fun getById(id: String): ExercisesCatalogEntity?
+
+    @Query(
+        """
+        SELECT * FROM exercises_catalog
+        ORDER BY name ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun getTemplateExercises(limit: Int): List<ExercisesCatalogEntity>
 }

@@ -1,49 +1,29 @@
-# FitLogic Kullanici Test Senaryolari
+# FitLogic Kullanici Niyeti vs Gercek Deneyim Matrisi
 
-Bu liste 2026-04-29 tarihinde otomatik ve manuel akislarla dogrulama icin hazirlandi.
+Bu dokuman `2026-04-29` tarihinde AI KoÃ§ deneyimi iyilestirmesiyle birlikte guncellendi.
 
-## 1) Ilk acilis + onboarding
-- Uygulamayi sifir veriyle ac.
-- `onboarding_next` ile adimlari tamamla (isim, yas, boy, kilo, cinsiyet, aktivite, hedef).
-- Beklenen: onboarding tamamlanir, auth veya ana ekran gorulur, crash olmaz.
+## Senaryo Matrisi
 
-## 2) Misafir girisi
-- Auth ekraninda `auth_guest` sec.
-- Beklenen: tab bar yuklenir (`tab_home`, `tab_workout`, `tab_nutrition`, `tab_coach`).
+| Niyet | Aksiyon | Beklenti | Gercek Sonuc | Kirilma Etkisi | Duzeltme |
+|---|---|---|---|---|---|
+| Hemen uygulamayi denemek | Onboarding + `auth_guest` | Hatasiz ve hizli ana ekrana gecis | Ana sekmeler yuklenir, akisa girilir | Dusuk | Mevcut E2E akislari korunur |
+| Antrenman takibi baslatmak | `workout_start_empty`, set kaydi, `workout_finish` | Kayitlarin korunmasi | Set/hacim gecmisi gorunur | Dusuk | Mevcut E2E akislari korunur |
+| Hizli besin eklemek | Arama veya barkod | Yemek girisini hizli tamamlama | Besin kaydi olusur, ogune duser | Dusuk-Orta | Barkod izin reddinde manuel fallback akisi |
+| AI kocluk almak | `coach_chat_send` ile mesaj gondermek | Anlamli, guvenli ve kisa yanit | Chat icin ayri prompt kullanilir; prompt echo engellenir; demo modda yerel anlamli yanit doner | Yuksekten Dusuge | Prompt echo guardrail, kalite kontrol, hata normalizasyonu, retry |
+| Hesap guvenligi | Profilde silme/senkronizasyon | Yanlis islemleri engelleme, kontrol kaybi olmamasi | Silme onay metni olmadan silme yapilmaz; sync hatasi mesajlanir | Orta | Acik hata metni + tekrar dene |
 
-## 3) Antrenman baslat / bitir
-- `tab_workout` ac.
-- `workout_start_empty` butonuna bas.
-- Antrenman ekraninda `workout_finish` gorunmeli.
-- Beklenen: akis boyunca hata diyaloðu/cokme olmaz.
+## AI KoÃ§ Kirilma Analizi ve Yeni Durum
 
-## 4) Beslenme barkod akisi
-- `tab_nutrition` ac.
-- `nutrition_open_barcode_breakfast` ile barkod ekranina git.
-- Beklenen: "Barkod Tara" ekrani gorulur.
+| Alan | Once | Simdi |
+|---|---|---|
+| Prompt kullanimi | Sohbet mesaji `postWorkout` prompt'una bagliydi | Chat icin `coachChat` prompt API'si kullaniliyor |
+| Engine davranisi | Stub cevap prompt metnini geri yansitabiliyordu | Engine `mode` ayrimi var; `DEMO_STUB` modunda guvenli yerel yanit donuyor |
+| Hata gorunurlugu | `json/token/auth` gibi teknik metinler kullaniciya sizabiliyordu | Hatalar kullanici dostu mesaja normalize ediliyor |
+| Cevap kalitesi | Bos/prompt-echo/repetitive yanitlar filtrelenmiyordu | Guardrail ile kalite kontrolu uygulanÄ±yor |
 
-## 5) Koç/AI akis kontrolu
-- `tab_coach` ac.
-- `coach_generate_weekly` ve `coach_detect_plateau` aksiyonlarini tetikle.
-- Beklenen: ekran donmeden kalmaz, hata mesaji verirse uygulama bozulmadan toparlar.
+## Kabul Kriteri Eslesmesi
 
-## 6) Profil - hesap silme guvenlik akisi
-- Profilde hesap sil diyalogunu ac.
-- Yanlis ifade gir (`INVALID`) ve onayla.
-- Beklenen: silme yapilmaz, "Silme onayi icin HESABIMI SIL yazin." mesaji gorulur.
-- Dogru ifade gir (`HESABIMI SIL`) ve onayla.
-- Beklenen: silme aksiyonu tetiklenir ve diyalog kapanir.
-
-## 7) Profil - bildirim/senkronizasyon
-- Bildirim ac/kapat butonlarini degistir.
-- "Simdi senkronize et" benzeri aksiyon varsa tetikle.
-- Beklenen: UI donmez, aksiyon basarisiz olsa bile kontrollu mesaj verir.
-
-## 8) Arka plan/dayaniklilik
-- Uygulamayi arka plana alip geri getir.
-- Ekran donusleri yap (Home -> Workout -> Nutrition -> Coach -> Profile).
-- Beklenen: state kaybi, bos beyaz ekran veya crash olmaz.
-
-## Notlar
-- Bu senaryolar, `app/src/androidTest/kotlin/com/fitlogic/ai/Faz10CriticalFlowsTest.kt` ile paralel tutuldu.
-- Gercek cihaz testinde bir akis (`aiInsightFlow_smoke`) flaky durumda skip edilebiliyor; bu durum geri kalan testleri bozmaz.
+- Kullanici `"Bugun ne yapayim?"` gonderdiginde prompt metni geri donmez.
+- `token/auth/json/network` kaynakli hata durumlarinda teknik dump yerine sade yonlendirici mesaj gosterilir.
+- Bos veya dusuk kaliteli cevap durumunda guvenli fallback metni uygulanir.
+- `isSending=true` iken ikinci gonderim engellenir (double-send yok).

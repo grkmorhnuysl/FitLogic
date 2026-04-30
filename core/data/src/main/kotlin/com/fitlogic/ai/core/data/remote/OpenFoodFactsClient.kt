@@ -43,7 +43,9 @@ class OpenFoodFactsClientImpl
                 val safeBarcode = URLEncoder.encode(barcode.trim(), Charsets.UTF_8.name())
                 val url = "$BASE_URL/api/v2/product/$safeBarcode.json"
                 val payload = executeGet(url)
-                val root = jsonParser.parseToJsonElement(payload).jsonObject
+                val root =
+                    runCatching { jsonParser.parseToJsonElement(payload).jsonObject }
+                        .getOrElse { throw IllegalStateException("Sunucu yaniti okunamadi. Lutfen tekrar dene.") }
                 val product = root["product"]?.jsonObject ?: return@runCatching null
                 parseProduct(product)
             }
@@ -63,7 +65,9 @@ class OpenFoodFactsClientImpl
                         append("&page_size=$limit")
                     }
                 val payload = executeGet(url)
-                val root = jsonParser.parseToJsonElement(payload).jsonObject
+                val root =
+                    runCatching { jsonParser.parseToJsonElement(payload).jsonObject }
+                        .getOrElse { throw IllegalStateException("Arama sonucu okunamadi. Lutfen tekrar dene.") }
                 val products = root["products"]?.jsonArray.orEmpty()
                 products.mapNotNull { parseProduct(it.jsonObject) }
             }

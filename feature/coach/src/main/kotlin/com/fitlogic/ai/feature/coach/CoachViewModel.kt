@@ -7,12 +7,13 @@ import com.fitlogic.ai.core.domain.usecase.ai.GenerateWeeklyReportUseCase
 import com.fitlogic.ai.core.domain.usecase.ai.MarkAiInsightAsReadUseCase
 import com.fitlogic.ai.core.domain.usecase.ai.ObserveAiInsightDetailUseCase
 import com.fitlogic.ai.core.domain.usecase.ai.ObserveAiInsightsUseCase
+import com.fitlogic.ai.core.domain.usecase.ai.SendCoachMessageUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
-import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 @HiltViewModel
 class CoachViewModel
@@ -23,6 +24,7 @@ class CoachViewModel
         private val generateWeeklyReportUseCase: GenerateWeeklyReportUseCase,
         private val detectPlateauUseCase: DetectPlateauUseCase,
         private val markAiInsightAsReadUseCase: MarkAiInsightAsReadUseCase,
+        private val sendCoachMessageUseCase: SendCoachMessageUseCase,
     ) : ViewModel() {
         private val _uiState = MutableStateFlow(CoachUiState())
         val uiState = _uiState.asStateFlow()
@@ -47,8 +49,16 @@ class CoachViewModel
             viewModelScope.launch {
                 _uiState.update { it.copy(isLoading = true) }
                 generateWeeklyReportUseCase()
-                    .onSuccess { _uiState.update { state -> state.copy(isLoading = false, message = "Haftalik rapor hazir.") } }
-                    .onFailure { _uiState.update { state -> state.copy(isLoading = false, message = it.message ?: "Rapor olusturulamadi.") } }
+                    .onSuccess {
+                        _uiState.update { state ->
+                            state.copy(isLoading = false, message = "Haftalik rapor hazir.")
+                        }
+                    }
+                    .onFailure {
+                        _uiState.update { state ->
+                            state.copy(isLoading = false, message = it.message ?: "Rapor olusturulamadi.")
+                        }
+                    }
             }
         }
 
@@ -60,7 +70,9 @@ class CoachViewModel
                         val message = if (it == null) "Plato sinyali bulunamadi." else "Plato analizi kaydedildi."
                         _uiState.update { state -> state.copy(isLoading = false, message = message) }
                     }.onFailure {
-                        _uiState.update { state -> state.copy(isLoading = false, message = it.message ?: "Plato analizi basarisiz.") }
+                        _uiState.update { state ->
+                            state.copy(isLoading = false, message = it.message ?: "Plato analizi basarisiz.")
+                        }
                     }
             }
         }
@@ -71,7 +83,57 @@ class CoachViewModel
             }
         }
 
+        fun onDraftChanged(text: String) {
+            _uiState.update { it.copy(draftMessage = text) }
+        }
+
+        fun sendMessage() {
+            if (_uiState.value.isSending) return
+            val draft = _uiState.value.draftMessage.trim()
+            if (draft.isBlank()) {
+                _uiState.update { it.copy(chatError = "Lutfen bir mesaj girin.") }
+                return
+            }
+            val userMessage = CoachChatMessage(role = CoachMessageRole.USER, text = draft)
+            _uiState.update {
+                it.copy(
+                    draftMessage = "",
+                    isSending = true,
+                    chatError = null,
+                    chatMessages = it.chatMessages + userMessage,
+                )
+            }
+            viewModelScope.launch {
+                sendCoachMessageUseCase(draft)
+                    .onSuccess { answer ->
+                        _uiState.update { state ->
+                            state.copy(
+                                isSending = false,
+                                chatMessages = state.chatMessages + CoachChatMessage(CoachMessageRole.ASSISTANT, answer),
+                            )
+                        }
+                    }.onFailure { error ->
+                        _uiState.update { state ->
+                            state.copy(
+                                isSending = false,
+                                chatError = error.message ?: "Mesaj gonderilemedi.",
+                            )
+                        }
+                    }
+            }
+        }
+
+        fun retryLastMessage() {
+            val lastUserMessage = _uiState.value.chatMessages.lastOrNull { it.role == CoachMessageRole.USER } ?: return
+            _uiState.update { it.copy(chatError = null, draftMessage = lastUserMessage.text) }
+            sendMessage()
+        }
+
         fun clearMessage() {
             _uiState.update { it.copy(message = null) }
+        }
+
+        fun clearChatError() {
+            _uiState.update { it.copy(chatError = null) }
         }
     }

@@ -5,6 +5,7 @@ local.properties
 .gradle/
 /build/
 */build/
+**/build/
 captures/
 .externalNativeBuild/
 .cxx/

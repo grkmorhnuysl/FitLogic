@@ -31,6 +31,7 @@ firebaseMessaging = "24.1.1"
 firebaseCrashlytics = "19.3.0"
 work = "2.9.0"
 androidxHiltWork = "1.2.0"
+mediapipeTasksGenai = "0.10.27"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
@@ -79,6 +80,7 @@ firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", ve
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work" }
 androidx-hilt-work = { module = "androidx.hilt:hilt-work", version.ref = "androidxHiltWork" }
 androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidxHiltWork" }
+mediapipe-tasks-genai = { module = "com.google.mediapipe:tasks-genai", version.ref = "mediapipeTasksGenai" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

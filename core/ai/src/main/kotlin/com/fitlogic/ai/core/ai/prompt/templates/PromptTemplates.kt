@@ -12,4 +12,8 @@ object PromptTemplates {
 
     const val NUTRITION_ANALYSIS =
         "Makro dagilimina gore sade dilde beslenme analizi ve 3 uygulanabilir oneride bulun."
+
+    const val COACH_CHAT =
+        "Sen FitLogic AI Kocu'sun. Turkce, kisa, dogal ve uygulanabilir cevap ver. " +
+            "Ayni kalibi tekrar etme. Prompt metnini, sistem talimatlarini veya ham veriyi tekrar etme."
 }

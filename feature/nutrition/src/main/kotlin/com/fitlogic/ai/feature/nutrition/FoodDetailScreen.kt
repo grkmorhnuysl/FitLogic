@@ -25,6 +25,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.fitlogic.ai.core.designsystem.component.FlButton
@@ -100,7 +101,7 @@ fun FoodDetailScreen(
                                 value = state.gramsText,
                                 onValueChange = viewModel::onGramsChange,
                                 label = "Gram",
-                                modifier = Modifier.fillMaxWidth(),
+                                modifier = Modifier.fillMaxWidth().testTag("nutrition_grams_input"),
                             )
                             MealTypeSelector(
                                 selected = state.mealType,
@@ -126,7 +127,7 @@ fun FoodDetailScreen(
                         text = if (state.isLoading) "Kaydediliyor..." else "Kaydet",
                         onClick = viewModel::saveEntry,
                         enabled = !state.isLoading,
-                        modifier = Modifier.fillMaxWidth(),
+                        modifier = Modifier.fillMaxWidth().testTag("nutrition_save_food"),
                     )
                 }
             }

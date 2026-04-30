@@ -240,7 +240,11 @@ private fun MealSection(
         ) {
             Text(text = mealType.label(), style = MaterialTheme.typography.titleMedium)
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                FlButton(text = "Yemek Ekle", onClick = onAddFoodClick)
+                FlButton(
+                    text = "Yemek Ekle",
+                    onClick = onAddFoodClick,
+                    modifier = Modifier.testTag("nutrition_add_food_${mealType.name.lowercase()}"),
+                )
                 FlButton(
                     text = "Barkod Tara",
                     onClick = onOpenBarcode,
@@ -258,6 +262,7 @@ private fun MealSection(
                     Text(
                         text = "${entry.foodName} - ${entry.grams.toInt()}g (${entry.kcal.toInt()} kcal)",
                         style = MaterialTheme.typography.bodyMedium,
+                        modifier = Modifier.testTag("nutrition_entry_${mealType.name.lowercase()}"),
                     )
                 }
             }

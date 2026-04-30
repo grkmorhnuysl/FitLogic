@@ -6,6 +6,8 @@ import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
+import com.fitlogic.ai.core.ai.AiEngine
+import com.fitlogic.ai.core.ai.GemmaAiEngine
 import com.fitlogic.ai.core.data.BuildConfig
 import com.fitlogic.ai.core.data.local.FitLogicDatabase
 import com.fitlogic.ai.core.data.local.dao.ExercisesCatalogDao
@@ -139,6 +141,11 @@ object DataProvidersModule {
             scope = CoroutineScope(Dispatchers.IO + SupervisorJob()),
             produceFile = { context.preferencesDataStoreFile("session.preferences_pb") },
         )
+
+    @Provides
+    @Singleton
+    fun provideAiEngine(impl: GemmaAiEngine): AiEngine = impl
+
 }
 
 @Module

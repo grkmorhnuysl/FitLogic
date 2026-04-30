@@ -43,6 +43,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
@@ -117,7 +118,17 @@ fun BarcodeScannerScreen(
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text("Kamera izni gerekli.")
                     Spacer(Modifier.height(12.dp))
-                    FlButton(text = "Izin Ver", onClick = { permissionLauncher.launch(Manifest.permission.CAMERA) })
+                    FlButton(
+                        text = "Izin Ver",
+                        onClick = { permissionLauncher.launch(Manifest.permission.CAMERA) },
+                        modifier = Modifier.testTag("nutrition_camera_permission_button"),
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    FlButton(
+                        text = "Manuel Ekleye Gec",
+                        onClick = { onNavigateToManualAdd(targetMealType) },
+                        modifier = Modifier.testTag("nutrition_camera_fallback_manual"),
+                    )
                 }
             }
         } else {

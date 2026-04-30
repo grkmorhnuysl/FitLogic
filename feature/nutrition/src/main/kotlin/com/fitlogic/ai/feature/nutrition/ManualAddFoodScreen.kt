@@ -24,6 +24,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.fitlogic.ai.core.designsystem.component.FlButton
@@ -87,13 +88,13 @@ fun ManualAddFoodScreen(
                 value = state.name,
                 onValueChange = viewModel::onNameChange,
                 label = "Yemek adi",
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().testTag("nutrition_manual_name"),
             )
             FlTextField(
                 value = state.gramsText,
                 onValueChange = viewModel::onGramsChange,
                 label = "Gram",
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().testTag("nutrition_manual_grams"),
             )
             FlTextField(
                 value = state.kcalText,
@@ -126,7 +127,7 @@ fun ManualAddFoodScreen(
                 text = if (state.isLoading) "Kaydediliyor..." else "Kaydet",
                 onClick = viewModel::save,
                 enabled = !state.isLoading,
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().testTag("nutrition_manual_save"),
             )
             FlButton(
                 text = "Geri Don",

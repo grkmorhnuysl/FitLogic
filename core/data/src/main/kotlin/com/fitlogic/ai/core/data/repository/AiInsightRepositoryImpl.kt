@@ -1,9 +1,6 @@
 package com.fitlogic.ai.core.data.repository
 
 import com.fitlogic.ai.core.ai.AiEngine
-import com.fitlogic.ai.core.ai.DeviceProfile
-import com.fitlogic.ai.core.ai.GemmaAiEngine
-import com.fitlogic.ai.core.ai.RuleBasedEngine
 import com.fitlogic.ai.core.ai.prompt.PromptBuilder
 import com.fitlogic.ai.core.data.local.dao.AiInsightDao
 import com.fitlogic.ai.core.data.local.dao.SetDao
@@ -32,13 +29,15 @@ class AiInsightRepositoryImpl
         private val setDao: SetDao,
         private val sessionPreferences: SessionPreferences,
         private val promptBuilder: PromptBuilder,
-        private val gemmaAiEngine: GemmaAiEngine,
-        private val ruleBasedEngine: RuleBasedEngine,
-        private val deviceProfile: DeviceProfile,
+        private val aiEngine: AiEngine,
     ) : AiInsightRepository {
         override fun observeActiveInsights(limit: Int): Flow<List<AiInsight>> =
             withUserId { userId ->
-                aiInsightDao.observeByUserId(userId = userId, limit = limit).map { rows -> rows.map { it.toDomain() } }
+                aiInsightDao.observeByUserId(userId = userId, limit = limit).map { rows ->
+                    rows.map {
+                        it.toDomain().let { insight -> insight.copy(body = sanitizeLegacyInsightBody(insight.body)) }
+                    }
+                }
             }
 
         override fun observeInsightDetail(insightId: String): Flow<AiInsight?> =
@@ -55,7 +54,7 @@ class AiInsightRepositoryImpl
                 val userId = requireCurrentUserId()
                 val summary = buildWeeklySummary(userId)
                 val prompt = promptBuilder.weeklyReport(summary)
-                val response = selectEngine().generate(prompt).getOrThrow()
+                val response = aiEngine.generate(prompt).getOrThrow()
                 persistInsight(
                     userId = userId,
                     type = AiInsightType.WEEKLY_REPORT,
@@ -70,7 +69,7 @@ class AiInsightRepositoryImpl
                 val userId = requireCurrentUserId()
                 val summary = buildWeeklySummary(userId)
                 val prompt = promptBuilder.plateau(summary)
-                val response = selectEngine().generate(prompt).getOrThrow()
+                val response = aiEngine.generate(prompt).getOrThrow()
                 val shouldCreateInsight = response.contains("plato", ignoreCase = true)
                 if (!shouldCreateInsight) {
                     null
@@ -93,7 +92,7 @@ class AiInsightRepositoryImpl
                     promptBuilder.postWorkout(
                         "Antrenman: ${workout.title}, hacim: ${workout.totalVolume}, durum: ${workout.status}",
                     )
-                val response = selectEngine().generate(prompt).getOrThrow()
+                val response = aiEngine.generate(prompt).getOrThrow()
                 persistInsight(
                     userId = userId,
                     type = AiInsightType.POST_WORKOUT,
@@ -102,6 +101,22 @@ class AiInsightRepositoryImpl
                     relatedWorkoutId = workoutId,
                 )
             }
+
+        override suspend fun sendCoachMessage(message: String): Result<String> =
+            runCatching {
+                val normalizedMessage = message.trim()
+                check(normalizedMessage.isNotEmpty()) { "Mesaj bos olamaz." }
+                val prompt = promptBuilder.coachChat(message = normalizedMessage)
+                val rawResponse = aiEngine.generate(prompt).getOrThrow()
+                sanitizeCoachResponse(
+                    response = rawResponse,
+                    prompt = prompt,
+                    userMessage = normalizedMessage,
+                )
+            }.fold(
+                onSuccess = { Result.success(it) },
+                onFailure = { error -> Result.failure(IllegalStateException(mapCoachError(error))) },
+            )
 
         private suspend fun persistInsight(
             userId: String,
@@ -144,8 +159,6 @@ class AiInsightRepositoryImpl
             return "workouts=${summary.workoutsCompleted}, volume=${summary.totalVolume}, prCount=$prCount, avgMin=${summary.avgDurationMinutes}"
         }
 
-        private fun selectEngine(): AiEngine = if (deviceProfile.isLiteMode()) ruleBasedEngine else gemmaAiEngine
-
         private fun <T> withUserId(source: (String) -> Flow<T>): Flow<T> =
             sessionPreferences.sessionSnapshot.flatMapLatest { snapshot ->
                 val userId = snapshot.currentUserId ?: return@flatMapLatest flowOf()
@@ -159,5 +172,61 @@ class AiInsightRepositoryImpl
 
         companion object {
             private const val WEEK_MILLIS = 7 * 24 * 60 * 60 * 1000L
+        }
+
+        private fun sanitizeCoachResponse(
+            response: String,
+            prompt: String,
+            userMessage: String,
+        ): String {
+            val cleaned = response.trim()
+            if (cleaned.isBlank()) error("AI_EMPTY_RESPONSE")
+            val lower = cleaned.lowercase()
+            val promptEcho =
+                lower.contains("kullanici mesaji:") ||
+                    lower.contains("veri:") ||
+                    lower.contains(prompt.take(48).lowercase())
+            if (promptEcho) error("AI_PROMPT_ECHO")
+
+            val words = cleaned.split(Regex("\\s+")).filter { it.isNotBlank() }
+            val uniqueRatio = words.toSet().size.toFloat() / words.size.coerceAtLeast(1)
+            if (words.size >= 12 && uniqueRatio < 0.35f) error("AI_REPETITIVE_RESPONSE")
+
+            val sameAsInput = cleaned.equals(userMessage.trim(), ignoreCase = true)
+            if (sameAsInput) error("AI_LOW_QUALITY_RESPONSE")
+            return cleaned
+        }
+
+        private fun mapCoachError(error: Throwable): String {
+            val raw = error.message.orEmpty().lowercase()
+            return when {
+                raw.contains("openai_api_key") || raw.contains("servis anahtari eksik") ->
+                    "AI servisi su an hazir degil. Lutfen birazdan tekrar dene."
+                raw.contains("token") || raw.contains("auth") || raw.contains("401") || raw.contains("403") ->
+                    "Oturumunda bir sorun var. Lutfen tekrar giris yapip yeniden dene."
+                raw.contains("json") || raw.contains("parse") || raw.contains("serialization") ->
+                    "Sunucu yaniti islenemedi. Kisa bir sure sonra tekrar dene."
+                raw.contains("model") || raw.contains("llm") || raw.contains("mediapipe") ->
+                    "Telefondaki AI modeli yuklenemedi. Model dosyasini kontrol edip tekrar dene."
+                raw.contains("timeout") || raw.contains("network") || raw.contains("unable to resolve host") || raw.contains("ioexception") ->
+                    "Baglanti sorunu yasandi. Internetini kontrol edip tekrar dene."
+                raw.contains("ai_prompt_echo") || raw.contains("ai_empty_response") || raw.contains("ai_repetitive_response") || raw.contains("ai_low_quality_response") ->
+                    "Su an net bir cevap uretemedim. Yeniden dene veya bugun icin hafif-orta tempoda 30 dakika antrenman yapmayi hedefle."
+                else ->
+                    "Mesajin su an gonderilemedi. Lutfen tekrar dene."
+            }
+        }
+
+        private fun sanitizeLegacyInsightBody(raw: String): String {
+            val lower = raw.lowercase()
+            val looksLikePromptEcho =
+                lower.contains("veri:") ||
+                    lower.contains("kullanici mesaji:") ||
+                    lower.contains("post-workout yorum")
+            return if (looksLikePromptEcho) {
+                "Bu icgorunun eski icerigi guncel degil. Yeni bir AI analizi olusturup daha net oneriler alabilirsin."
+            } else {
+                raw
+            }
         }
     }

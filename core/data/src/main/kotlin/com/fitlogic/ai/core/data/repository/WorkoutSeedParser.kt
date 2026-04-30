@@ -13,7 +13,14 @@ internal object WorkoutSeedParser {
     private val allowedDifficulty = setOf("Beginner", "Intermediate", "Advanced")
 
     fun parseAndValidate(rawJson: String): List<ExerciseSeedRecord> {
-        val records = jsonParser.decodeFromString<List<ExerciseSeedRecord>>(rawJson)
+        val normalizedJson =
+            rawJson
+                .trimStart('\uFEFF', ' ', '\n', '\r', '\t')
+                .let { text ->
+                    val firstArrayIndex = text.indexOf('[')
+                    if (firstArrayIndex > 0) text.substring(firstArrayIndex) else text
+                }
+        val records = jsonParser.decodeFromString<List<ExerciseSeedRecord>>(normalizedJson)
         require(records.isNotEmpty()) { "Egzersiz seed dosyasi bos olamaz." }
 
         val ids = records.map { it.id }

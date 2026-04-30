@@ -229,7 +229,7 @@ class SupabaseAuthDataSource
             if (body.isBlank()) {
                 JsonObject(emptyMap())
             } else {
-                json.parseToJsonElement(body).jsonObject
+                runCatching { json.parseToJsonElement(body).jsonObject }.getOrElse { JsonObject(emptyMap()) }
             }
 
         private fun mapAuthError(
@@ -242,7 +242,7 @@ class SupabaseAuthDataSource
                     ?: payload.stringOrNull("message")
                     ?: payload.stringOrNull("error_description")
                     ?: payload.stringOrNull("error")
-                    ?: "Bilinmeyen auth hatasi"
+                    ?: "Giris islemi su an tamamlanamadi."
             val normalized = message.lowercase()
             return when {
                 statusCode == 400 && normalized.contains("invalid login credentials") -> AuthException.InvalidCredentials

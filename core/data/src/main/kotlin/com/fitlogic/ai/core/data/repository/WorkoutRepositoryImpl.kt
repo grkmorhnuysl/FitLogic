@@ -196,7 +196,45 @@ class WorkoutRepositoryImpl
             }
 
         override suspend fun startWorkoutFromTemplate(templateName: String): Result<Workout> =
-            startWorkoutEmpty(title = "Sablon: ${templateName.ifBlank { "Genel" }}")
+            runCatching {
+                ensureCatalogSeeded().getOrThrow()
+                val userId = requireCurrentUserId()
+                database.withTransaction {
+                    val activeWorkout = workoutDao.getActiveWorkout(userId)
+                    check(activeWorkout == null) { "Zaten aktif bir antrenman var." }
+
+                    val templateExercises = exercisesCatalogDao.getTemplateExercises(TEMPLATE_EXERCISE_COUNT)
+                    check(templateExercises.isNotEmpty()) { "Sablon icin egzersiz bulunamadi." }
+
+                    val now = System.currentTimeMillis()
+                    val workoutId = UUID.randomUUID().toString()
+                    val workout =
+                        WorkoutEntity(
+                            id = workoutId,
+                            userId = userId,
+                            title = "Sablon: ${templateName.ifBlank { "Genel" }}",
+                            startedAt = now,
+                            createdAt = now,
+                            updatedAt = now,
+                        )
+                    workoutDao.insert(workout)
+
+                    templateExercises.forEachIndexed { index, exercise ->
+                        workoutExerciseDao.insert(
+                            WorkoutExerciseEntity(
+                                id = UUID.randomUUID().toString(),
+                                workoutId = workoutId,
+                                exerciseCatalogId = exercise.id,
+                                exerciseName = exercise.name,
+                                orderInWorkout = index,
+                                createdAt = now,
+                                updatedAt = now,
+                            ),
+                        )
+                    }
+                    workout.toDomain()
+                }
+            }
 
         override suspend fun startWorkoutFromHistory(sourceWorkoutId: String): Result<Workout> =
             runCatching {
@@ -385,6 +423,7 @@ class WorkoutRepositoryImpl
 
         companion object {
             private const val SEED_FILE = "workout_exercises_seed.json"
+            private const val TEMPLATE_EXERCISE_COUNT = 3
             private val defaultFilterSentinel = listOf("__all__")
             private val jsonParser = Json { ignoreUnknownKeys = true }
         }
